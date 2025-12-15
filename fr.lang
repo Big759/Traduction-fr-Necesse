@@ -3287,17 +3287,17 @@ maxfoodbuffs=Bonus de nourriture max <mod>
 
 [mob]
 // Créatures passives
-sheep=Mouton
+sheep=Brebis
 ram=Bélier
 lamb=Agneau
 wildostrich=Autruche sauvage
 cow=Vache
 bull=Taureau
 calf=Veau
-pig=Cochon
-boar=Sanglier
+pig=Truie
+boar=Porc
 piglet=Porcelet
-chicken=Poulet
+chicken=Poule
 rooster=Coq
 chick=Poussin
 penguin=Manchot
