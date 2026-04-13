@@ -2347,16 +2347,16 @@ thiefset2=Appuyez sur [input=setability] pour lancer une\npoignée de pièces su
 supportersetwarning=Ne peut être équipé que par les propriétaires du DLC Necesse - Supporter Pack
 supporterset=Merci de soutenir Necesse <3
 stealthbaskettip=Restez parfaitement immobile pendant 2 secondes pour devenir invisible !
-stealthbasketquote=« Un camouflage furtif pour les héros chevronnés comme pour les grands boss »
-mimesetquote=« Idéal lorsque vous vous sentez tout « Ouaiiiiis ! » »
-flatgrasspaintingquote=« Le terrain de jeux de mon enfance »
-mimicchestquote=« Une excellente façon de ranger des centaines de dés pour des centaines d'aventures »
-potatoclockquote=« Bon, le gâteau, c'était un mensonge... Mais j'ai trouvé cette superbe horloge en forme de pomme de terre »
-jonasglassesquote=« Ce sont mes lunettes. Attends, comment as-tu eu mes lunettes ?! »
-praisethemoonstatuequote=« Louez le so... Euh, je veux dire la lune. Ouais, louez soit la lune ! »
-freyastatuequote=« Toujours pleine d'énergie et enjouée »
-zithastatuequote=« Toujours calme et attentionnée »
-freyaandzithastatuequote=« L'une est joueuse, l'autre tolérante »
+stealthbasketquote="Un camouflage furtif pour les héros chevronnés comme pour les grands boss"
+mimesetquote="Idéal lorsque vous vous sentez tout « Ouaiiiiis ! »"
+flatgrasspaintingquote="Le terrain de jeux de mon enfance"
+mimicchestquote="Une excellente façon de ranger des centaines de dés pour des centaines d'aventures"
+potatoclockquote="Bon, le gâteau, c'était un mensonge... Mais j'ai trouvé cette superbe horloge en forme de pomme de terre"
+jonasglassesquote="Ce sont mes lunettes. Attends, comment as-tu eu mes lunettes ?!"
+praisethemoonstatuequote="Louez le so... Euh, je veux dire la lune. Ouais, louez soit la lune !"
+freyastatuequote="Toujours pleine d'énergie et enjouée"
+zithastatuequote="Toujours calme et attentionnée"
+freyaandzithastatuequote="L'une est joueuse, l'autre tolérante"
 
 // Accessoires 2
 trinketslot=Accessoire
@@ -2397,7 +2397,7 @@ siphonshieldtip=Convertit les dégâts reçus en mana
 parrybucklertip=Parez juste avant d'être touché pour bloquer tous les dégâts et obtenir un bonus de dégâts pendant une courte durée
 crystalshieldtip=Contrecarre les attaquants avec une rafale d'énergie
 moonshieldtip=Contrer les attaques avec un javelot au clair de lune\nInflige des dégâts proportionnels à la puissance de l'attaque bloquée
-moonshieldquote=« Un bouclier digne d'un véritable frère lunaire »
+moonshieldquote="Un bouclier digne d'un véritable frère lunaire"
 sparegemstonestip=Augmente le mana maximum de 20%
 spellstonetip=Augmente le mana maximum de 50%
 dreamcatchertip=Augmente la régénération du mana de 100%
@@ -2446,7 +2446,7 @@ challengerspauldrontip=Gain de résilience +100% lorsqu'un boss est à proximit�
 foolsgambittip=Armure +10\nDégâts +10%\nChance de coup critique +10%\nInvocation max +1\nNe peut être équipé que dans l'emplacement "Capacité d'accessoire"
 foolsgambiterrortip=Ne peut être équipé que dans l'emplacement "Capacité d'accessoire"
 jonasgambittip=Armure +25\nDégâts +20%\nChances de coup critique +15%\nInvocations max +2\nVitesse de déplacement -50%\nNe peut être équipé que dans l'emplacement réservé aux accessoires
-jonasgambitquote=« Ne m'en veux pas si tu meurs à cause de cet accessoire »
+jonasgambitquote="Ne m'en veux pas si tu meurs à cause de cet accessoire"
 willowisplanterntip=Équipez-la pour invoquer un feu follet\nUn feu follet recherche les dangers et les trésors,\ntout en éclairant les alentours.
 essenceofperspectivetip=Ajoute 50% de chances d'obtenir une\nessence de vie supplémentaire
 essenceofprolongingtip=Augmente la durée de l'essence de vie de 100%
@@ -2524,7 +2524,7 @@ heavyhammertip=Lance de petites pierres
 lightninghammertip1=Vitesse très rapide
 lightninghammertip2=Tire de courtes rafales d'éclairs
 survivorwhiptip=Idéal quand les ennemis arrivent de tous les côtés
-survivorwhipquote=« Un fouet de survivant qui fera trembler de peur le cœur maudit de n'importe quel vampire »
+survivorwhipquote="Un fouet de survivant qui fera trembler de peur le cœur maudit de n'importe quel vampire"
 galvanichammertip=Envoie une vague déferlante d'éclairs
 reaperscythetip=Tire une faux de faucheur
 venomslasherprojtip=Tire également une vague de venin\ninfligeant 50% des dégâts de l'épée
@@ -2621,7 +2621,7 @@ carapacedaggertip2=Se dirige vers les ennemis
 sandknifetip=Les attaques empoisonnent la cible et\nlui infligent 500 de dégâts sur 5 secondes
 brainonasticktip=Chaque autre invocation est un archer
 swampsgrasptip=Invoque 2 slimes bondissants
-grizzboltquote=« Es-tu Zoe ? »
+grizzboltquote="Es-tu Zoe ?"
 grizzboltspheretip1=Utilise tous vos emplacements d'invocation
 grizzboltspheretip2=Dégâts augmentés pour chaque emplacement d'invocation utilisé
 skeletonstafftip=Invoque deux squelettes
@@ -2685,7 +2685,7 @@ voidphasingstafftip=Équipez-le et appuyez sur [input=trinketability] pour\nvous
 voidclawprimarytip=Utilise le pouvoir du Néant pour vous soigner à chaque fois que les griffes touchent un ennemi.
 voidclawsecondarytip=Maintenez [input=mouse2] enfoncé pour charger rapidement une attaque qui draine la santé et transperce les ennemis.
 frenchhorntip=Joue une mélodie destructrice derrière vous qui se dirige vers les ennemis
-frenchhornquote=« Que la grandiosité de la musique s'abatte sur tes ennemis ! »
+frenchhornquote="Que la grandiosité de la musique s'abatte sur tes ennemis !"
 
 // Nourriture 3
 SAME_TRANSLATION:nutritiontip=Nutrition : <value>
@@ -2995,7 +2995,7 @@ summonuseslots=Utilise <count> emplacements d'invocation
 calloftheseatip=Très rapide dans l'eau mais lent sur terre
 ringofascensiontip=Élevez-vous et volez comme le vent !
 jumpingballtip=Fun et convient à toutes les tailles !
-thrumbohornquote=« Mignon, mais quand même dangereux ! »
+thrumbohornquote="Mignon, mais quand même dangereux !"
 hoverboardtip=La vitesse augmente lentement
 hoverboardtip2=Appuyez sur [input=trinketability] pour vous projetter vers l'avant
 witchbroomtip1=Uniquement à la surface:
