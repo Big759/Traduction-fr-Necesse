@@ -119,7 +119,6 @@ ascendedgrowth=Croissance transcendée
 ascendedvoid=Néant transcendé
 ascendedvoidtip=Vous pouvez désormais marcher sur la manifestation du Néant et de l'espace, profitez-en !
 basaltarenapath=Chemin d'arène en basalte
-ancientrootstile=Tuile de racines anciennes
 chromakeytile=Tuile chromatique - <color>
 
 [object]
@@ -297,8 +296,6 @@ swamphedge=Haie des marais
 swamphedgegate=Porte de haie des marais
 banditfence=Clôture des bandits
 banditfencegate=Portail de clôture des bandits
-jailfence=Clôture de prison
-jailfencegate=Portail de clôture de prison
 woodcolumn=Colonne en bois
 stonecolumn=Colonne en pierre
 snowstonecolumn=Colonne en pierre des neiges
@@ -385,7 +382,6 @@ paintinglargeabstract=Grande peinture abstraite
 paintingelder=Peinture de sagesse
 paintingcooljonas=Peinture cool
 paintingposter=Affiche joyeuse
-paintinglargeflatgrass=Grande peinture "Prairie plate"
 
 // Statues
 mossymonkstatue=Statue de moine couverte de mousse
@@ -401,12 +397,6 @@ ancientpillar=Pilier antique
 ancientmummystatue=Statue de momie antique
 ravenstatue=Statue de corbeau
 raveneffigy=Effigie de corbeau
-freyastatue=Statue de Freya
-zithastatue=Statue de Zitha
-freyaandzithastatue=Statue de Freya et Zitha
-thecore=Le Cœur
-huginstatue=Statue de Hugin
-praisethemoonstatue=Sanctuaire de la Lune
 
 // Divers 1
 sign=Panneau
@@ -500,7 +490,6 @@ largemossysteppingstone=Grande pierre de gué moussue
 fireflyjaryellow=Bocal à lucioles jaunes
 fireflyjargreen=Bocal à lucioles vertes
 fireflyjarblue=Bocal à lucioles bleues
-potatoclock=Horloge pomme de terre
 
 // Types de mobilier
 // Chêne
@@ -760,7 +749,6 @@ merchantsbackpack=Sac à dos du marchand
 sack=Sac
 bigtent=Tente
 piratechest=Coffre pirate
-mimicchest=Coffre Mimic
 
 // Tapis
 woolcarpet=Tapis en laine
@@ -858,9 +846,6 @@ redflowerpatch=Tapis de fleurs rouges
 purpleflowerpatch=Tapis de fleurs mauves
 blueflowerpatch=Tapis de fleurs bleues
 whiteflowerpatch=Tapis de fleurs blanches
-ancientrootssprout=Pousse de racines anciennes
-wildancientroots=Racines sauvages ancestrales
-ancientroots=Racines anciennes
 
 // Transformation
 campfire=Feu de camp
@@ -1299,7 +1284,6 @@ nunchucks=Nunchakus
 SAME_TRANSLATION:katana=Katana
 heavyhammer=Marteau lourd
 lightninghammer=Marteau de foudre
-survivorwhip=Fouet du survivant
 galvanichammer=Marteau galvanique
 demonicsword=Épée démoniaque
 spiderclaw=Griffe d'araignée
@@ -1482,7 +1466,6 @@ runeboundscepter=Sceptre runique
 dryadbarrage=Barrage de dryade
 thesoulstorm=La tempête des âmes
 ascendedstaff=Bâton transcendé
-frenchhorn=Cor d'harmonie
 
 // Armes de jet
 throwingweapon=Arme de jet
@@ -1530,7 +1513,6 @@ cryostaff=Bâton cryo
 phantomcaller=Invocateur de fantômes
 reaperscall=Appel du Faucheur
 swampsgrasp=Emprise des marais
-grizzboltsphere=Sphère de Grizzbolt
 skeletonstaff=Bâton de squelette
 orbofslimes=Orbe de slime
 empresscommand=Commandement de l'Impératrice
@@ -1571,7 +1553,6 @@ parrybuckler=Bouclier de parade
 agedchampionshield=Bouclier du Champion chevronné
 carapaceshield=Bouclier en carapace
 crystalshield=Bouclier en cristal
-moonshield=Bouclier lunaire
 demonclaw=Griffe démoniaque
 polarclaw=Griffe polaire
 fins=Palmes
@@ -1647,7 +1628,6 @@ agedchampionscabbard=Fourreau du Champion chevronné
 challengerspauldron=Spalière du défi
 clockworkheart=Cœur mécanique
 foolsgambit=Gambit du fou
-jonasgambit=Gambit de Jonas
 necroticsoulskull=Crâne d'âme nécrotique
 willowisplantern=Lanterne de feu follet
 essenceofperspective=Essence de perspective
@@ -1940,14 +1920,9 @@ sailorshirt=Chemise de marin
 sailorshoes=Chaussures de marin
 empressmask=Masque de l'Impératrice
 stylishflower=Fleur stylée
-mimeberet=Béret de Mime
-mimeshirt=Chemise de Mime
-mimeboots=Bottes de Mime
 supporterhelmet=Casque de générosité
 supporterchestplate=Plastron de générosité
 supporterboots=Bottes de générosité
-stealthbasket=Panier furtif
-jonasglasses=Lunettes de Jonas
 
 // Nourriture 2
 spoiledfood=Nourriture périmée
@@ -1961,7 +1936,6 @@ groundcoffee=Café moulu
 beef=Bœuf
 rawmutton=Mouton cru
 rawpork=Porc cru
-sharkmeat=Viande de requin
 rabbitleg=Cuisse de lapin
 duckbreast=Poitrine de canard
 frogleg=Cuisse de grenouille
@@ -2000,7 +1974,6 @@ SAME_TRANSLATION:cookies=Cookies
 candycane=Sucre d'orge
 meatballs=Boulettes de viande
 smokedfillet=Poisson fumé
-sharkfillet=Filet de requin
 blueberrycake=Gâteau aux myrtilles
 blackberryicecream=Glace à la mûre
 fruitsmoothie=Smoothie aux fruits
@@ -2074,7 +2047,6 @@ resistancepotion=Potion de résistance
 greaterresistancepotion=Grande potion de résistance
 spelunkerpotion=Potion de spéléologie
 treasurepotion=Potion de trésor
-trackerpotion=Potion de traque
 passivepotion=Potion du pacifiste
 buildingpotion=Potion de construction
 greaterbuildingpotion=Grande potion de construction
@@ -2181,7 +2153,6 @@ ringofascension=Anneau d'ascension
 eyeinaportal=Œil dans un portail
 weticicle=Stalactite humide
 grizzlycub=Ourson grizzly
-thrumbohorn=Corne de Thrumbo
 exoticseeds=Graines exotiques
 grizzlylunch=Repas du grizzly
 squeakytoy=Jouet grinçant
@@ -2346,17 +2317,6 @@ thiefset1=Vous avez une chance de voler\ndes pièces aux ennemis lorsque\nvous l
 thiefset2=Appuyez sur [input=setability] pour lancer une\npoignée de pièces sur les ennemis.
 supportersetwarning=Ne peut être équipé que par les propriétaires du DLC Necesse - Supporter Pack
 supporterset=Merci de soutenir Necesse <3
-stealthbaskettip=Restez parfaitement immobile pendant 2 secondes pour devenir invisible !
-stealthbasketquote="Un camouflage furtif pour les héros chevronnés comme pour les grands boss"
-mimesetquote="Idéal lorsque vous vous sentez tout « Ouaiiiiis ! »"
-flatgrasspaintingquote="Le terrain de jeux de mon enfance"
-mimicchestquote="Une excellente façon de ranger des centaines de dés pour des centaines d'aventures"
-potatoclockquote="Bon, le gâteau, c'était un mensonge... Mais j'ai trouvé cette superbe horloge en forme de pomme de terre"
-jonasglassesquote="Ce sont mes lunettes. Attends, comment as-tu eu mes lunettes ?!"
-praisethemoonstatuequote="Louez le so... Euh, je veux dire la lune. Ouais, louez soit la lune !"
-freyastatuequote="Toujours pleine d'énergie et enjouée"
-zithastatuequote="Toujours calme et attentionnée"
-freyaandzithastatuequote="L'une est joueuse, l'autre tolérante"
 
 // Accessoires 2
 trinketslot=Accessoire
@@ -2396,8 +2356,6 @@ cactusshieldtip=Renvoie les dégâts à l'attaquant
 siphonshieldtip=Convertit les dégâts reçus en mana
 parrybucklertip=Parez juste avant d'être touché pour bloquer tous les dégâts et obtenir un bonus de dégâts pendant une courte durée
 crystalshieldtip=Contrecarre les attaquants avec une rafale d'énergie
-moonshieldtip=Contrer les attaques avec un javelot au clair de lune\nInflige des dégâts proportionnels à la puissance de l'attaque bloquée
-moonshieldquote="Un bouclier digne d'un véritable frère lunaire"
 sparegemstonestip=Augmente le mana maximum de 20%
 spellstonetip=Augmente le mana maximum de 50%
 dreamcatchertip=Augmente la régénération du mana de 100%
@@ -2445,8 +2403,6 @@ clockworkhearttip=Transforme la moitié de votre santé en résilience\nRégén�
 challengerspauldrontip=Gain de résilience +100% lorsqu'un boss est à proximité
 foolsgambittip=Armure +10\nDégâts +10%\nChance de coup critique +10%\nInvocation max +1\nNe peut être équipé que dans l'emplacement "Capacité d'accessoire"
 foolsgambiterrortip=Ne peut être équipé que dans l'emplacement "Capacité d'accessoire"
-jonasgambittip=Armure +25\nDégâts +20%\nChances de coup critique +15%\nInvocations max +2\nVitesse de déplacement -50%\nNe peut être équipé que dans l'emplacement réservé aux accessoires
-jonasgambitquote="Ne m'en veux pas si tu meurs à cause de cet accessoire"
 willowisplanterntip=Équipez-la pour invoquer un feu follet\nUn feu follet recherche les dangers et les trésors,\ntout en éclairant les alentours.
 essenceofperspectivetip=Ajoute 50% de chances d'obtenir une\nessence de vie supplémentaire
 essenceofprolongingtip=Augmente la durée de l'essence de vie de 100%
@@ -2523,8 +2479,6 @@ katanaprimarytip=[input=mouse1] Les touches réduisent les charges de ruée accu
 heavyhammertip=Lance de petites pierres
 lightninghammertip1=Vitesse très rapide
 lightninghammertip2=Tire de courtes rafales d'éclairs
-survivorwhiptip=Idéal quand les ennemis arrivent de tous les côtés
-survivorwhipquote="Un fouet de survivant qui fera trembler de peur le cœur maudit de n'importe quel vampire"
 galvanichammertip=Envoie une vague déferlante d'éclairs
 reaperscythetip=Tire une faux de faucheur
 venomslasherprojtip=Tire également une vague de venin\ninfligeant 50% des dégâts de l'épée
@@ -2621,9 +2575,6 @@ carapacedaggertip2=Se dirige vers les ennemis
 sandknifetip=Les attaques empoisonnent la cible et\nlui infligent 500 de dégâts sur 5 secondes
 brainonasticktip=Chaque autre invocation est un archer
 swampsgrasptip=Invoque 2 slimes bondissants
-grizzboltquote="Es-tu Zoe ?"
-grizzboltspheretip1=Utilise tous vos emplacements d'invocation
-grizzboltspheretip2=Dégâts augmentés pour chaque emplacement d'invocation utilisé
 skeletonstafftip=Invoque deux squelettes
 slimestafftip=Tire 3 projectiles rebondissants
 slimecanistertip=Invoque des slimes empoisonnés de courte durée
@@ -2684,8 +2635,6 @@ ascendedbowtip2=[input=mouse2] pour basculer entre la formation en flèche et la
 voidphasingstafftip=Équipez-le et appuyez sur [input=trinketability] pour\nvous téléporter sur la position du curseur
 voidclawprimarytip=Utilise le pouvoir du Néant pour vous soigner à chaque fois que les griffes touchent un ennemi.
 voidclawsecondarytip=Maintenez [input=mouse2] enfoncé pour charger rapidement une attaque qui draine la santé et transperce les ennemis.
-frenchhorntip=Joue une mélodie destructrice derrière vous qui se dirige vers les ennemis
-frenchhornquote="Que la grandiosité de la musique s'abatte sur tes ennemis !"
 
 // Nourriture 3
 SAME_TRANSLATION:nutritiontip=Nutrition : <value>
@@ -2732,7 +2681,6 @@ greaterspeedpot=Augmente considérablement la vitesse de déplacement
 webpot=Ralentit les cibles au touché
 spelunkerpot=Révèle les minerais
 treasurepot=Révèle les trésors
-trackerpot=Illumine les ennemis
 passivepot=Réduit le nombre d'apparitions des créatures hostiles
 buildingpot=Augmente la vitesse de placement des tuiles et des objets
 greaterbuildingpot=Augmente considérablement la vitesse de placement des tuiles et des objets
@@ -2897,9 +2845,6 @@ cryohearttip=Le cœur gelé d'un monarque au cœur de pierre.\nAugmente de faço
 wardenhearttip=Tu penses qu'il pourrait avoir des yeux, mais pourquoi ?\nAugmente de façon permanente la santé max de 50.
 lifeelixirtip=Augmente de façon permanente la santé max de 10.\nCumulable 10 fois.
 greaterlifeelixirtip=Augmente de façon permanente la santé max de 10.\nCumulable 10 fois supplémentaires.
-characteralreadyconsumed=Déjà utilisé sur <name>
-characternotconsumedyet=Pas encore utilisé sur <name>
-charactermissingupgrades=<count> améliorations manquantes sur <name>
 trinketinctip=Augmente définitivement les accessoires max à <number>.
 itemsetsinctip=Augmente définitivement les ensembles d'objets max à <number>.
 vinyltip=Insérer dans un lecteur de musique pour écouter
@@ -2995,7 +2940,6 @@ summonuseslots=Utilise <count> emplacements d'invocation
 calloftheseatip=Très rapide dans l'eau mais lent sur terre
 ringofascensiontip=Élevez-vous et volez comme le vent !
 jumpingballtip=Fun et convient à toutes les tailles !
-thrumbohornquote="Mignon, mais quand même dangereux !"
 hoverboardtip=La vitesse augmente lentement
 hoverboardtip2=Appuyez sur [input=trinketability] pour vous projetter vers l'avant
 witchbroomtip1=Uniquement à la surface:
@@ -3363,10 +3307,9 @@ fishinglines=Nombre de lignes de pêche <mod>
 
 waterwalking=Permet de marcher sur l'eau
 emitslight=Émet de la lumière
-invisibility=Active l'invisibilité
-spelunker=Active la spéléologie
-treasurehunter=Active le chasseur de trésors
-enemytracker=Active le suivi des ennemis
+invisibility=Permet de devenir invisible
+spelunker=Active spéléologie
+treasurehunter=Active chasseur de trésors
 bouncy=Rebondissant
 paralyzed=Paralysé
 untargetable=Indétectable
@@ -3490,13 +3433,10 @@ traderhuman=Marchand
 traderhumanname=<name> le marchand
 exoticmerchanthuman=Marchand exotique
 exoticmerchanthumanname=<name> le marchand exotique
-stealthbaskethuman=Panier suspect
 
 // Colons neutres
 friendlywitchhuman=Sorcière amicale
 friendlywitchhumanname=<name> la sorcière amicale
-SAME_TRANSLATION:friendlyjonashuman=Jonas
-SAME_TRANSLATION:friendlyjonashumanname=Jonas
 
 // Créatures hostiles
 SAME_TRANSLATION:zombie=Zombie
@@ -3578,11 +3518,6 @@ battlechef=Maître-queux de combat <randomname>
 possessedsettler=Colon possédé
 shark=Requin
 fakeshark="Requin"
-palworldsyndicatethug=Voyou du Syndicat
-SAME_TRANSLATION:grizzbolt=Grizzbolt
-SAME_TRANSLATION:thrumbo=Thrumbo
-SAME_TRANSLATION:mime=Mime
-SAME_TRANSLATION:mimic=Mimic
 
 // Ennemis de raid hostiles
 humanraider=Pillard
@@ -3605,7 +3540,6 @@ pet=Animal
 petevilminion=Serviteur maléfique
 petpenguin=Manchot
 petgrizzlybearcub=Grizzly
-petthrumbo=Familier Thrumbo
 petparrot=Perroquet
 petpug=Carlin
 steelboat=Bateau en acier
@@ -3715,7 +3649,6 @@ homeportal=Portail d'entrée
 returnportal=Portail de retour
 bossspawnportal=Portail de boss
 arenaentranceportal=Portail d'entrée de l'arène
-trialportal=Portail des épreuves
 bonespike=Pique d'os
 earthspike=Pique de terre
 SAME_TRANSLATION:unknown=???
@@ -3883,32 +3816,6 @@ friendlywitchtalk1=Que faites-vous si loin dans les marais ?
 friendlywitchtalk2=Ce n'était peut-être pas le meilleur endroit pour s'installer.
 friendlywitchtalk3=Je prépare de nouvelles potions tous les jours, alors revenez demain !
 friendlywitchtalk4=Une fois que vous aurez battu mes sœurs en bas, je pourrai vous vendre leurs équipements.
-stealthbasketangry1=Impossible ! Personne ne peut voir à travers l'osier !
-stealthbasketangry2=Le panier... il m'a trahi
-stealthbasketangry3=J'ai passé six mois à perfectionner ce déguisement !
-stealthbasketangry4=Mon grand-père s'est caché d'une armée entière avec ça !
-stealthbasketangry5=Le manuel disait que c'était indétectable !
-stealthbasketangry6=Ça a marché sur les gardes du secteur B !
-stealthbasketangry7=Tu as eu de la chance. La prochaine fois, tu ne me trouveras pas !
-stealthbasketangry8=Ne dis ça à personne. J'ai une réputation
-stealthbasketangry9=Celui qui se cache et prend la fuite vivra pour combattre un autre jour !
-stealthbasketangry10=Mouahaha, tu ne me trouveras pas la prochaine fois
-friendlyjonastalk1=Salut, je suis Jonas. Développeur de jeux sur Necesse !
-friendlyjonastalk2=J'espère que tu apprécies notre jeu. Bravo d'être arrivé aussi loin.
-friendlyjonastalk3=J'ai t'ai laissé un accessoire sympa sur le présentoir de ma chambre.
-friendlyjonastalk4=Prends soin de toi mon ami, et profite de la suite de ton aventure dans Necesse !
-friendlyjonastalk5=Oh, et si tu décides de m'attaquer, sache que je te détruirai en JcJ 1v1. Je dis ça comme ça.
-friendlyjonasresponse1=Salut Jonas !
-friendlyjonasresponse2=Merci !
-friendlyjonasresponse3=VRAIMENT !?
-friendlyjonasresponse4=Je le ferai. Merci Jonas, tu es le meilleur !
-friendlyjonasresponse5=Noté.
-friendlyjonasangry1=Haha, c'est mignon
-friendlyjonasangry2=Ne me cherche pas, gamin
-friendlyjonasangry3=Tu veux te battre !?
-friendlyjonasangry4=Je vais t'anéantir
-friendlyjonasattack1=VIENS TE BATTRE MEC !!1!
-friendlyjonasdies=NOOOOOOOOOOOOOOOOOOOOOOOOOOON !
 
 // Colons hostiles
 pirateattack1=À L'ATTAAAAQUE !
@@ -3927,33 +3834,6 @@ battlechefangry1=Tu t'es attaqué au mauvais chef !
 battlechefangry2=C'est parti pour la cuisine !
 battlechefangry3=Le plat du jour : des héros en tranches !
 battlechefangry4=Comment oses-tu attaquer mon restaurant !
-stealthbasket1=Ça devait être le vent...
-stealthbasket2=Tu as vu quelque chose ?
-stealthbasket3=J'aurais juré avoir entendu quelque chose...
-stealthbasket4=Hein ? Juste un panier tressé... où sont-ils ?
-stealthbasket5=Ont-ils vraiment laissé tomber un panier et pris la fuite ?
-stealthbasket6=Un panier ? Je dois être aveugle... où sont-ils passés ?
-stealthbasket7=Je deviens fou ou quoi ? C'est juste un panier !
-stealthbasket8=Il n'y a rien derrière ce panier... où se sont-ils cachés ?
-stealthbasket9=Attends... où sont-ils passés ?!
-stealthbasket10=Où ça ? Oh, mon patron va tellement être déçu de moi
-stealthbasket11=Ils ont disparu ! Fouillez partout !
-stealthbasket12=Ils étaient là il y a une seconde !
-stealthbasket13=Disparus ? Impossible...
-stealthbasket14=Ont-ils simplement disparu comme par enchantement ?
-stealthbasket15=Pourquoi tu te caches ?!
-stealthbasket16=Je jure avoir vu quelqu'un !
-stealthbasket17=Qu'est-ce que... ils sont partis ?
-stealthbasket18=Cible perdue... mais comment ?
-stealthbasket19=Lâche, reviens te battre !
-stealthbasket20=Ils n'ont pas dû aller bien loin !
-stealthbasket21=Sors de là ! Je sais que tu es dans le coin !
-stealthbasket22=Attends que je mette la main sur eux...
-stealthbasket23=Merde, je les ai perdus !
-stealthbasket24=Où sont-ils bordel ?!
-stealthbasket25=Sont-ils invisibles ?! Quelle sorcellerie est-ce là ?
-stealthbasket26=Un panier ? Mieux vaut ne pas vérifier, il pourrait y avoir un SERPENT dedans !
-stealthbasket27=Non, Nooon, Noooooooooon !!! Montre-toi !
 
 [settlement]
 notsettler=N'a pas trouvé de colon
@@ -4143,7 +4023,6 @@ sharkfrenzy=Vous êtes enragé par l'odeur du sang !
 bleed=Saignement
 sharkarmorbleed=Saignement provenant de l'armure de requin
 sharkbleed=Saignement provenant du requin
-moonshrinebuff=Touché par la Lune
 
 tremorincoming=Tremblements imminents
 tremorhappening=Tremblements ! Vitesse de déplacement réduite
@@ -4188,8 +4067,6 @@ soulseedtip=<value> explosions consécutives
 pharaohmanaspent=Dépenser <value> de mana fera apparaître un criquet
 agedchampionprowesstip=Augmente considérablement la régénération d'endurance
 bullseyetipnew=À 5 charges inflige un coup critique important
-stealthbaskethiding=Tu essaies de te cacher !
-stealthbaskethidden=Tu es caché !
 
 [biome]
 unknown=Inconnu
@@ -4229,17 +4106,6 @@ undergroundblacksmithsignpreset=L'atelier de forge de <settlername> dans les cav
 travellerscampsitepreset=J'ai laissé mes provisions restantes à l'intention des autres explorateurs de passage. Bonne chance dans vos voyages !
 trainingdummypresetpoem=Après mille coups brutaux\nEt une centaine de rencontres embarrassantes\nIl est temps de passer à quelque chose de délicieux\nJe t'aime, signé : ton mannequin
 davesplanthouse=Pas de zombies, s'il vous plaît, seulement des plantes :)
-abandonedmineshaftpreset1=DANGER !
-abandonedmineshaftpreset2=MINE ABANDONNÉE
-abandonedmineshaftpreset3=INTERDICTION D'ENTRER !
-bigpirateshippreset=Trésors des mers
-deserttavernpreset=Auberge de l'oasis de <settlername1> & <settlername2>
-farmersrefugepreset=Chaumière de <settlername1> & <settlername2>
-huntercabinpreset=Pavillon de chasse de <settlername>
-slimeranchpreset=Ranch à slimes de <settlername>
-chefinvaderpreset=Restaurant de <settlername>
-portaltrialpreset=Réussissez ces épreuves et vous recevrez un gâteau à la fin !
-jonasapartmentsign=Appartement de Jonas
 
 [level]
 SAME_TRANSLATION:surface=Surface
@@ -4380,9 +4246,6 @@ grizzly3=<victim> s'est fait massacrer par <attacker>
 crocodile1=<victim> a été une délicieuse récompense pour <attacker>
 crocodile2=<victim> a été mutilé(e) par <attacker>
 crocodile3=La série de meurtres de <attacker> vient d'augmenter
-thrumbo1=<victim> a été piétinée par <attacker>
-thrumbo2=La corne de <attacker> était trop acérée pour <victim>
-thrumbo3=<victim> était impuissant(e) face à <attacker>
 vamp1=<attacker> s'est fait massacrer par <victim>
 vamp2=<attacker> a emmené <victim> dans sa tanière
 vamp3=<victim> a oublié(e) le contre de <attacker>
@@ -4434,13 +4297,6 @@ agedchampion2=<victim> a pâli en comparaison de l'expérience de <attacker>
 agedchampion3=<attacker> a prouvé qu'il était toujours au sommet de sa forme contre <victim>
 agedchampion4=<attacker> attend patiemment que <victim> grandisse en tant que guerrier
 agedchampion5=<attacker> s'est lassé des tentatives de <victim> pour le vaincre
-syndicatethug1=<victim> a fini par travailler pour <attacker>
-syndicatethug2=<victim> s'est fait tabasser par <attacker>
-syndicatethug3=<attacker> n'a pas considéré <victim> comme un pal
-syndicatethug4=<attacker> en a eu assez du harcèlement de <victim>
-grizzbolt1=<victim> a approché une fourchette trop près de <attacker>
-grizzbolt2=<attacker> était trop électrisant pour <victim>
-grizzbolt3=<victim> s'est fait griller par <attacker>
 crazedraven1=<victim> s'est fait picorer par <attacker> !
 crazedraven2=CROÂ ! a dit <attacker>, mais <victim> n'a pas entendu(e), car <victim> était mort(e)
 crazedraven3=<victim> vient de recevoir un coup d'aile au visage par <attacker>
@@ -4460,12 +4316,6 @@ thevoid2=<attacker> a écrasé <victim> avec sa gravité
 thevoid3=<victim> a terminé(e) le combat un peu trop tôt contre <attacker>
 thevoid4=<attacker> était trop difficile à voir pour <victim>
 thevoid5=<victim> a trouvé(e) les attaques de <attacker> trop brillantes
-mime1=<victim> est tombé face à un <attacker>, mais on continue
-mime2=<attacker> a effacé <victim>
-mime3=<victim> aurait dû utiliser un bouclier imaginaire lors du combat contre le <attacker>
-mimic1=<victim> a vu un trésor, mais c'était juste un <attacker>
-mimic2=Les talents d'acteur du <attacker> étaient trop bons pour <victim>
-mimic3=Le régime du <attacker> à base d'aventuriers cupides se déroule à merveille, en commençant par <victim>
 
 [tech]
 all=Tout
@@ -4566,7 +4416,7 @@ hot_tub_desc=Nager dans la lave sous l'effet de la résistance au feu
 adventure_begins=L'aventure commence !
 adventure_begins_desc=Accepter la première quête de l'Ancien
 dodge_this=Esquivez ça !
-dodge_this_desc=Vaincre le sorcier déchu tant que les 5 dragons déchus sont encore en vie
+dodge_this_desc=Vaincre le sorcier déchu tant que 5 dragons déchus sont en vie
 secret_service=Service secret
 secret_service_desc=Avoir uniquement 2 gardes dans votre groupe d'aventuriers, tous deux portant des lunettes de soleil, un blazer et des chaussures de ville
 home_alone=Seul au monde
@@ -4743,7 +4593,7 @@ showhidden=Afficher caché
 craftshowhiddentip=Certaines recettes sont cachées jusqu'à ce que vous puissiez les fabriquer, ou nécessitent un ingrédient spécifique dans l'inventaire pour apparaître
 usenearbyinv=Utiliser les stockages à proximité
 usenearbyinvtip=Si la fabrication doit utiliser les objets des stockages à proximité
-highlighttechrecipes=Surbrillance des recettes <tech>
+highlighttechrecipes=Surbillance des recettes de l'atelier
 upgradeto=Améliorer en <upgrade>
 expand=Développer
 collapse=Réduire
@@ -5876,28 +5726,6 @@ quickstacktip=Empil. rapide vers un stockage proche
 quickstacktipinfo=Empiler rapidement les objets de l'inventaire dans les stockage proches. Utilisez <key> pour verrouiller les objets afin qu'ils ne soient pas empilés
 sorttip=Trier l'inventaire
 sorttipinfo=Utilisez <key> pour verrouiller les objets afin qu'ils ne soient pas triés
-thecoredamagetaken=On dirait que ce Cœur a perdu son Gardien...
-valheimhuginspeak1=Bienvenue dans le dixième monde, guerrier
-valheimhuginspeak2=Je m'appelle Hugin, et j'ai été envoyé ici pour vous guider dans vos voyages
-valheimhuginspeak3=Attends... Je me suis peut-être égaré...
-praisethemoonspeak1=Loue la lune, mon enfant !
-praisethemoonspeak2=Et baigne-toi dans la splendeur de sa lumière !
-praisethemoonspeakfailed=Rien ne se passe...
-praisethemooninteracttip1=Contempler le soleil
-praisethemooninteracttip2=n'est qu'une pâle comparaison
-praisethemooninteracttip3=à celle de la lune.
-praisethemooninteracttip4=Car peut-il y avoir une véritable lumière ?
-praisethemooninteracttip5=sans l'obscurité ?
-freyastatueplaque1=« Freya »
-freyastatueplaque2=Responsable de l'assurance qualité
-freyastatueplaque3=chez Fair Games
-zithastatueplaque1=« Zitha »
-zithastatueplaque2=Directrice de l'assurance qualité
-zithastatueplaque3=chez Fair Games
-freyaandzithastatueplaque1=« Zitha » et « Freya »
-freyaandzithastatueplaque2=Équipe de l'assurance qualité
-freyaandzithastatueplaque3=chez Fair Games
-freyaandzithastatueplaque4=et meilleures amies dans la vraie vie
 
 [quests]
 complete=Terminé
@@ -6308,8 +6136,6 @@ enablebannerofwar=La guerre ne change jamais
 cratesdropaltardust=Il y a encore un peu de place...
 mobsexplodeupgradeshards=Je suppose qu'il... a mangé les éclats ?
 essenceveinscanspawn=C'EST DANS LES MURS !
-biggerarena=Vous ne vous amusez pas ?
-allbannerbuffs=Tous les bonus !
 
 // Description des talents d'incursion
 mobsdropaltardustdesc=Les ennemis tués lors d'incursions ont une chance de laisser tomber de la poussière d'autel
@@ -6364,8 +6190,6 @@ enablebannerofwardesc=Les bannières de guerre peuvent désormais être placées
 cratesdropaltardustdesc=Les caisses trouvées dans les incursions ont désormais une chance de contenir de la poussière d'autel
 mobsexplodeupgradeshardsdesc=Les ennemis tués lors des incursions ont une chance d'EXPLOSER à leur mort, laissant tomber de nombreux éclats d'amélioration !
 essenceveinscanspawndesc=Les incursions contiennent désormais également des veines d'essence qui peuvent être exploitées pour obtenir des essences aléatoires.
-biggerarenadesc=Augmente la taille initiale de l'arène dans les Incursions et l'éclaire à l'aide de torches
-allbannerbuffsdesc=Les joueurs participant aux Incursions bénéficient désormais en permanence des effets de la bannière de dégâts, de vitesse, de défense et de vitesse d'invocation
 
 perkcost=Coût :
 buyperk=Acheter ce talent
