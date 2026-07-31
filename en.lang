@@ -4,7 +4,7 @@
 
 // <text> will be replaced with some other text or value.
 // "§" following a number, letter or #hexcode means the following text will be formatted.
-// "\n" means go to next line.
+// "\n" or "[newline]" means go to next line.
 // [item/input=...] will be replaced by an icon of the item/control key.
 
 // With every game update, all included language files will be updated with missing translations.
@@ -25,6 +25,7 @@ extrasymbols=AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
 unknowntile=Unknown
 watertile=Water
 spiritwatertile=Spirit Water
+liquidoozetile=Ooze
 emptytile=Empty
 grasstile=Grass
 overgrowngrasstile=Overgrown Grass
@@ -110,6 +111,10 @@ emeraldgravel=Emerald Gravel
 rubygravel=Ruby Gravel
 topazgravel=Topaz Gravel
 ancientruinfloor=Ancient Ruin Floor
+rustgravel=Rust Gravel
+scrapfloor=Scrap Floor
+junkfloor=Junk Floor
+factoryfloor=Factory Floor
 ravenfloor=Raven Floor
 arcanicfloor=Arcanic Floor
 arcanicpath=Arcanic Path
@@ -119,6 +124,8 @@ ascendedgrowth=Ascended Growth
 ascendedvoid=Ascended Void
 ascendedvoidtip=You can now walk on the manifestation of void and space, enjoy!
 basaltarenapath=Basalt Arena Path
+ancientrootstile=Ancient Roots Tile
+ashtile=Ash
 chromakeytile=Chroma Key Tile - <color>
 
 [object]
@@ -160,6 +167,10 @@ cactus=Cactus Tree
 cactussapling=Cactus
 deadwoodsapling=Deadwood Sapling
 deadwoodtree=Deadwood Tree
+burnedtree=Burned Tree
+burnedtreestump=Burned Tree Stump
+burnedbush=Burned Bush
+burnedlogbench=Burned Log Bench
 appletree=Apple Tree
 applesapling=Apple Sapling
 lemontree=Lemon Tree
@@ -272,6 +283,9 @@ duskdoorlocked=Locked Dusk Door
 ancientruinwall=Ancient Ruin Wall
 ancientruindoor=Ancient Ruin Door
 ancientruindoorlocked=Locked Ancient Ruin Door
+factorywall=Factory Wall
+factorydoor=Factory Door
+factorydoorlocked=Locked Factory Door
 ravenwall=Raven Wall
 ravendoor=Raven Door
 ravendoorlocked=Locked Raven Door
@@ -296,6 +310,8 @@ swamphedge=Swamp Hedge
 swamphedgegate=Swamp Hedge Gate
 banditfence=Bandit Fence
 banditfencegate=Bandit Fence Gate
+jailfence=Jail Fence
+jailfencegate=Jail Fence Gate
 woodcolumn=Wood Column
 stonecolumn=Stone Column
 snowstonecolumn=Snow Stone Column
@@ -337,6 +353,7 @@ goldstreetlamp=Gold Streetlamp
 golddoublestreetlamp=Gold Double Streetlamp
 tungstenstreetlamp=Tungsten Streetlamp
 tungstendoublestreetlamp=Tungsten Double Streetlamp
+scraplamp=Scrap Lamp
 oillantern=Oil Lantern
 lantern=Lantern
 walllantern=Wall Lantern
@@ -382,6 +399,7 @@ paintinglargeabstract=Large Abstract Painting
 paintingelder=Wise Painting
 paintingcooljonas=Cool Painting
 paintingposter=Happy Poster
+paintinglargeflatgrass=Large Flatgrass Painting
 
 // Statues
 mossymonkstatue=Moss Covered Monk Statue
@@ -397,6 +415,12 @@ ancientpillar=Ancient Pillar
 ancientmummystatue=Ancient Mummy Statue
 ravenstatue=Raven Statue
 raveneffigy=Raven Effigy
+freyastatue=Freya Statue
+zithastatue=Zitha Statue
+freyaandzithastatue=Freya and Zitha Statue
+thecore=The Core
+huginstatue=Hugin Statue
+praisethemoonstatue=Shrine of the Moon
 
 // Misc
 sign=Sign
@@ -490,6 +514,39 @@ largemossysteppingstone=Large Mossy Stepping Stone
 fireflyjaryellow=Yellow Firefly Jar
 fireflyjargreen=Green Firefly Jar
 fireflyjarblue=Blue Firefly Jar
+potatoclock=Potato Clock
+
+// Happiness objects
+witchcauldron=Witch Cauldron
+spiritbasin=Spirit Basin
+dryadplant=Dryad Plant
+fishianbathtub=Fishian Bathtub
+pestwardenlamp=Pest Warden Lamp
+luckyrabbitsfoot=Lucky Rabbit's Foot
+wizardbookshelf=Wizard Bookshelf
+friendlybush=Friendly Bush
+cavelingdisplay=Caveling Display
+bearrug=Bear Rug
+sheepchair=Sheep Chair
+goblinfriendspainting=Goblin Friends Painting
+reapersscythestand=Reaper's Scythe Stand
+parrotperch=Parrot Perch
+voidflame=Void Flame
+unmeltableice=Unmeltable Ice
+championbelt=Champion Belt
+fangoftheprotector=Fang of the Protector
+sagepedestal=Sage Pedestal
+gritpedestal=Grit Pedestal
+tropicalislandpainting=Tropical Island Painting
+piratecarpet=Pirate Carpet
+mossycarpet=Mossy Carpet
+swampguardianpainting=Swamp Guardian Painting
+sarcophagus=Sarcophagus
+runebounddrum=Runebound Drum
+vulturedisplay=Vulture Display
+queeneggnest=Queen Egg Nest
+woodenduck=Wooden Duck
+slimebench=Slime Bench
 
 // Furniture types
 // Oak
@@ -732,6 +789,15 @@ sink=Sink
 tungstensink=Tungsten Sink
 barshelf=Bar Shelf
 
+// Scrapyard
+coolingtower=Cooling Tower
+electrictower=Electric Tower
+scrapheap=Scrap Heap
+scrapheapsmall=Small Scrap Heap
+scrapheapbig=Big Scrap Heap
+vendingmachine=Vending Machine
+scrapyardbossentrance=Scrapyard Boss Entrance
+
 // Misc
 wooddinnertable=Wood Dinner Table
 wooddesk=Wood Desk
@@ -749,6 +815,7 @@ merchantsbackpack=Merchant's Backpack
 sack=Sack
 bigtent=Tent
 piratechest=Pirate's Chest
+mimicchest=Mimic Chest
 
 // Carpets
 woolcarpet=Wool Carpet
@@ -801,6 +868,7 @@ arrowtrap=Arrow Trap
 flametrap=Flame Trap
 spiketrap=Spike Trap
 sawtrap=Saw Trap
+explosiontrap=Explosion Trap
 voidtrap=Void Trap
 tnt=TNT
 fireworkdispenser=Firework Dispenser
@@ -846,6 +914,9 @@ redflowerpatch=Red Flower Patch
 purpleflowerpatch=Purple Flower Patch
 blueflowerpatch=Blue Flower Patch
 whiteflowerpatch=White Flower Patch
+ancientrootssprout=Ancient Roots Sprout
+wildancientroots=Wild Ancient Roots
+ancientroots=Ancient Roots
 
 // Processing
 campfire=Campfire
@@ -871,11 +942,14 @@ deepsnowrock=Deep Snow Rock
 basaltrock=Basalt Rock
 deepswamprock=Deep Swamp Rock
 deepsandstonerock=Deep Sandstone Rock
+charredforestrock=Charred Rock
 slimerock=Slime Rock
 spiderrock=Spider Rock
 cryptrock=Crypt Rock
-crystal=Crystal
+crystalrock=Crystal Rock
+scraprock=Scrap Rock
 pearlescentshard=Pearlescent Shard
+fuelskullencasing=Fuel Skull Encasing
 ascendedwall=Ascended Wall
 ascendedpylon=Ascended Pylon
 amethystcluster=Amethyst Cluster
@@ -925,7 +999,8 @@ primordialessenceore=Primordial Essence
 slimeessenceore=Slime Essence
 bloodessenceore=Blood Essence
 spideressenceore=Spider Essence
-omnicrystalore=Omni-Crystal
+crystalessenceore=Crystal Essence
+radiatedessenceore=Radiated Essence
 
 // Misc
 grass=Grass
@@ -933,6 +1008,7 @@ swampgrass=Swamp Grass
 plainsgrass=Plains Grass
 tallswampgrass=Tall Swamp Grass
 cryptgrass=Crypt Grass
+witheredgrass=Withered Grass
 cattail=Cattail
 reeds=Reeds
 watergrass=Water Grass
@@ -940,6 +1016,7 @@ cavewatergrass=Cave Water Grass
 glowcoral=Glow Coral
 snowpile=Snow Pile
 leafpile=Leaf Pile
+burnedleafpile=Burned Leaf Pile
 cobweb=Cobweb
 thorns=Thorns
 seashell=Seashell
@@ -960,6 +1037,7 @@ templeexit=Temple Exit
 fallenaltar=Fallen Altar
 upgradestation=Upgrade Station
 salvagestation=Salvage Station
+transmutationstation=Transmutation Station
 tictactoeboard=Tic-Tac-Toe Board
 coinstack=Coin Stack
 crate=Crate
@@ -1071,6 +1149,7 @@ birchlog=Birch Log
 bamboo=Bamboo
 deadwoodlog=Deadwood Log
 dryadlog=Dryad Log
+charredbark=Charred Bark
 stone=Stone
 sandstone=Sandstone
 swampstone=Swamp Stone
@@ -1085,6 +1164,7 @@ slimestone=Slime Stone
 cryptstone=Crypt Stone
 spiderstone=Spider Stone
 crystalstone=Crystal Stone
+junk=Junk
 batwing=Bat Wing
 silk=Silk
 wormcarapace=Worm Carapace
@@ -1145,6 +1225,7 @@ nightsteelbar=Nightsteel Bar
 spideriteore=Spiderite Ore
 spideritebar=Spiderite Bar
 pearlescentdiamond=Pearlescent Diamond
+fuelskull=Fuel Skull
 cavespidergland=Cave Spider Gland
 voidshard=Void Shard
 swampsludge=Swamp Sludge
@@ -1153,6 +1234,7 @@ ectoplasm=Ectoplasm
 slimematter=Slime Matter
 spidervenom=Spider Venom
 omnicrystal=Omni-Crystal
+pristinegear=Pristine Gear
 glacialshard=Glacial Shard
 glass=Glass
 glassbottle=Glass Bottle
@@ -1167,11 +1249,15 @@ primordialessence=Primordial Essence
 slimeessence=Slime Essence
 bloodessence=Blood Essence
 spideressence=Spider Essence
+crystalessence=Crystal Essence
+radiatedessence=Radiated Essence
 altardust=Altar Dust
 ravenfeather=Raven Feather
 electrifiedmana=Electrified Mana
 sharktooth=Shark Tooth
 sharkscales=Shark Scales
+phoenixfeather=Phoenix Feather
+livingash=Living Ash
 carp=Carp
 cod=Cod
 herring=Herring
@@ -1191,6 +1277,9 @@ map=Map
 spareboatparts=Spare Boat Parts
 brokencoppertool=Broken Copper Tool
 brokenirontool=Broken Iron Tool
+prettyflower=Pretty Flower
+prettybouquet=Pretty Bouquet
+divorcepapers=Divorce Papers
 
 // Pickaxes
 pickaxe=Pickaxe
@@ -1285,6 +1374,7 @@ nunchucks=Nunchucks
 katana=Katana
 heavyhammer=Heavy Hammer
 lightninghammer=Lightning Hammer
+survivorwhip=Survivor Whip
 galvanichammer=Galvanic Hammer
 demonicsword=Demonic Sword
 spiderclaw=Spider Claw
@@ -1337,6 +1427,7 @@ vulturestalon=Vultures Talon
 tungstenspear=Tungsten Spear
 cryospear=Cryo Spear
 ravenbeakspear=Ravenbeak Spear
+revsword=Rev Sword
 
 // Glaives
 glaive=Glaive
@@ -1410,6 +1501,7 @@ antiquerifle=Antique Rifle
 shardcannon=Shard Cannon
 snowlauncher=Snow Launcher
 seedgun=Seed Gun
+patchworkgrenadier=Patchwork Grenadier
 
 // Bullets
 bullet=Bullet
@@ -1466,7 +1558,9 @@ topazstaff=Topaz Staff
 runeboundscepter=Runebound Scepter
 dryadbarrage=Dryad Barrage
 thesoulstorm=The Soulstorm
+pyromancy=Pyromancy
 ascendedstaff=Ascended Staff
+frenchhorn=French Horn
 
 // Throw weapons
 throwingweapon=Throwing Weapon
@@ -1500,6 +1594,8 @@ incursionsummonweapon=Incursion Summon Weapon
 brainonastick=Brain on a Stick
 spiderstaff=Spider Staff
 frostpiercer=Frost Piercer
+batcage=Bat Cage
+hivescepter=Hive Scepter
 magicbranch=Magic Branch
 sentientsword=Sentient Sword
 slimecanister=Slime Canister
@@ -1514,11 +1610,13 @@ cryostaff=Cryo Staff
 phantomcaller=Phantom Caller
 reaperscall=Reapers Call
 swampsgrasp=Swamps Grasp
+grizzboltsphere=Grizzbolt Sphere
 skeletonstaff=Skeleton Staff
 orbofslimes=Orb of Slimes
 empresscommand=Empress' Command
 crystallizedskull=Crystallized Skull
 dryadbranch=Dryad Branch
+ignitionkey=Ignition Key
 eyeofthevoid=Eye of the Void
 
 // Banners
@@ -1554,6 +1652,7 @@ parrybuckler=Parry Buckler
 agedchampionshield=Aged Champion Shield
 carapaceshield=Carapace Shield
 crystalshield=Crystal Shield
+moonshield=Moon Shield
 demonclaw=Demon Claw
 polarclaw=Polar Claw
 fins=Fins
@@ -1629,6 +1728,7 @@ agedchampionscabbard=Aged Champion Scabbard
 challengerspauldron=Challenger's Pauldron
 clockworkheart=Clockwork Heart
 foolsgambit=Fool's Gambit
+jonasgambit=Jonas' Gambit
 necroticsoulskull=Necrotic Soul Skull
 willowisplantern=Will-o'-Wisp Lantern
 essenceofperspective=Essence of Perspective
@@ -1681,6 +1781,9 @@ runicboots=Runic Boots
 pharaohsheaddress=Pharaoh's Headdress
 pharaohsrobe=Pharaoh's Robe
 pharaohssandals=Pharaoh's Sandals
+phoenixmask=Phoenix Mask
+phoenixcloak=Phoenix Cloak
+phoenixboots=Phoenix Boots
 ninjahood=Ninja Hood
 ninjarobe=Ninja Robe
 ninjashoes=Ninja Shoes
@@ -1811,6 +1914,12 @@ thiefsboots=Thief's Boots
 sharkarmorhelmet=Shark Helmet
 sharkarmorchestplate=Shark Chestplate
 sharkarmorboots=Shark Boots
+makeshiftfaceplating=Makeshift Face Plating
+makeshifthat=Makeshift Hat
+makeshifteyepiece=Makeshift Eyepiece
+makeshiftcrown=Makeshift Crown
+makeshiftchestplate=Makeshift Chestplate
+makeshiftboots=Makeshift Boots
 
 // Cosmetic Armor
 shoes=Shoes
@@ -1921,9 +2030,14 @@ sailorshirt=Sailor Shirt
 sailorshoes=Sailor Shoes
 empressmask=Empress' Mask
 stylishflower=Stylish Flower
+mimeberet=Mime Beret
+mimeshirt=Mime Shirt
+mimeboots=Mime Boots
 supporterhelmet=Helmet of Generosity
 supporterchestplate=Chestplate of Generosity
 supporterboots=Boots of Generosity
+stealthbasket=Stealth Basket
+jonasglasses=Jonas' Glasses
 
 // Food
 spoiledfood=Spoiled Food
@@ -1937,6 +2051,7 @@ groundcoffee=Ground Coffee
 beef=Beef
 rawmutton=Raw Mutton
 rawpork=Raw Pork
+sharkmeat=Shark Meat
 rabbitleg=Rabbit Leg
 duckbreast=Duck Breast
 frogleg=Frog Leg
@@ -1975,6 +2090,7 @@ cookies=Cookies
 candycane=Candy Cane
 meatballs=Meatballs
 smokedfillet=Smoked Fillet
+sharkfillet=Shark Fillet
 blueberrycake=Blueberry Cake
 blackberryicecream=Blackberry Ice Cream
 fruitsmoothie=Fruit Smoothie
@@ -2048,6 +2164,7 @@ resistancepotion=Resistance Potion
 greaterresistancepotion=Greater Resistance Potion
 spelunkerpotion=Spelunker Potion
 treasurepotion=Treasure Potion
+trackerpotion=Tracker Potion
 passivepotion=Passive Potion
 buildingpotion=Building Potion
 greaterbuildingpotion=Greater Building Potion
@@ -2127,6 +2244,7 @@ voidcaller=Void Caller
 boneoffering=Bone Offering
 spikedfossil=Spiked Fossil
 ancientstatue=Ancient Statue
+messageinabottle=Message in a Bottle
 shadowgate=Shadow Gate
 icecrown=Ice Crown
 spiriturn=Spirit Urn
@@ -2150,10 +2268,14 @@ callofthesea=Call of the Sea
 jumpingball=Jumping Ball
 hoverboard=Hoverboard
 witchbroom=Witch Broom
+bumpercar=Bumper Car
 ringofascension=Ring of Ascension
 eyeinaportal=Eye in a Portal
 weticicle=Wet Icicle
 grizzlycub=Grizzly Cub
+thrumbohorn=Thrumbo Horn
+dragonegg=Dragon Egg
+frozenberry=Frozen Berry
 exoticseeds=Exotic Seeds
 grizzlylunch=Grizzly Lunch
 squeakytoy=Squeaky Toy
@@ -2229,6 +2351,8 @@ anycoolingfuel=Any Cooling Fuel
 anytieressence=Any Tier <tier> Essence
 anywrappingpaper=Any Wrapping Paper
 anycookedfood=Any Cooked Food
+anygem=Any Gem
+anyflower=Any Flower
 
 // Type names
 unknowntype=???
@@ -2280,6 +2404,7 @@ widowset=Attacks poison target for\n25 damage over 5 seconds\nGrants immunity to
 ancestorset=Press [input=setability] to manifest ghostly ancestors to fight by your side for 15 seconds
 ancientfossilset=Press [input=setability] to gain 100% crit chance for 5 seconds
 sharpshootersetnew=Ranged hits grants a stack of Bullseye\nAt 5 stacks you do a large critical hit
+phoenixsettip=Prevents death once every 5 minutes by protecting you in an egg that heals you before exploding in a fiery blast
 slimeset=Press [input=setability] to reduce all damage you take to 1 for 5 seconds,\nbut recieve considerably more knockback
 nightsteelset=Press [input=setability] to get a boost and become untargetable, but cannot attack for 3 seconds
 bloodplateset=After taking damage, your health regen is doubled for 4 seconds
@@ -2315,8 +2440,25 @@ soldierhelmetset=Gain a stacking frenzy buff when you kill an enemy\nFrenzy incr
 soldiercapset=Ranged weapon projectiles ricochet to other enemies on kill
 thiefset1=You have a chance to steal coins from enemies on hit
 thiefset2=Press [input=setability] to throw a handful of coins at enemies
+makeshiftset=Dealing or taking damage may build up stacks of Quick Tinker
+makeshiftmeleeset=Press [input=setability] to expend a Quick Tinker stack and rocket forward, damaging enemies in your path
+makeshiftrangedset=Press [input=setability] to expend a Quick Tinker stack and place down a temporary turret that shoots nearby enemies
+makeshiftmagicset=Press [input=setability] to expend a Quick Tinker stack and place down a temporary arc turret that zaps nearby enemies and other arc turrets
+makeshiftsummonset1=Press [input=setability] to expend all your Quick Tinker stacks and summon robo-pal for a short time
+makeshiftsummonset2=The robo-pal grows stronger with every stack of Quick Tinker spent (max 5) and instantly spends new stacks
 supportersetwarning=Can only be equipped by owners of the Necesse Supporter Pack DLC
 supporterset=Thank you for supporting Necesse <3
+stealthbaskettip=Stand completely still for 2 seconds to become invisible!
+stealthbasketquote="Stealth camouflage for the solid hero, and big bosses alike"
+mimesetquote="Perfect for when you feel all 'wheeeee!'"
+flatgrasspaintingquote="My childhood playground"
+mimicchestquote="A great way to store hundreds of dice for hundreds of adventures"
+potatoclockquote="Well, the cake was a lie.. But I found this cool potato clock"
+jonasglassesquote="These are my glasses. Wait how did you get my glasses!?"
+praisethemoonstatuequote="Praise the su... Uhm, I mean moon. Yeah, praise the moon!"
+freyastatuequote="Always energetic and playful"
+zithastatuequote="Always calm and caring"
+freyaandzithastatuequote="One playful, the other tolerant"
 
 // Trinkets
 trinketslot=Trinket slot
@@ -2355,7 +2497,9 @@ calmingminersbouquetusetip=Swing to turn off calming effect
 cactusshieldtip=Returns damage to the attacker
 siphonshieldtip=Converts damage received to mana
 parrybucklertip=Block just before being hit to block all damage and gain a damage boost for a short duration
-crystalshieldtip=Counters attackers with a burst of energy
+crystalshieldtip=Counters attackers with a burst of energy\nDeals damage based on the blocked attack's strength
+moonshieldtip=Counters attacks with a moonlight javelin\nDeals damage based on the blocked attack's strength
+moonshieldquote="A shield fit for a true Moonbro"
 sparegemstonestip=Increases max mana by 20%
 spellstonetip=Increases max mana by 50%
 dreamcatchertip=Increases mana regen by 100%
@@ -2403,6 +2547,8 @@ clockworkhearttip=Turns half your health into resilience \nRegen resilience when
 challengerspauldrontip=+100% resilience gain when a boss is nearby
 foolsgambittip=+10 armor\n+10% damage\n+10% crit chance\n+1 max summons\nCan only be equipped in trinket ability slot
 foolsgambiterrortip=Can only be equipped in trinket ability slot
+jonasgambittip=+25 armor\n+20% damage\n+15% crit chance\n+2 max summons\n-50% movement speed\nCan only be equipped in trinket ability slot
+jonasgambitquote="Don't blame me when you die because of this trinket"
 willowisplanterntip=Equip to summon a Will-o'-Wisp\nWill-o'-Wisps looks for dangers and treasure, while lighting up surroundings
 essenceofperspectivetip=Adds a 50% chance to get extra life essence
 essenceofprolongingtip=Increases life essence duration by 100%
@@ -2479,6 +2625,8 @@ katanaprimarytip=[input=mouse1] Hits reduces accumulated dash stacks
 heavyhammertip=Throws small stones
 lightninghammertip1=Very fast speed
 lightninghammertip2=Shoots out short lightning bursts
+survivorwhiptip=Great when enemies are coming at you from all angles
+survivorwhipquote="A survivor's whip that will strike fear in the accursed heart of any vampire"
 galvanichammertip=Sends out a crashing wave of lightning
 reaperscythetip=Shoots a reaper scythe
 venomslasherprojtip=Also shoots a wave of venom with 50% of the swords damage
@@ -2575,6 +2723,9 @@ carapacedaggertip2=Homes in on enemies
 sandknifetip=Attacks poison the target dealing\n500 damage over 5 seconds
 brainonasticktip=Every other summon is an archer
 swampsgrasptip=Summons 2 pouncing slimes
+grizzboltquote="Are you Zoe?"
+grizzboltspheretip1=Uses all your summon slots
+grizzboltspheretip2=Damage is increased with each summon slot used
 skeletonstafftip=Summons a pair of skeletons
 slimestafftip=Shoots 3 bouncy projectiles
 slimecanistertip=Summons short lived poison slimes
@@ -2608,9 +2759,15 @@ emeraldwandtip=Fires a barrage of magic mines
 refractortip=Fires a long range beam of concentrated light
 rubyshieldstip=Summons circulating gemstones that block projectiles without piercing.\nBreaks on contact with hostile creatures and projectiles
 crystallizedskulltip=Summons mighty ruby dragons!\nEach summon takes up 2 summon slots
-runeboundsceptertip1=[input=mouse1] Fires a trail of Earth Spikes finishing with one Greater Earth Spike
-runeboundsceptertip2=[input=mouse2] Detonates all nearby Greater Earth Spikes
-runeboundsceptertip3=You can have a max of <amount> Greater Earth Spikes active
+revswordtip=Revs up attack speed over time\nChops down trees as well
+pyromancytip=Spews flames in a long line and leaves a burning trail in its path \nEnemies on the trail takes more damage, loses armor and is set on fire for a short time
+ignitionkeytip1=Summons a junk mech that shoots missiles and it can be mounted\nWhen mounted hold [input=trinketability] to use machine guns on the closest enemy
+ignitionkeytip2=Uses all your summon slots
+ignitionkeytip3=Damage is increased with each summon slot used
+patchworkgrenadiertip=Lobs a grenade that flies over terrain and explodes on impact
+runeboundscepternewtip1=[input=mouse1] Fires a trail of Bones finishing with one Greater Bone Spike
+runeboundscepternewtip2=[input=mouse2] Detonates all nearby Greater Bone Spikes
+runeboundscepternewtip3=You can have a max of <amount> Greater Bone Spikes active
 brutesbattleaxetip=Charges up to dash attack
 captorsshortbowtip1=[input=mouse1] Shoots <amount> arrows in close range
 captorsshortbowtip2=[input=mouse2] Throws a net that captures smaller foes on hit
@@ -2634,7 +2791,11 @@ ascendedbowtip1=Shoots many projectiles at once without using any arrows
 ascendedbowtip2=[input=mouse2] to toggle between arrow and wave formation
 voidphasingstafftip=Equip and press [input=trinketability] to blink your cursor's position
 voidclawprimarytip=Uses the power of the void to heal you for every enemy the claws touch
-voidclawsecondarytip=Hold [input=mouse2] to quickly charge up a life draining dash that cuts through enemies.
+voidclawsecondarytip=Hold [input=mouse2] to quickly charge up a life draining dash that cuts through enemies
+frenchhorntip=Plays a damaging tune behind you that homes towards enemies
+frenchhornquote="Let the epicness of music hit your foes!"
+batcagetip=Summons vampiric bats that shoot bolts at enemies and drop healing hearts when they kill something
+hivesceptertip=Summons a swarm of 4 bees that attack nearby enemies
 
 // Food
 nutritiontip=Nutrition: <value>
@@ -2681,6 +2842,7 @@ greaterspeedpot=Greatly increases movement speed
 webpot=Slows targets on hit
 spelunkerpot=Lights up ores
 treasurepot=Lights up treasure
+trackerpot=Lights up enemies
 passivepot=Reduces hostile mob spawns
 buildingpot=Increases tile and object place speed
 greaterbuildingpot=Greatly increases tile and object place speed
@@ -2726,6 +2888,7 @@ ladderdowntip=Used to reach caves
 deepladderdowntip=Used to reach deep caves
 cartographertabletip=Used to exchange map discoveries
 placeinanysettlement=Must be placed in a settlement
+homestonetip1=Waystones can be bought from your settlement Mage
 waystonetip1=Will be destroyed when mined
 waystonetip2=Sold by the settlement Mage
 teleportationstonetip=Lets you travel to your teammates
@@ -2761,6 +2924,11 @@ incineratortip=Destroys stored items over time
 tictactoeboardtip=Interact with the center tile to start the game
 cosmeticbannertip=Does nothing but looks great!
 voidvesseltip=An eerie aura radiates from within it...
+relaxingrec=§7Provides relaxation recreation to your settlers
+beautyrec=§7Provides beauty recreation to your settlers
+playingentrec=§7Provides entertainment recreation to your settlers when playing
+happinessobjecttip1=Place in a settler's room to increase their happiness by <value>
+happinessobjecttip2=Only one settler can benefit from it at a time
 
 // Firework
 fireworkrandom=Random
@@ -2803,6 +2971,8 @@ spikedfossiltip1=Calls for a powerful crawler
 spikedfossiltip2=Must be used in swamp caves
 ancientstatuetip1=Calls for an ancient creature
 ancientstatuetip2=Must be used in desert biome
+messageinabottletip1=Smash this to challenge the Pirate Captain
+messageinabottletip2=Must be used in a pirate village
 shadowgatetip1=Calls for a powerful ghost
 reapersummontip=Must be used in forest deep caves
 icecrowntip1=Calls for its owner
@@ -2845,6 +3015,9 @@ cryohearttip=A cold heart from a cold hearted ruler\nPermanently increases max h
 wardenhearttip=You think it might have eyes, but why?\nPermanently increases max health by 50
 lifeelixirtip=Permanently increases max health by 10 up to 10 times
 greaterlifeelixirtip=Permanently increases max health by 10 another 10 times
+characteralreadyconsumed=Already consumed on <name>
+characternotconsumedyet=Not consumed on <name> yet
+charactermissingupgrades=Missing <count> upgrades on <name>
 trinketinctip=Permanently increases max trinkets to <number>
 itemsetsinctip=Permanently increases max item sets to <number>
 vinyltip=Put in music player to play
@@ -2878,7 +3051,9 @@ voidshardtip=Magical essence
 glassbottletip=Used in alchemy
 upgradestationtip=Used to upgrade weapons, armor and gateway tablets
 salvagestationtip=Used to salvage unwanted weapons, armor and gateway tablets into upgrade shards
+transmutationstationtip=Used to transmute Essences, Shards and Dust
 alchemytabletip=Used to craft powerful potions
+altardusttip=Used to upgrade the Incursion\nPerk Tree in the Fallen Altar
 alchemyshardtip=Used for upgrading potions\nin the Fallen Alchemy Table
 upgradeshardtip=Used for upgrading gear\nin the Upgrade Station
 ascendedshardtip=A mysterious fragment only obtained from the most challenging incursions
@@ -2940,11 +3115,14 @@ summonuseslots=Uses <count> summon slots
 calloftheseatip=Super fast in water but slow on land
 ringofascensiontip=Ascend and fly as the wind!
 jumpingballtip=Fun and fits all sizes!
+thrumbohornquote="Cute, but still dangerous!"
 hoverboardtip=Picks up speed slowly
 hoverboardtip2=Press [input=trinketability] to dash forward
 witchbroomtip1=Only on the surface:
 witchbroomtip2=Hold down [input=trinketability] to fly higher allowing you
 witchbroomtip3=to fly over objects, but prevents you from attacking
+bumpercartip=Fast and fun!
+bumpercartip2=Hold [input=trinketability] to boost!
 bouncingammotip=Bounces off walls
 voidammotip=Homes in on nearby enemies
 crystalammotip=Occasionally deals a burst of damage\nbased on crit chance and crit damage
@@ -2966,6 +3144,11 @@ wheatseedammotip=Seed Gun has increased resilience gain
 pumpkinseedammotip=Seed Gun has increased knockback
 carrotseedammotip=Seed Gun has increased damage
 sharkbullettip=Bleeds enemies on hit
+prettyflowertip1=Give this to someone you like
+prettyflowertip2=Will only work if the settler is <qol> or better
+prettybouquettip1=Give this to a player you like
+prettybouquettip2=Will ask the other player if they want to be in a relationship with you
+divorcepaperstip=Serve this to your partner to break up with them
 
 // Quests
 questitem=Quest item
@@ -3057,6 +3240,8 @@ palm=Palm
 maple=Maple
 birch=Birch
 willow=Willow
+brick=Brick
+deepstone=Deep Stone
 dungeon=Dungeon
 bone=Bone
 dryad=Dryad
@@ -3095,6 +3280,10 @@ vinyls=Vinyls
 questitems=Quest items
 unknownitems=<count> unknown items
 incursions=Incursions
+tier1essences=Tier 1 Essences
+tier2essences=Tier 2 Essences
+tier3essences=Tier 3 Essences
+dustandshards=Dust and Shards
 creative=Creative mode items
 mobs=Mobs
 passive=Passive
@@ -3212,6 +3401,7 @@ knockbackout=<mod>% knockback
 speed=<mod>% movement speed
 speedflat=<mod> movement speed
 slow=<mod>% movement slow
+slowimun=Slow immunity
 swimspeed=<mod>% swim speed
 friction=<mod>% friction
 acceleration=<mod>% acceleration
@@ -3249,12 +3439,16 @@ combatmanaregen=<mod>% mana regen
 combatmanaregenflat=<mod> mana regen
 
 poisondamage=<mod>% poison damage
+poisondamageimun=Poison damage immunity
 poisondamageflat=<mod> poison damage
 firedamage=<mod>% fire damage
+firedamageimun=Fire damage immunity
 firedamageflat=<mod> fire damage
 frostdamage=<mod>% frost damage
+frostdamageimun=Frost damage immunity
 frostdamageflat=<mod> frost damage
 bleeddamage=<mod>% bleed damage
+bleeddamageimun=Bleed damage immunity
 bleeddamageflat=<mod> bleed damage
 
 mobspawnrate=<mod>% mob spawn rate
@@ -3286,6 +3480,7 @@ attackmovement=<mod>% attack movement penalty
 projectilevel=<mod>% projectile velocity
 throwingvel=<mod>% throwing velocity
 projectilebounce=<mod> projectile bounces
+projectilepierce=<mod> projectile pierces
 
 blindness=<mod>% blindness
 
@@ -3303,6 +3498,7 @@ traveldistance=<mod> travel distance
 biomeviewdistance=<mod> biome view distance
 
 knockbackin=<mod>% incoming knockback
+knockbackimun=Knockback immunity
 fishingpower=<mod>% fishing power
 fishinglines=<mod> fishing lines
 
@@ -3311,10 +3507,12 @@ emitslight=Emits light
 invisibility=Enables invisibility
 spelunker=Enables spelunker
 treasurehunter=Enables treasure hunter
+enemytracker=Enables enemy tracker
 bouncy=Bouncy
 paralyzed=Paralyzed
 untargetable=Untargetable
 intimidated=Intimidated
+confused=Confused
 manaexhausted=Mana exhausted
 grounded=Grounded
 extendedmapdiscovery=Extended map discovery
@@ -3322,6 +3520,8 @@ extendedmapdiscovery=Extended map discovery
 targetrange=<mod>% target range
 chaserrange=<mod>% chaser range
 canbreakobjects=Can break objects
+
+workspeed=<mod>% work speed
 
 loot=<mod>% loot
 enemydamage=<mod>% enemy damage
@@ -3399,6 +3599,7 @@ incursioncavelingsspawnerportal=Click me!
 
 // Humans
 human=Villager
+generichuman=Villager
 humanname=<name> the Villager
 farmerhuman=Farmer
 farmerhumanname=<name> the Farmer
@@ -3434,10 +3635,13 @@ traderhuman=Trader
 traderhumanname=<name> the Trader
 exoticmerchanthuman=Exotic Merchant
 exoticmerchanthumanname=<name> the Exotic Merchant
+stealthbaskethuman=Suspicious Basket
 
 // Neutral Settlers
 friendlywitchhuman=Friendly Witch
 friendlywitchhumanname=<name> the Friendly Witch
+friendlyjonashuman=Jonas
+friendlyjonashumanname=Jonas
 
 // Hostile
 zombie=Zombie
@@ -3519,6 +3723,19 @@ battlechef=Battle Chef <randomname>
 possessedsettler=Possessed Settler
 shark=Shark
 fakeshark="Shark"
+palworldsyndicatethug=Syndicate Thug
+grizzbolt=Grizzbolt
+thrumbo=Thrumbo
+mime=Mime
+mimic=Mimic
+mutant=Mutant
+magechanic=Magechanic
+rctoysoldier=RC Toy Soldier
+haywireshredder=Haywire Shredder
+furnacegolem=Furnace Golem
+phoenix=Phoenix
+phoenixegg=Phoenix Egg
+ashgolem=Ash Golem
 
 // Hostile raid mobs
 humanraider=Human Raider
@@ -3541,6 +3758,9 @@ pet=Pet
 petevilminion=Pet Evil Minion
 petpenguin=Pet Penguin
 petgrizzlybearcub=Pet Grizzly Cub
+petthrumbo=Pet Thrumbo
+petdragonwhelp=Pet Dragon Whelp
+peticiclearmadillo=Pet Icicle Armadillo
 petparrot=Pet Parrot
 petpug=Pet Pug
 steelboat=Steel Boat
@@ -3554,6 +3774,8 @@ babyzombie=Baby Zombie
 babyzombiearcher=Baby Zombie Archer
 babyspider=Baby Spider
 frostpiercer=Frost Piercer
+bee=Bee
+vampiricbat=Vampiric Bat
 sentientsword=Sentient Sword
 babysnowman=Baby Snowman
 babycrawlingzombie=Baby Crawling Zombie
@@ -3589,6 +3811,7 @@ staticjellyfish=Static Jellyfish
 ghostlybow=Animated Bow
 agedchampion=Aged Champion
 wanderbotfollowingmob=Wanderbot
+junkmech=Junk Mech
 
 // Mini Bosses
 evilwitch=Evil Witch
@@ -3631,6 +3854,9 @@ sunlightchampion=Sunlight Champion
 sunlightgauntlet=Sunlight Gauntlet
 moonlightdancer=Moonlight Dancer
 crystaldragon=Crystal Dragon
+mutanthydra=Mutant Hydra
+mutanthydraneck=Mutant Hydra Neck
+mutanthydrahead=Mutant Hydra Head
 ascendedwizard=Ascended Wizard
 ascendedbeam=Ascended Beam
 ascendedgolem=Ascended Golem
@@ -3646,10 +3872,12 @@ runeboundboat=Runebound boat
 minecart=Minecart
 sawblade=Saw blade
 lifeessencefollower=Life Essence follower
+quicktinkerfollower=Quick Tinker follower
 homeportal=Home Portal
 returnportal=Return Portal
 bossspawnportal=Boss Portal
 arenaentranceportal=Arena Entrance Portal
+trialportal=Trial Portal
 bonespike=Bone Spike
 earthspike=Earth Spike
 unknown=???
@@ -3818,6 +4046,38 @@ friendlywitchtalk2=This probably wasn't the best place to settle down
 friendlywitchtalk3=I brew new potions every day, so check back tomorrow!
 friendlywitchtalk4=Once you beat my sisters downstairs, I can sell you their equipment
 
+stealthbasketangry1=Impossible! No one can see through wicker!
+stealthbasketangry2=The basket... it has failed me
+stealthbasketangry3=I spent six months perfecting this disguise!
+stealthbasketangry4=My grandfather hid from an entire army with one of these!
+stealthbasketangry5=The manual said this was undetectable!
+stealthbasketangry6=It worked on the guards in sector B!
+stealthbasketangry7=You got lucky. Next time you won't find me!
+stealthbasketangry8=Tell no one of this. I have a reputation
+stealthbasketangry9=He who hides and runs away, lives to fight another day!
+stealthbasketangry10=Mwahahaha, you won't find me next time
+
+friendlyjonastalk1=Hi, I'm Jonas. Game Developer on Necesse!
+friendlyjonastalk2=I hope you're enjoying our game. Good job on making it this far.
+friendlyjonastalk3=I left a cool trinket for you on the Display Stand in my bedroom.
+friendlyjonastalk4=Take care my friend and enjoy the rest of your journey in Necesse!
+friendlyjonastalk5=Oh, and if you decide to attack me. I just want you to know that I'll absolutely destroy in 1v1 PVP. Just saying.
+
+friendlyjonasresponse1=Hey Jonas!
+friendlyjonasresponse2=Thank you!
+friendlyjonasresponse3=REALLY!?
+friendlyjonasresponse4=I will. Thank you Jonas, you're the best!
+friendlyjonasresponse5=Noted.
+
+friendlyjonasangry1=Heh, that's cute
+friendlyjonasangry2=Don't test me kid
+friendlyjonasangry3=You wanna go!?
+friendlyjonasangry4=I will END you
+
+friendlyjonasattack1=COME AT ME BRO!!1!
+
+friendlyjonasdies=NOOOOOOOOOOOOOOOOOOOOOOOOOOO!
+
 // Hostile Settlers
 pirateattack1=ATTAAACK!
 pirateattack2=Surrender ye rum and hit the plank!
@@ -3835,6 +4095,35 @@ battlechefangry1=You messed with the wrong chef!
 battlechefangry2=Let's get cooking!
 battlechefangry3=Today's special: Sliced Up Heroes!
 battlechefangry4=How dare you attack my restaurant!
+
+stealthbasket1=Must've been the wind...
+stealthbasket2=Did you see something?
+stealthbasket3=I could've sworn I heard something...
+stealthbasket4=Huh? Just a weaved basket... where are they?
+stealthbasket5=Did they seriously just drop a basket and run?
+stealthbasket6=A basket? I must be blind... where did they go?
+stealthbasket7=Am I going crazy? It's just a basket!
+stealthbasket8=Nothing behind this basket... where did they sneak off to?
+stealthbasket9=Wait... where did they go?!
+stealthbasket10=Where?? Oh, my boss will be so disappointed in me
+stealthbasket11=They vanished! Check every corner!
+stealthbasket12=They were right here a second ago!
+stealthbasket13=Vanished? Impossible...
+stealthbasket14=Did they just disappear into thin air?
+stealthbasket15=Why are you hiding?!
+stealthbasket16=I swear I just saw someone!
+stealthbasket17=What the... they're gone?
+stealthbasket18=Target lost... but how?
+stealthbasket19=Coward, come back and fight!
+stealthbasket20=They couldn't have gotten far!
+stealthbasket21=Come out! I know you're around here somewhere!
+stealthbasket22=Wait till I get my eye on them..
+stealthbasket23=Dammit, I lost them!
+stealthbasket24=Where the hell are they?!
+stealthbasket25=Are they invisible?! What sorcery is this?
+stealthbasket26=A basket? Better not check it, there could be a SNAKE inside!
+stealthbasket27=No, Nooo, Noooooooooo!!! Show yourself!
+
 
 [settlement]
 notsettler=Could not find settler
@@ -3876,18 +4165,42 @@ dietslightly=My diet has been slightly varied
 dietsomewhat=My diet has been somewhat varied
 dietnicely=My diet has been nicely varied
 dietextremely=My diet has been extremely varied
+recreationdeprived=I am deprived of recreation
+recreationsatisfied=My recreation need is satisfied
+recreationfulfilled=My recreation is completely fulfilled
 sharingroom=I am sharing my room with other settlers
+recentlyrecruited=I have recently been recruited
+happinessobject=I really like my <object>
+lifepartner=I am in a loving relationship
+qualitylow=Low
+qualitymediocre=Mediocre
+qualitydecent=Decent
+qualitygood=Good
+qualityimpressive=Impressive
+qualitywonderful=Wonderful
+qualityunrivaled=Unrivaled
+qolcomposition=<adjective> quality of life
+qolmessage=I have <qualityoflife>
+qoldecrease=<name>'s quality of life will decrease over time
+qolstay=<name>'s quality of life will stay the same over time
+qolincrease=<name>'s quality of life will increase over time
+qoltip1=Quality of life is determined by the sum of all their thoughts. Increasing their quality of life will give them bonuses, both with their personalities and their work speed. Go talk to the settler to see what they're thinking.
+qoltip2=Each quality of life level gives:
+qoltip3=Current bonus:
+qolchangetip1=Quality of life level will decrease when happiness is below <value>
+qolchangetip2=Quality of life level will increase when happiness is above <value>
+qolchangetip3=Each quality of life level decreases total happiness by <value>
 moodveryunhappy=Very unhappy
 moodunhappy=Unhappy
-moodsomewhathappy=Somewhat happy
+moodcontent=Content
 moodveryhappy=Very happy
-moodextremelyhappy=Extremely happy
 moodhappiness=I feel <happiness>
+moodqolmessage=I feel <happiness> and I have a <qualityoflife>
+movecloser=Move closer to settler for more info
 moodtalkto=Talk to the settler for more info
-moodhelp=Happy settlers gives better shop prices and take shorter work breaks
-onworkbreak=I am taking a break from work
 onstrike=I am on strike because I am unhappy
 onstrikehungry=I am on strike because I am hungry
+onstrikerecreation=I am on strike because of low recreation
 tradertip=Complete Plains cave journal challenge to recruit
 animalkeepertip=Kill the Void Wizard to recruit
 foundinvillagetip=Found in villages
@@ -3944,6 +4257,8 @@ runicempowerment=Runic Empowerment
 guardianshellcooldown=Guardian Shell cooldown
 guardianshellactive=Guardian Shell active
 necroticsoulskullcooldown=Necrotic Soul Skull cooldown
+reborn=Reborn
+phoenixsetcooldown=Phoenix set cooldown
 gunslingersetcooldown=Gunslinger set cooldown
 ancientfossilsetcooldown=Ancient Fossil set cooldown
 ancientfossilactive=Ancient Fossil set active
@@ -3976,6 +4291,7 @@ overchargedmana=Overcharged Mana
 arcanichoodactive=Overcharged
 quicksandstacks=Walking on quicksand
 lifeessence=Life Essence
+quicktinker=Quick Tinker
 sapphireglyph=Sapphire Glyph
 rubyglyph=Ruby Glyph
 amethystglyph=Amethyst Glyph
@@ -4024,6 +4340,11 @@ sharkfrenzy=You are enraged by the smell of blood!
 bleed=Bleeding
 sharkarmorbleed=Bleeding from shark armor
 sharkbleed=Bleeding from shark
+hydradeafened=Hydra Deafened
+moonshrinebuff=Moontouched
+pyromancyfire=The heat melts armor and exposes weakspots
+ashenburial=Ashen Burial
+loved=You feel loved
 
 tremorincoming=Incoming Tremors
 tremorhappening=Tremors! Movement speed reduced
@@ -4068,6 +4389,8 @@ soulseedtip=<value> consecutive explosions
 pharaohmanaspent=Spending <value> mana will cause a locust to spawn
 agedchampionprowesstip=Greatly increases stamina regen
 bullseyetipnew=At 5 stacks you do a large critical hit
+stealthbaskethiding=You are trying to hide!
+stealthbaskethidden=You're hidden!
 
 [biome]
 unknown=Unknown
@@ -4093,6 +4416,7 @@ spidercastle=Spider Castle
 sunarena=Sun Arena
 moonarena=Moon Arena
 crystalhollow=Crystal Hollow
+scrapyard=Scrapyard
 hunt=Hunt
 extraction=Extraction
 trial=Trial
@@ -4107,6 +4431,17 @@ undergroundblacksmithsignpreset=<settlername>'s One Stop Deepcave Smithing Shop!
 travellerscampsitepreset=I've left my leftover supplies to any other explorers passing by. Good luck on your travels!
 trainingdummypresetpoem=After a thousand brutal beatings\nAnd a hundred awkward meetings\nIt's time for something yummy\nLove you, signed: your dummy
 davesplanthouse=Please no zombies, only plants :)
+abandonedmineshaftpreset1=DANGER!
+abandonedmineshaftpreset2=ABANDONED MINESHAFT
+abandonedmineshaftpreset3=KEEP OUT!
+bigpirateshippreset=Treasures of the sea
+deserttavernpreset=<settlername1>'s & <settlername2>'s Oasis Inn
+farmersrefugepreset=<settlername1>'s & <settlername2>'s cottage
+huntercabinpreset=<settlername>'s hunting lodge
+slimeranchpreset=<settlername>'s slime ranch
+chefinvaderpreset=<settlername>'s diner
+portaltrialpreset=Make it through these trials and you will receive cake at the end!
+jonasapartmentsign=Jonas' Apartment
 
 [level]
 surface=Surface
@@ -4123,7 +4458,7 @@ playingonserver=Playing on a server - <location>
 unknownlocation=Unknown location
 
 [expedition]
-completequests=Complete more settlement quests
+completestory=Complete more story objectives
 cave=Cave
 commonfishtrip=Common Fish
 swampcave=Swamp Cave
@@ -4221,6 +4556,9 @@ spiketrap2=<attacker> skewered <victim>
 sawtrapname=Saw trap
 sawtrap1=<victim> was cut in half by <attacker>
 sawtrap2=<attacker> sliced up <victim>
+explosivebarrelname=Explosive Barrel
+explosivebarrel1=<victim> needs to stay away from the <attacker>
+explosivebarrel2=<victim> was blown away by an <attacker>
 lightning1=<victim> got electrocuted to pieces by <attacker>'s lightning
 lightning2=<attacker> toasted <victim> with lightning
 zombie1=<victim> got ripped to pieces by <attacker>
@@ -4247,6 +4585,9 @@ grizzly3=<victim> got slaughtered by <attacker>
 crocodile1=<victim> was a delicious treat for <attacker>
 crocodile2=<victim> got mutilated by <attacker>
 crocodile3=<attacker>s kill streak just increased
+thrumbo1=<victim> got trampled by <attacker>
+thrumbo2=<attacker>'s horn was too sharp for <victim>
+thrumbo3=<victim> was powerless against <attacker>
 vamp1=<attacker> out juked <victim>
 vamp2=<attacker> took <victim> to his lair
 vamp3=<victim> forgot the counter for <attacker>
@@ -4298,6 +4639,13 @@ agedchampion2=<victim> paled in comparison to <attacker>'s experience
 agedchampion3=<attacker> proved to still be in their prime against <victim>
 agedchampion4=<attacker> patiently waits for <victim> to grow as a warrior
 agedchampion5=<attacker> grew bored of <victim>'s attempts to defeat them
+syndicatethug1=<victim> ended up working for <attacker>
+syndicatethug2=<victim> got thugged up by <attacker>
+syndicatethug3=<attacker> did not think <victim> as their pal
+syndicatethug4=<attacker> had enough of <victim>'s bullying
+grizzbolt1=<victim> stuck a fork too close to <attacker>
+grizzbolt2=<attacker> was too shocking for <victim>
+grizzbolt3=<victim> got fried by <attacker>
 crazedraven1=<victim> got beaked up by <attacker>!
 crazedraven2=CAAAW! Said <attacker>, but <victim> didn't hear, cause <victim> was dead
 crazedraven3=<victim> just got flapped in the face by <attacker>
@@ -4317,6 +4665,20 @@ thevoid2=<attacker> crushed <victim> with its gravity
 thevoid3=<victim> finished the fight a bit too early against <attacker>
 thevoid4=<attacker> was too hard to see for <victim>
 thevoid5=<victim> found <attacker>'s attacks too shiny
+mime1=<victim> fell to <attacker>, but we keep going
+mime2=<attacker> erased <victim>
+mime3=<victim> should have used an imaginary shield when fighting <attacker>
+mimic1=<victim> saw treasure, but it was just <attacker>
+mimic2=<attacker>'s acting skills were too good for <victim>
+mimic3=<attacker>'s diet of greedy adventurers is going well, starting with <victim>
+scrapyard1=<victim> was dismantled by <attacker>
+scrapyard2=<attacker> has recycled <victim>
+scrapyard3=<attacker> has scrapped <victim> for parts
+scrapyard4=<attacker> crushed <victim> like a tin can
+scrapyard5=<attacker> trashed <victim>
+bee1=<victim> got stung by <attacker>
+bee2=<victim> was BEEtrayed by <attacker>
+bee3=<victim> wasn't BUZZED about their encounter with <attacker>
 
 [tech]
 all=All
@@ -4366,8 +4728,6 @@ enchant_item=Artificer
 enchant_item_desc=Enchant an item using the mage
 magical_drop=Magical Drop
 magical_drop_desc=Increase max trinket slots
-village_helper=Village Helper
-village_helper_desc=Complete a settlement quest tier
 hoarder=Hoarder
 hoarder_desc=Have an inventory full of different items
 self_proclaimed=Self Proclaimed
@@ -4381,7 +4741,7 @@ getting_hot_desc=Reach the deep caves
 my_jam=My Jam
 my_jam_desc=Listen to a vinyl on the music player
 cloud_nine=Cloud Nine
-cloud_nine_desc=Have a settler reach 100% happiness
+cloud_nine_desc_new=Have a settler reach Unrivaled Quality of Life level
 one_tapped=One Tapped
 one_tapped_desc=Kill a Zombie in a single hit
 too_easy=Too Easy
@@ -4415,7 +4775,7 @@ get_4_item_sets_desc=Get access to 4 item sets
 hot_tub=Hot Tub
 hot_tub_desc=Swim in lava while under the effect of fire resistance
 adventure_begins=Adventure Begins!
-adventure_begins_desc=Accept your first quest from the Elder
+adventure_begins_desc_new=Reach the first major story objective
 dodge_this=Dodge This!
 dodge_this_desc=Defeat the Fallen Wizard while 5 Fallen Dragons are alive
 secret_service=Secret Service
@@ -4448,6 +4808,14 @@ run_marathon=Marathon Runner
 run_marathon_desc=Run a full marathon on foot
 timewellspent=Time Well Spent
 timewellspent_desc=Play the game for a full 24 hours
+speeding_ticket=Speeding Ticket
+speeding_ticket_desc=Achieve MAXIMUM speed while driving a Bumper Car
+true_love=True Love
+true_love_desc=Become Life Partners with one of your Settlers
+rich_character=Rich Character
+rich_character_desc=Recruit a Settler with 6 or more personalities
+cloud_ten=Cloud Ten
+cloud_ten_desc=Achieve Unrivaled Quality of Life on 10 settlers at the same time
 
 [loading]
 foundmods=Found <mods> mod(s)
@@ -4496,11 +4864,1253 @@ connectclient=Loading client
 connectquests=Loading quests
 connectmap=Loading map <percent>%
 
+[personalities]
+personalitiesheader=Personalities:
+perqollevel=Each quality of life level at <quality> or above:
+atqolrange=At <low> to <high> quality of life:
+atqolonly=At <quality> quality of life:
+atqolorbetter=At <quality> or better quality of life:
+currentbonus=Current bonus:
+nobonus=No bonus
+elder=Settlement Elder
+elder_desc=<name> doesn't do any work or eat any food, but they will always be happy and enjoy life
+pawnbroker=Pawnbroker
+pawnbroker_desc=<name> will buy anything from you! Even your old socks! If <name> runs out of money, then they usually find some more after a few days
+exoticmerchant=Exotic Merchant
+exoticmerchant_desc=<name> sells exclusive goods! You never know what they might bring. As the saying goes... <name> has wares, if you have coin!
+friendlywitch=Friendly Witch
+friendlywitch_desc=<name> doesn't usually keep company, except for her zombies of course! But she'll make an exception for you. If she runs out of potions or doesn't have the ones you're looking for, then you can always come back tomorrow for more!
+gamedevonnecesse=Game Developer on Necesse
+gamedevonnecesse_desc=But wait... How can he be inside the game and ALSO make it?? That's some serious breaking of the 4th wall!
+jogger=Jogger
+jogger_desc=<name> has stuff to do and people that need them. They will run faster with each higher quality of life level they are at
+voyager=Voyager
+voyager_desc=<name> has always been a traveller by heart and through their travels they have learned how to navigate the world more efficiently than anyone else. They will complete missions <percent> faster with each higher quality of life level they are at
+voyager_current=<percent> faster missions
+fastworker=Fast Worker
+fastworker_desc=Having plenty of experience from their previous life, <name> can do tasks faster than others. They will work faster with each higher quality of life level they are at
+biggestfan=Biggest Fan
+biggestfan_desc=<name> is absolutely mesmerised by your big muscles and heroic stance! They will literally pay to watch you slay foes if you bring them along on your adventures. Higher quality of life means more money!
+biggestfan_reward=<value> coins
+biggestfan_effect=Regular enemies: <percent> chance for <reward>
+biggestfan_boss_effect=Bosses: Guaranteed <reward>
+glyphmaniac=Glyph Maniac
+glyphmaniac_desc=<name> once ate a weird crystal, which has resulted in them summoning magic glyphs when they sneeze. They will occasionally spawn a random glyph when in combat or in an adventure party. Frequency starts at <seconds> seconds and gets <percent> faster for each quality of life level
+glyphmaniac_current=Current frequency:
+glyphmaniac_effect=Every <value> seconds
+inspiring=Inspiring
+inspiring_desc=<name> is simply just the best! They will give other settlers they talk to a happiness boost for some time. Bonus starts at <value> happiness and increases with <percent> for each quality of life level
+inspiring_effect=<value> happiness boost
+inspiringreceived=I've had a truly inspiring conversation recently
+warrior=Warrior
+warrior_desc=<name> has been brawling ever since they were a kid. As they grew older, fists were replaced with swords and they now excel at melee combat. They will get bonuses based on their quality of life level
+ranger=Ranger
+ranger_desc=<name> feels the wind, breathes, and fires. Because a true marksman, only needs one arrow. They will get bonuses based on their quality of life level
+summoner=Summoner
+summoner_desc=<name> was never any good at making friends. So they summoned their own! Which has resulted in them being an experienced summoner. They will get bonuses based on their quality of life level
+magician=Magician
+magician_desc=<name> once made their pet penguin levitate by waving a stick. Since then they have excelled in the power of magic. They will get bonuses based on their quality of life level.
+magician_invisible=Turns invisible and immune to damage for a short duration when hit
+potionseller=Potion Seller
+potionseller_desc=<name> always brews an extra potion for people in need. They will have one random potion available to sell for each quality of life level above Low. Their selection will change every day
+potionsellercurrent=<number> potion(s) available in shop
+furnitureenthusiast=<type> Enthusiast
+furnitureenthusiast_desc=<name> loves the smell of fresh <type> in the morning. They get a happiness bonus when they have a lot of <type> furniture in their room
+nopreferedfurniture=I do not have any <type> furniture in my room
+somepreferedfurniture=I have some <type> furniture in my room
+wallarchitect=<type> Architect
+wallarchitect_desc=<name> always dreamt of building a house made entirely of <type>. They get a happiness bonus when their room has some <type> walls and an even bigger bonus if it only has <type> walls
+nopreferedwalls=My room have no <type> walls
+somepreferedwalls=My room have some <type> walls
+fullpreferedwalls=My room is complete with <type> walls
+maker=Maker
+maker_desc=<name> is always tinkering with something. They get a happiness bonus when they have many different crafting stations in their room
+nomakerstations=My room does not have any crafting stations
+somemakerstations=My room has some crafting stations
+beachlover=Beach Lover
+beachlover_desc=Living near the water gives <name> tranquility. They will get a happiness bonus when their room is located near water
+roomnotnearwater=My room is not near any water
+roomisnearwater=My room is placed near water
+roomie=Roomie
+roomie_desc=<name> doesn't mind living with another person. In fact, they prefer it and will get a happiness bonus when they have one other settler living in the same room as them
+roomnoroomies=I have no one living in my room
+roomhasroomie=I have someone living in my room
+roomcrowdedroomie=There are too many people living in my room
+favoritedish=Favorite Dish
+favoritedish_desc=<name> enjoys eating <dish> and will never get tired of eating it. They get an extra happiness bonus when they eat it as well
+eatenfavoritedish=I have recently eaten my favorite dish
+nothadfavoritedish=I've not had my favorite dish recently
+artconnoisseur=Art Connoisseur
+artconnoisseur_desc=<name> doesn't just see the art, they FEEL it. They will get a happiness boost when they have a lot of different paintings in their room
+noartinroom=I have no paintings in my room
+someartinroom=I have some paintings in my room
+fashionista=Fashionista
+fashionista_desc=<name> just has a bit more style than everyone else. They would like to have a full set of cosmetic armor equipped different from their normal armor set
+hascosmeticset=I have a full cosmetic set equipped
+missingcosmeticset=I am missing some pieces in my cosmetic set
+audiophile=Audiophile
+audiophile_desc=<name> needs to bust a move every now and then. They would like to have a music player and vinyls in their room
+hasmusicplayer=I have a music player in my room
+missingmusicplayer=I am missing a music player in my room
+novinyls=I have no vinyls in my room
+somevinyls=I have some vinyls in my room
+ecologist=Ecologist
+ecologist_desc=<name> loves the feeling of grass between their toes. They get a happiness bonus when their room is filled with plants and the floor is completely organic
+ecologistsolidfloor=My room has non-organic floors in it
+ecologistorganicfloor=My room has a completely organic floor
+ecologistnoplant=My room has no plants in it
+ecologistsomeplants=My room has some plants in it
+clumsy=Clumsy
+clumsy_desc=<name> is a bit clumsy, but that's okay. They even get a happiness bonus because of it. They will damage furniture in their room over time, eventually ending up getting a negative thought for each broken piece
+clumsyhappy=I enjoy my clumsy life
+clumsyunhappy=I have broken furniture in my room
+indoorsy=Indoorsy
+indoorsy_desc=<name> once got struck by lightning and lived! But since then they prefer working indoors and will get a happiness boost for doing indoor jobs
+indoorsyinside=I have been doing indoor jobs
+indoorsynone=I haven't been doing any indoor jobs lately
+gardener=Gardener
+gardener_desc=<name> has been tending the farm their whole life, and they ain't about to stop now! They enjoy doing farming tasks and will get a happiness boost every time they complete one
+gardenertask=I have been doing farming tasks
+gardenernotasks=I haven't been doing any farming tasks lately
+lumberjack=Lumberjack
+lumberjack_desc=<name> likes to chop trees and chew bubblegum. But they're all out of gum. They enjoy doing forestry tasks and will get a happiness boost every time they complete one
+lumberjacktask=I have been doing forestry tasks
+lumberjacknotasks=I haven't been doing any forestry tasks lately
+orderly=Orderly
+orderly_desc=<name> likes to keep things neat and organized. They will get a happiness boost when their settlement has all the items in the correct storage chests
+orderlyhappy=The settlement storage is completely organized
+orderlyunhappy=The settlement storage has items out of place
+bloodthirsty=Bloodthirsty
+bloodthirsty_desc=<name> wasn't loved enough as a child. They enjoy hurting others and will get a happiness boost when they do damage
+bloodthirstysatisfied=I have been hurting enemies lately
+bloodthirstyneeded=I haven't been hurting any enemies lately
+adventurer=Adventurer
+adventurer_desc=<name> used to be an adventurer like you, but then they took an arrow to the knee. Luckily they still get happiness from joining your adventure party, outside the settlement
+adventurerhappy=I have been adventuring outside the settlement recently
+adventureridle=I haven't been adventuring outside the settlement recently
+tourist=Tourist
+tourist_desc=<name> likes to brag about travelling all the time. They will get a happiness bonus while they are in your adventure party and you're visiting a different settlement or NPC village
+touristhappy=I have visited another village recently
+touristidle=I haven't visited another village recently
+collectortakethanks=Thank you! You can speak to me again if you don't want me to anymore
+collectorstoppedtaking=Ok, I'll stop taking from storage in the future
+gemcollector=Gem Collector
+gemcollector_desc=<name> is fascinated by shiny minerals, not rocks, minerals. They will get a happiness boost when given a gem as a gift
+gemcollectorreceived=I've collected a gem recently
+gemcollectoridle=I haven't collected a gem recently
+gemcollectorhave=I have a gem for you!
+gemcollectorintro=Thank you! I'm collecting gems!
+gemcollectorgive=Give gem
+gemcollectorstart=Start collecting gems from storage
+gemcollectorstop=Stop collecting gems from storage
+flowercollector=Flower Collector
+flowercollector_desc=<name> loves flowers. She even eats them sometimes, hehe. They will get a happiness boost when given a flower as a gift
+flowercollectorreceived=I've collected a flower recently
+flowercollectoridle=I haven't collected any flowers recently
+flowercollectorhave=I have a flower for you!
+flowercollectorintro=Thank you! I'm collecting flowers!
+flowercollectorgive=Give flower
+flowercollectorstart=Start collecting flowers from storage
+flowercollectorstop=Stop collecting flowers from storage
+hiredhand=Hired Hand
+hiredhand_desc=<name> thinks you're great and all, but all this unpaid labour seems illegal. They will get a happiness boost when given coins as a gift
+hiredhandreceived=I've received payment recently
+hiredhandidle=I haven't received payment recently
+hiredhandhave=I have coins for you!
+hiredhandintro=Fair pay for fair work as I see it! Hand it over!
+hiredhandgive=Give coins
+hiredhandstart=Start paying yourself with coins from storage
+hiredhandstop=Stop paying yourself with coins from storage
+vengeful=Vengeful
+vengeful_desc=<name> secretly thinks it's sorta of cool having an edgy and vengeful backstory. They will get a happiness boost for a while after the settlement is raided
+vengefulhappy=I can handle a few raiders
+expeditioner=Expeditioner
+expeditioner_desc=<name> used to run away from home a lot as a kid. They will get a happiness boost for a while after being sent on an mission
+expeditioner_happy=I went on a mission recently
+expeditioner_unhappy=I haven't been on a mission in a while
+pacifist=Pacifist
+pacifist_desc=<name> just goes with the flow man, make love, not war. They are happier when they haven't fought in a while, but they become very upset if they have to fight
+pacifisthappy=I enjoy my peaceful way of life
+pacifistunhappy=I never want to fight again
+stressedout=Stressed Out
+stressedout_desc=<name> used to be a lazy teenager which has resulted in them getting easily overworked. Every <value> days they will take the day off to relax
+stressedoutnext=Taking the day off <when>
+stressedoutnow=today
+stressedoutsoon=in <value> day(s)
+stressedouthappy=I'm happy working at my own pace
+stressedoutidle=Taking the day off
+persistent=Persistent
+persistent_desc=<name> gets knocked down, but they get up again! They will fully heal if they would die an amount of times based on their quality of life level. Resets every hour
+persistent_effect=Can survive <value> killing blow(s)
+weatherbound=Weather-Bound
+weatherbound_desc=<name> is one of those people who seem to think that their mood changes with the weather. They will get a happiness boost when the weather is sunny, but will lose it when it is raining or snowing
+weatherboundclear=I love the weather today! Nice and sunny
+weatherboundrain=I don't like it when the weather is like this! It makes me feel gloomy
+
+[romance]
+// Misc
+datingtooltip1=You and <name> just started dating
+datingtooltip2=You and <name> are getting closer
+datingtooltip3=You and <name> are very close
+datingtooltip4=You and <name> are falling in love
+datingtooltip5=You and <name> are in love
+datingtooltip6=You and <name> are in a loving relationship
+suggestdatingbutton=Would you like a <item>, <settlername>?
+startdatingbutton=Give <settlername> <item> to start dating them
+kiss=Kiss :heart:
+lifepartner=Life Partner
+lifepartner_desc=<settler> is receiving a happiness boost from being in a loving relationship with <partner>
+warndating1=You are **Life Partners** with another settler.
+warndating2=If you start dating <settlername>, your existing **Life Partner** will be reset.
+confirmdating1=You are about to start dating <settlername>.
+confirmdating2=Advancing your relationship will eventually lead to you becoming **Life Partners** with them.
+confirmdating3=You can only have one **Life Partner** at a time.
+confirmdating4=Dating several settlers at the same time, does not give you any bonuses.
+confirmbreakup1=Are you sure you want to break up with <settlername>?
+confirmbreakup2=Your relationship will be completely reset and <settlername> will no longer be your **Life Partner**.
+confirmbreakup3=After breaking up with <settlername> you can start a new relationship with someone else, if you'd like.
+confirmrelationship1=You are about to become **Life Partners** with <settlername>.
+confirmrelationship2=If you are dating any other settlers, their dating progress will be paused.
+confirmrelationship3=If things don't work out between you and <settlername>, it is possible to break up.
+confirmrelationship4=But I'm sure you guys are gonna be just fine :heart:
+confirmrelationshipbutton=Accept
+declinerelationshipbutton=Decline
+diedwhilegone=Your previous relationship has ended because your partner died :(
+brokenupwhilegone=Your previous partner has broken up with you while you were away :(
+brokenupplayer=Your partner has broken up with you :(
+givebouquet=Give <item>
+playerdeclined=<name> has declined being in a relationship with you
+playeraccepted=You are now in a relationship with <name>! :heart:
+askedplayer=<name> has asked you to be their **Life Partner**.
+confirmplayer=You are about to become **Life Partners** with <name>.
+warnplayer1=You are already **Life Partners** with someone else.
+warnplayer2=If you accept, your other relationship will end.
+askplayeraccept=Do you want to accept?
+servepapers=Serve <item>
+youhavebroken=You have broken up with <name>
+
+// HONEST FARMER ROMANCE PERSONALITY
+// Honest Farmer start dating activity
+honestfarmer_suggestdating1=Say is that a <item> for good ol' <settlername>? :heart:
+honestfarmer_suggestdating2=Why that's mighty fine of you <name>. Ahh but darn it <name>, I didn't get you nothin
+honestfarmer_suggestdating3=Thank ya though!
+
+honestfarmer_declinedatingbutton=Sorry, keeping this!
+
+honestfarmer_starteddatingchat=Say <name>, I reckon I might need ya help later. So drop by, will ya?
+honestfarmer_declineddatingchat=But I like flowers...
+
+// Honest Farmer place object activity 1
+honestfarmer1_placeobject1=Well if it ain't <name> with the pretty flowers! :heart:
+honestfarmer1_placeobject2=Say... Your nifty hands with them flowers got me thinkin
+honestfarmer1_placeobject3=You think you can help me plant some <object>?
+honestfarmer1_placeobject4=Pop used to show me how it's done, but I wasn't much one for payin attention to such things
+
+honestfarmer1_acceptplaceobjectbutton=You got it <settlername>!
+honestfarmer1_declineplaceobjectbutton=Sorry, can't right now <settlername>
+
+honestfarmer1_placeobjectacceptedchat1=Alrighty <name>, first up, we need <farmland>
+honestfarmer1_placeobjectacceptedchat2=We can craft that at the <workstation>
+honestfarmer1_placeobjectacceptedchat3=And then ya gotta find some <object> somewhere
+honestfarmer1_placeobjectacceptedchat4=I reckon a <farmer> might sell em, or maybe we can look in the **Caves**?
+
+honestfarmer1_craftandplaceobjecttip1=We need some <farmland> <name>, I think you make it at the <workstation>
+honestfarmer1_craftandplaceobjecttip2=And then ya gotta find some <object> somewhere
+honestfarmer1_craftandplaceobjecttip3=I think a Farmer might sell em? Or maybe we can find em in some **Caves**?
+honestfarmer1_craftandplaceobjecttip4=When you're ready to plant, make sure I'm in your Adventure Party so I can see how its done!
+
+honestfarmer1_objectplacedchat1=Wha..! You just stick it in the ground!?
+honestfarmer1_objectplacedchat2=That's all there is to it? Well color me impressed <name>!
+
+honestfarmer1_objectplacedoutsidesettlementchat=How bout we plant the <object> in our settlement instead <name>?
+
+honestfarmer1_objectplaced1=Who's got two green thumbs and an awestruck buddy?
+honestfarmer1_objectplaced2=You <name>! You got that! :heart:
+honestfarmer1_objectplaced3=Well I gotta tip my hat to you, that was some mighty fine work
+honestfarmer1_objectplaced4=Ain't a lot of people around that wanna teach me the simple stuff, so I thank ya for it <name> :heart:
+
+honestfarmer1_completeobjectplacedbutton=I got ya buddy :heart:
+
+honestfarmer1_completeobjectplacedchat1=Heh, can't believe you just stuck it right in the ground!
+honestfarmer1_completeobjectplacedchat2=So that's gonna turn into bread in a couple of days huh?
+
+// Honest Farmer place object activity 2
+honestfarmer2_placeobject1=Top of the day to ya <name>! :heart:
+honestfarmer2_placeobject2=I been wonderin if you would lend me a hand once more my friend
+honestfarmer2_placeobject3=Growing up on the farm back home, my pop always wanted a <object>!
+honestfarmer2_placeobject4=What'd ya say <name>? Think we can make that ol' dream come true?
+
+honestfarmer2_acceptplaceobjectbutton=Let's get cracking <settlername>!
+honestfarmer2_declineplaceobjectbutton=Ain't got time for that right now <settlername>.
+
+honestfarmer2_placeobjectacceptedchat1=That's amazin <name>!
+honestfarmer2_placeobjectacceptedchat2=You can make a <object> at the <workstation>
+honestfarmer2_placeobjectacceptedchat3=Then you just pop it down wherever! But make sure I'm there to see it!
+
+honestfarmer2_craftandplaceobjecttip1=<name>! I believe ya can make a <object> at the <workstation>
+honestfarmer2_craftandplaceobjecttip2=Then you just pop it down wherever! But Make sure I'm there to see it!
+honestfarmer2_craftandplaceobjecttip3=And remember <name>, I gotta be in your Adventure Party when you place it
+
+honestfarmer2_objectcraftedchat=Now that's a good lookin <object> <name>!
+
+honestfarmer2_objectplacedchat1=You've done it once again <name>!
+honestfarmer2_objectplacedchat2=My pop would shed tear if he could see this :heart:
+
+honestfarmer2_objectplacedoutsidesettlementchat=We gotta place the <object> in our settlement <name>!
+
+honestfarmer2_objectplaced1=My pop would be mighty proud of the fine work we're doing here
+honestfarmer2_objectplaced2=I bet ya he's real sorry he kicked me off the farm a while back. But that's family! Right <name>?
+honestfarmer2_objectplaced3=Heh, I reckon I just wanted to say thanks for taking me in, I really like it here at our settlement :heart:
+
+honestfarmer2_completeobjectplacedbutton=My home is your home <settlername> :heart:
+
+honestfarmer2_completeobjectplacedchat1=Awh... <name> :heart:
+honestfarmer2_completeobjectplacedchat2=Now you've gone and made me all teary eyed :heart:
+
+// Honest Farmer capture animal activity 3
+honestfarmer_captureanimal1=Say <name>... I've been wonderin
+honestfarmer_captureanimal2=What's the point in having a sun when you already light up my day, huh?
+honestfarmer_captureanimal3=Eh, just messin with ya, you are pretty great though... :heart:
+honestfarmer_captureanimal4=But enough flirtin! Time to capture a wild <mob>!
+
+honestfarmer_acceptcaptureanimalbutton=Heh, thanks <settlername> and sure?
+honestfarmer_declinecaptureanimalbutton=Don't have time for that right now
+
+honestfarmer_captureanimalacceptedchat1=Good enough! We're huntin a wild <mob>
+honestfarmer_captureanimalacceptedchat2=I tried capturin one over at the <location>
+honestfarmer_captureanimalacceptedchat3=But heh, silly me forgot to bring <rope>!
+
+honestfarmer_captureanimaltip1=We're lookin for a wild <mob> at the <location> <name>
+honestfarmer_captureanimaltip2=Make sure you bring some <rope>, else we won't be able to catch it!
+honestfarmer_captureanimaltip3=And bring me with you in your Adventure Party, I clearly need a professional to see how it's done, hah!
+
+honestfarmer_capturedwronganimalchat=That ain't no <mob> <name>! Remember we can find a <mob> at the <location>
+
+honestfarmer_capturedcorrectanimalchat1=Well I'll be damned. You make it look easy <name>!
+honestfarmer_capturedcorrectanimalchat2=Let's bring that cutie back home to the settlement!
+
+honestfarmer_releasedanimalinsettlementchat=Good job <name>! Looks like it'll fit right in :heart:
+
+honestfarmer_releasedanimalelsewherechat=Wha! We can't just leave the <mob> here <name>! We gotta bring it back to the settlement!
+
+honestfarmer_captureanimalcomplete1=You can just do it all, huh <name>?
+honestfarmer_captureanimalcomplete2=My pop would've like having you around
+honestfarmer_captureanimalcomplete3=He wasn't a big fan of me though. I didn't even know how to rope a <mob>...
+honestfarmer_captureanimalcomplete4=Guess that's why he sent me away huh...
+
+honestfarmer_captureanimalcompletebutton=Your dad clearly made a mistake <settlername>, you're amazing! :heart:
+
+honestfarmer_captureanimalcompletechat1=There you go being all sweet on me again <name> :heart:
+honestfarmer_captureanimalcompletechat2=I'm startin to feel real lucky that I met you... :heart:
+
+// Honest Farmer capture critter activity 4
+honestfarmer_capturecritter1=My favourite person! <name>! :heart:
+honestfarmer_capturecritter2=You know what I used to do as a kid? Catch butterflies!
+honestfarmer_capturecritter3=Sadly never caught a rare <mob>
+honestfarmer_capturecritter4=But I feel like you're my lucky charm <name>, ye wanna help me out?
+
+honestfarmer_acceptcapturecritterbutton=Let's do it <settlername>! I'll bring my <net>!
+honestfarmer_declinecapturecritterbutton=Not right now
+
+honestfarmer_capturecritteracceptedchat1=It's a date <name>! :heart:
+honestfarmer_capturecritteracceptedchat2=I think we can find a <mob> in the <location>
+
+honestfarmer_capturecrittertip1=The <mob> has been eluding me for too long <name>!
+honestfarmer_capturecrittertip2=I think we can find it in the <location>
+honestfarmer_capturecrittertip3=And when it least expects it, you snatch it with your <net> <name>!
+
+honestfarmer_capturedwrongcritterchat1=That ain't the butterfly we're looking for <name>!
+honestfarmer_capturedwrongcritterchat2=We want a <mob>. We can find it in the <location>
+
+honestfarmer_capturedcorrectcritterchat=Eyy! You got it? Hot damn! Can I see it <name>?
+
+honestfarmer_showcritter1=Pinch me <name>! Surely this is a dream...
+honestfarmer_showcritter2=Did you actually just catch a <mob>?
+honestfarmer_showcritter3=That's amazing <name>! You're amazing! :heart:
+honestfarmer_showcritter4=Anything seems possible with you...
+
+honestfarmer_completeshowcritter=Awh... <settlername> :heart:
+
+honestfarmer_showcrittercompletedchat1=It's the truth <name>! :heart:
+honestfarmer_showcrittercompletedchat2=Hey... You know what <name>? I haven't thought about me pop once today
+honestfarmer_showcrittercompletedchat3=Ain't that something...
+
+// Honest Farmer visit biome activity 5 (final)
+honestfarmer_visitbiome1=Let me bend ya ear for a second, yeah <name>?
+honestfarmer_visitbiome2=It's always been a lifelong dream of mine to visit one of them big **Villages** out in the world
+honestfarmer_visitbiome3=And lately, you've been makin a lot of my dreams come true <name>... :heart:
+honestfarmer_visitbiome4=So what'd ya say?
+
+honestfarmer_acceptvisitbiomebutton=Let's make that dream a reality <settlername> :heart:
+honestfarmer_declinevisitbiomebutton=We'll do it later, okay <settlername>?
+
+honestfarmer_visitbiomeacceptedchat1=I knew I could count on ya <name> :heart:
+honestfarmer_visitbiomeacceptedchat2=Any **Village** will do!
+honestfarmer_visitbiomeacceptedchat3=Remember you can craft a <map> at the <workstation>
+
+honestfarmer_visitbiometip1=I can't wait to see the big city <name>!
+honestfarmer_visitbiometip2=In case you don't know any nearby **Villages**...
+honestfarmer_visitbiometip3=Then you can craft a <map> at the <workstation>
+honestfarmer_visitbiometip4=When we're at the **Village**, it'd be nice for us to sit down somewhere and talk... :heart:
+
+honestfarmer_visitbiomelocationfound1=Woah! So this is a **Village** huh?
+honestfarmer_visitbiomelocationfound2=I thought it'd be bigger. Our settlement is way cooler, huh <name>?
+honestfarmer_visitbiomelocationfound3=Hey, let's sit down somewhere, I gotta talk to you bout something...
+
+honestfarmer_visitbiomesittingdownchat1=Yeah, this is nice <name> :heart:
+honestfarmer_visitbiomesittingdownchat2=So yeah... I've been meanin to tell you something...
+honestfarmer_visitbiomesittingdownchat3=So here goes...
+
+honestfarmer_visitbiomecompleted1=I think you're gorgeous, amazing and heckin' fine to be honest with ya <name>! :heart:
+honestfarmer_visitbiomecompleted2=You're awesome at farmin, craftin and catchin rare butterflies!
+honestfarmer_visitbiomecompleted3=And I think it's pretty magical that I get to spend all this time with ya... :heart:
+honestfarmer_visitbiomecompleted4=Ehem... What I mean to say <name>. I love ya, alright? :heart:
+honestfarmer_visitbiomecompleted5=Do ya reckon you love me too..?
+
+honestfarmer_visitbiomecompletedacceptbutton=I love ya too <settlername> :heart:
+honestfarmer_visitbiomecompleteddeclinebutton=<settlername>... Sorry, but I don't love ya...
+
+honestfarmer_visitbiomecompletedacceptedchat1=WOOOOOOOOO! :heart:
+honestfarmer_visitbiomecompletedacceptedchat2=Sorry, just had to get that out <name> :heart:
+honestfarmer_visitbiomecompletedacceptedchat3=I just can't believe I get to live out all my dreams with you... :heart:
+
+honestfarmer_visitbiomecompleteddeclinedchat1=You... You don't..?
+honestfarmer_visitbiomecompleteddeclinedchat2=Well... I hope you change you mind someday <name>...
+
+// Honest Farmer breakup
+honestfarmer_suggestbreakupbutton=<settlername>... We need to talk
+
+honestfarmer_suggestbreakup1=<name> :heart:
+honestfarmer_suggestbreakup2=What's on ya mind me love?
+
+honestfarmer_declinebreakupbutton=Silly me, I forgot. Love ya <settlername> :heart:
+
+honestfarmer_acceptedbreakupchat1=What ya mean it's not you? Or me?
+honestfarmer_acceptedbreakupchat2=Wait a second... Are ya breakin up with me!?
+honestfarmer_acceptedbreakupchat3=<name> this is gonna tear me apart!
+
+honestfarmer_declinedbreakupchat1=Ya ain't silly me love... :heart:
+honestfarmer_declinedbreakupchat2=I forget things all the time too!
+
+// Honest Farmer relationship chats
+honestfarmer1_relationshipchat1=Ey good lookin! :heart:
+honestfarmer1_relationshipchat2=What'd ya say you and I run away for a little while today huh? :heart:
+
+honestfarmer2_relationshipchat1=<name>! You should've seen the Butterfly I caught today!
+honestfarmer2_relationshipchat2=It was truly majestic. Just like you :heart:
+
+honestfarmer3_relationshipchat1=22... 23... 24!
+honestfarmer3_relationshipchat2=24 clouds in the sky right now <name>!
+honestfarmer3_relationshipchat3=They are all mighty pretty
+honestfarmer3_relationshipchat4=They ain't got nothin on you though, my love :heart:
+
+honestfarmer_relationshipnight1=Woah, looks like the sun is still out huh
+honestfarmer_relationshipnight2=Is that why you woke me up <name>? To light up my night with your smile? :heart:
+honestfarmer_relationshipnight3=Come to bed and let's cuddle, will ya <name>? :heart:
+
+// Honest Farmer relationship chats stat based
+honestfarmer_evilsprotector1=Did I hear that you gave the <mob> a beating <name>?
+honestfarmer_evilsprotector2=I reckon that'd make you the Protector of Good
+honestfarmer_evilsprotector3=Goodness Protector? I dunno, but I'm mighty proud of you! :heart:
+
+honestfarmer_queenspider1=That <mob> is scary <name>!
+honestfarmer_queenspider2=I'm glad you set her straight
+honestfarmer_queenspider3=Personally I don't trust anything with more than 2 legs. Or well, 4 legs
+honestfarmer_queenspider4=Cause I do trust me <cow>! Heh! :heart:
+
+honestfarmer_ancientvulture1=Giant bats, giant spiders and now giant birds!
+honestfarmer_ancientvulture2=I gotta ask <name>. After taking down the <mob>
+honestfarmer_ancientvulture3=Do you maybe feel like the big creatures are out to get ya? :heart:
+
+honestfarmer_pestwarden1=So I hear you defeated the <mob> <name>!
+honestfarmer_pestwarden2=I always thought it a strange creature...
+honestfarmer_pestwarden3=I mean... It's basically just a big green sausage!
+
+honestfarmer_fallenwizard1=So you're tellin me that the <mob1>...
+honestfarmer_fallenwizard2=Came back to fight you again as the <mob2>?
+honestfarmer_fallenwizard3=And you beat him... Again?
+honestfarmer_fallenwizard4=HAH! Sucks to be him! You rock <name> :heart:
+
+honestfarmer_ascendedwizard1=Wait, wait, wait... He came back to fight you, AGAIN?
+honestfarmer_ascendedwizard2=But this time he was an <mob>?
+honestfarmer_ascendedwizard3=Who turned into the dark endless void?
+honestfarmer_ascendedwizard4=And you still beat him? Man this guy can't catch a break
+
+// Honest Farmer kiss chats
+honestfarmer_kisschat1=A dream come true, ya are <name> :heart:
+honestfarmer_kisschat2=Mhmm! That's a good kiss! :heart:
+honestfarmer_kisschat3=Love ya <name> :heart:
+
+// Honest Farmer relationship gift chats
+honestfarmer_giftfood1=Would ya believe it if I told you I've been spendin some time in the kitchen <name>?
+honestfarmer_giftfood2=Just call me Chef <settlername> will ya love?
+honestfarmer_giftfood3=Today's special is <item>, enjoy! :heart:
+honestfarmer_giftfoodaccept=Delicious! Thank you Chef <settlername> :heart:
+
+honestfarmer_giftpotion1=Ya gotta drink ya potions <name>!
+honestfarmer_giftpotion2=They keep ya safe, and that's mighty important to me ya know... :heart:
+honestfarmer_giftpotion3=Take some extra <item> with you, okay love?
+honestfarmer_giftpotionaccept=Thank you love :heart:
+
+honestfarmer_giftdecoration1=The other day I went and visited one of them **Villages** again <name>
+honestfarmer_giftdecoration2=And well, this talkative fella sold me a <item>
+honestfarmer_giftdecoration3=I thought ya could place it somewhere nice? For all to see? :heart:
+honestfarmer_giftdecorationaccept=Heh, thanks honey :heart:
+
+// ASPIRING HERO ROMANCE PERSONALITY
+// Aspiring Hero start dating activity
+aspiringhero_suggestdating1=A <item> for your favorite hero?
+aspiringhero_suggestdating2=Why <name>, some might think you fancy me...
+aspiringhero_suggestdating3=Although I wouldn't be too surprised :heart:
+
+aspiringhero_declinedatingbutton=Yeah, no...
+
+aspiringhero_starteddatingchat1=I will treasure your gift always <name>!
+aspiringhero_starteddatingchat2=Come find me on the morrow, your services will be required
+aspiringhero_declineddatingchat=Your loss!
+
+// Aspiring Hero give item activity 1
+aspiringhero_giveitem1=If I may <name>... :heart:
+aspiringhero_giveitem2=In all of my life, I have been naught but a handsome <settlerclass>. But in my heart, I have always dreamt of being so much more!
+aspiringhero_giveitem3=But before I can carve my legacy, I need you to craft me an exquisite sword to carve with
+aspiringhero_giveitem4=A <item> should suffice. Wouldn't you agree?
+
+aspiringhero_acceptgiveitembutton=Behold! The <item>!
+aspiringhero_declinegiveitembutton=I'll get right on that!
+
+aspiringhero_itemgivenchat=Now this is some fine craftsmanship <name>!
+
+aspiringhero_giveitemtip1=Still don't have my sword <name>?
+aspiringhero_giveitemtip2=You can craft a <item> at the <workstation>. Chop chop!
+
+aspiringhero_itemgiven1=This <item> is bound for greatness!
+aspiringhero_itemgiven2=I can feel it!
+aspiringhero_itemgiven3=Say... <name>? I had just had the grandest of ideas!
+aspiringhero_itemgiven4=I'm going to need a squire for my adventures! And who better than you?
+aspiringhero_itemgiven5=Squire <name> :heart:
+
+aspiringhero_giveitemcompletedbutton=Uhm... Sure, I guess?
+
+aspiringhero_giveitemcompletedchat1=Delightful Squire <name>! Adventure awaits us!
+aspiringhero_giveitemcompletedchat2=Come back in a few days, I got big plans for us!
+
+// Aspiring Hero kill mob activity 2
+aspiringhero1_killmob1=Attention my squire!
+aspiringhero1_killmob2=I have heard rumours of a horrendous <mob> residing in the depths of the <location>
+aspiringhero1_killmob3=So naturally I thought it a job for Wrath Knight <settlername> and Squire <name>!
+aspiringhero1_killmob4=Hmm.. Does Wrath Knight sound good?
+
+aspiringhero1_acceptkillmobbutton=That <mob> ain't no match for Wrath Knight <settlername>!
+aspiringhero1_declinekillmobbutton=Sorry, I'm busy right now
+
+aspiringhero1_killmobacceptedchat1=Haha, yes! We're coming for you <mob>!
+aspiringhero1_killmobacceptedchat2=To the <location>, where glory awaits!
+
+aspiringhero1_killmobtip1=Have you found it? Have you found the <mob>!?
+aspiringhero1_killmobtip2=Remember <name>, it's hiding in the <location>
+aspiringhero1_killmobtip3=So be ready!
+
+aspiringhero1_mobkilledchat=No one can best Scourge Knight <settlername>!
+
+aspiringhero1_mobkilled1=Hmm. Wrath Knight sounds dangerous... But Scourge Knight is more scary...
+aspiringhero1_mobkilled2=Anyway. Well done Squire <name>! Our names are sure to go down in history after having defeated such a fierce foe!
+aspiringhero1_mobkilled3=We make a pretty good team you know... :heart:
+
+aspiringhero1_completekilledmobbutton=It was an honor to fight by your side <settlername>
+
+aspiringhero1_completekilledmobchat1=Likewise my honorable squire :heart:
+aspiringhero1_completekilledmobchat2=Drop by later <name>, then I'll give you a rundown on all the hero gossip about us!
+
+// Aspiring Hero place object activity 3
+aspiringhero_placeobject1=Squire <name>. I am outraged
+aspiringhero_placeobject2=Not a single soul in our settlement has mentioned Scourge Knight <settlername>, Slayer of the <mob>!
+aspiringhero_placeobject3=These people simply do not care for epic conquests
+aspiringhero_placeobject4=So change of plans my squire. It's time to craft!
+
+aspiringhero_acceptplaceobjectbutton=I live to craft <settlername>!
+aspiringhero_declineplaceobjectbutton=Sorry, I can't do that right now
+
+aspiringhero_placeobjectacceptedchat1=Excellent my squire! For my plan to work, we'll need a <object>
+aspiringhero_placeobjectacceptedchat2=It's crafted at the <workstation>, you'll make short work of it, I'm sure.
+aspiringhero_placeobjectacceptedchat3=And for the plan to work, I need to be in your Adventure Party. Okay <name>?
+
+aspiringhero_craftandplaceobjecttip1=The plan is simple Squire <name>!
+aspiringhero_craftandplaceobjecttip2=Step 1, I join your adventure party
+aspiringhero_craftandplaceobjecttip3=Step 2, you craft a <object> at the <workstation>
+aspiringhero_craftandplaceobjecttip4=Step 3, we place the <object> in our settlement
+aspiringhero_craftandplaceobjecttip5=Step 4, I work my magic!
+
+aspiringhero_objectcraftedchat1=That <object> will do splendid my squire!
+aspiringhero_objectcraftedchat2=Now place it in a popular location, where everyone can see us!
+
+aspiringhero_objectplacedchat1=HEAR YE, HEAR YE! I am Knight <settlername> the Benevolent!
+aspiringhero_objectplacedchat2=And I come bearing gifts!
+aspiringhero_objectplacedchat3=Behold, a <object> for all to enjoy!
+
+aspiringhero_objectplacedchatresponses1=Eh, more like Knight <settlername> the Loud
+aspiringhero_objectplacedchatresponses2=I hate it!
+aspiringhero_objectplacedchatresponses3=But I wanted a Music Player man...
+
+aspiringhero_objectplacedoutsidesettlementchat=The plan won't work, unless you place the <object> inside our settlement <name>!
+
+aspiringhero_objectplaced1=Dare I say that these people wouldn't know good craftsmanship if it smacked em across the nose!
+aspiringhero_objectplaced2=I was certain that a <object> would dazzle them
+aspiringhero_objectplaced3=Thank you for helping out once again my ever attendant squire :heart:
+aspiringhero_objectplaced4=But maybe I just ain't cut out to be a knight after all...
+
+aspiringhero_completeobjectplacedbutton=Don't lose hope, the world needs Knight <settlername> the Benevolent!
+
+aspiringhero_completeobjectplacedchat1=You still have faith in me <name>?
+aspiringhero_completeobjectplacedchat2=My ever stalwart squire... :heart:
+aspiringhero_completeobjectplacedchat3=Come back in a few days. I might have one more plan we could try
+
+// Aspiring Hero kill mob activity 4
+aspiringhero2_killmob1=<name>, have you heard of the <mob>?
+aspiringhero2_killmob2=Few have been known to come back alive from an encounter with them
+aspiringhero2_killmob3=So what do you say my squire?
+aspiringhero2_killmob4=One last shot at glory?
+
+aspiringhero2_acceptkillmobbutton=I'm with you till the end Knight <settlername>
+aspiringhero2_declinekillmobbutton=Yeah... I'm gonna have to pass on that one
+
+aspiringhero2_killmobacceptedchat1=I could ask for no better squire than you <name> :heart:
+aspiringhero2_killmobacceptedchat2=The <mob> is hiding in the <location>
+aspiringhero2_killmobacceptedchat3=To stand a chance, we have to bring our best gear and potions!
+
+aspiringhero2_killmobtip1=The <mob> is waiting for us in the <location>
+aspiringhero2_killmobtip2=It'll be a tough fight, so make sure you bring the best gear and potions you got <name>
+
+aspiringhero2_mobengagedchat=Your tyranny ends today <mob>!
+aspiringhero2_mobkilledchat=We did it <name>! We actually did it!
+
+aspiringhero2_mobkilled1=I thought it impossible...
+aspiringhero2_mobkilled2=But we actually faced off against the <mob> and returned victorious!
+aspiringhero2_mobkilled3=The whole settlement will be singing songs of Knight <settlername> and Squire <name>!
+aspiringhero2_mobkilled4=I knew you'd never give up on me <name>... :heart:
+
+aspiringhero2_completekilledmobbutton=And I knew you always had it in you my knight :heart:
+
+aspiringhero2_completekilledmobchat1=I think you and I have deserved some well earned rest <name>
+aspiringhero2_completekilledmobchat2=How about you come by and pick me up for a nice picnic tomorrow?
+aspiringhero2_completekilledmobchat3=You know, just the two of us... :heart:
+
+// Aspiring Hero visit biome activity 5 (final)
+aspiringhero_visitbiome1=<name>! You're just the face I wanted to see :heart:
+aspiringhero_visitbiome2=Heroes like us should also get to relax every now and then, so how about we go for a nice picnic today?
+aspiringhero_visitbiome3=Let's go visit the <location>, and find a nice spot **near the water**
+aspiringhero_visitbiome4=And bring something for us to sit on, a **Bench** should suffice
+
+aspiringhero_acceptvisitbiomebutton=Relaxing with you, sounds like the perfect day <settlername>
+aspiringhero_declinevisitbiomebutton=Maybe later?
+
+aspiringhero_visitbiomeacceptedchat1=Delightful <name>! :heart:
+aspiringhero_visitbiomeacceptedchat2=To the <location> we go!
+aspiringhero_visitbiomeacceptedchat3=Remember something for us to sit on <name>, some **Chairs** or a **Bench**
+
+aspiringhero_visitbiometip1=The beautiful <location> awaits us <name>
+aspiringhero_visitbiometip2=Let's find a nice spot **near the water**, where we can sit down and relax together on a bench or something
+
+aspiringhero_visitbiomelocationfound1=<name>! Right here! The view, the trees, this is perfect!
+aspiringhero_visitbiomelocationfound2=Did you bring some chairs or a bench we can sit down and relax on? :heart:
+
+aspiringhero_visitbiomesittingdownchat1=Ah, yes... This is exactly what I needed
+aspiringhero_visitbiomesittingdownchat2=A break from the heroics...
+aspiringhero_visitbiomesittingdownchat3=To kick back and spend some time with you <name>...
+
+aspiringhero_visitbiomecompleted1=These last few weeks <name>...
+aspiringhero_visitbiomecompleted2=Embracing my knighthood, taking on a <mob> and eventually defeating the <bossmob>!
+aspiringhero_visitbiomecompleted3=All of this, would have been impossible without you by my side, my beautiful squire...
+aspiringhero_visitbiomecompleted4=What I'm trying to say is... Maybe you'd want to stay by my side... Always? :heart:
+
+aspiringhero_visitbiomecompletedacceptbutton=I thought you'd never ask <settlername> :heart:
+aspiringhero_visitbiomecompleteddeclinebutton=I'm sorry <settlername>, I don't feel that way about you...
+
+aspiringhero_visitbiomecompletedacceptedchat1=You and me <name>, always! :heart:
+aspiringhero_visitbiomecompletedacceptedchat2=You can't even begin to fathom how happy this makes me! :heart:
+aspiringhero_visitbiomecompletedacceptedchat3=I got you <name>, always... :heart:
+
+aspiringhero_visitbiomecompleteddeclinedchat1=Oh... Well that's okay...
+aspiringhero_visitbiomecompleteddeclinedchat2=I think I have to go now...
+
+// Aspiring Hero breakup
+aspiringhero_suggestbreakupbutton=<settlername>... We need to talk.
+
+aspiringhero_suggestbreakup1=My chivalrous <name>, my one and only :heart:
+aspiringhero_suggestbreakup2=What's with the frown? You look like someone poured raspberry juice all over your favorite pair of boots!
+
+aspiringhero_declinebreakupbutton=Yep, sorry, just tired. Talk later!
+
+aspiringhero_acceptedbreakupchat1=I'm sorry but are you... Breaking up with me?
+aspiringhero_acceptedbreakupchat2=YOU? Breaking up. With ME?
+aspiringhero_acceptedbreakupchat3=I'm Knight <settlername>! How could anyone break up with a hero like me!?
+
+aspiringhero_declinedbreakupchat1=Well you should go for a nap then my dear :heart:
+aspiringhero_declinedbreakupchat2=Even a hero as grand as you, need their bed rest!
+
+// Aspiring Hero relationship chats
+aspiringhero1_relationshipchat1=Well if it ain't my trusty squire, <name>!
+aspiringhero1_relationshipchat2=You look absolutely stunning today :heart:
+
+aspiringhero2_relationshipchat1=<name>! This knight is craving some adventures!
+aspiringhero2_relationshipchat2=Promise me we'll get out there soon, okay? :heart:
+
+aspiringhero3_relationshipchat1=Hey <name>?
+aspiringhero3_relationshipchat2=What do you say to a Knight that's going to bed?
+aspiringhero3_relationshipchat3="Night Knight!"
+aspiringhero3_relationshipchat4=Get it <name>? NIGHT KNIGHT? Hah, I'm hilarious :heart:
+
+aspiringhero_relationshipnight1=Argh! I'm awake! What is it <name>? DRAGONS!?
+aspiringhero_relationshipnight2=Oh it's nothing? You just missed your favorite knight?
+aspiringhero_relationshipnight3=Well, how about you cozy up in bed with me then <name>? :heart:
+
+// Aspiring Hero relationship chats stat based
+aspiringhero_voidwizard1=To plunge into the depths of the **Dungeon**!
+aspiringhero_voidwizard2=And rid the world of the wicked <mob>!
+aspiringhero_voidwizard3=There may be a knight in you after all <name> :heart:
+
+aspiringhero_chieftain1=A brawl with the <mob1> himself!
+aspiringhero_chieftain2=I envy you <name>, it sounds like a glorious battle :heart:
+aspiringhero_chieftain3=But know this my friend, the Runebound won't forget this
+aspiringhero_chieftain4=The <mob2> may come for you yet!
+
+aspiringhero_piratecaptain1="YAARGH, I lost me wooden leg! Now my walk be slantin!"
+aspiringhero_piratecaptain2=I bet that's what the <mob> said when you beat him, right <name>? :heart:
+aspiringhero_piratecaptain3=By the way, did I see him around our settlement?
+
+aspiringhero_thecursedcrone1=She was corrupting all of the **Plains Deep Caves**?
+aspiringhero_thecursedcrone2=I knew the <mob> was crazy, but this was madness...
+aspiringhero_thecursedcrone3=I'm glad you put a stop to her, <name> :heart:
+
+aspiringhero_fallenwizard1=Evil never rests <name>. I'd hoped the <mob1> would've learned his lesson
+aspiringhero_fallenwizard2=But to return once as the <mob2>
+aspiringhero_fallenwizard3=I'm glad you put a swift end to him <name> :heart:
+aspiringhero_fallenwizard4=Let's just hope he's gone for good this time...
+
+aspiringhero_sunlightchampion1=I've always believed that the <mob> was a myth <name>...
+aspiringhero_sunlightchampion2=But you faced the **Golden Gauntlets** and lived?
+aspiringhero_sunlightchampion3=You are becoming powerful <name>, very powerful
+
+aspiringhero_ascendedwizard1=<name>! You are truly the stuff of legends! :heart:
+aspiringhero_ascendedwizard2=The <mob> falls once and for all...
+aspiringhero_ascendedwizard3=And this time, I can feel it in my heart, that he won't ever return
+aspiringhero_ascendedwizard4=And for that <name>, I am grateful. Thank you, my hero :heart:
+
+// Aspiring Hero kiss chats
+aspiringhero_kisschat1=Always got a kiss for you <name>! :heart:
+aspiringhero_kisschat2=Smoochin..! :heart:
+aspiringhero_kisschat3=Love you <name> :heart: Be safe out there!
+
+// Aspiring Hero relationship gift chats
+aspiringhero_giftfood1=I've noticed that <item> is one of your favorites <name>
+aspiringhero_giftfood2=So I took the liberty of cooking some up for you!
+aspiringhero_giftfood3=After all, a proper knight should feed their squire, right? :heart:
+aspiringhero_giftfoodaccept=Delicious! Thank you my knight :heart:
+
+aspiringhero_giftpotion1=The foes out there are fierce <name>
+aspiringhero_giftpotion2=And while I know you can handle yourself, an extra <item> couldn't hurt
+aspiringhero_giftpotion3=Take it, and be safe out there my squire :heart:
+aspiringhero_giftpotionaccept=I'll think of you, when I drink this <settlername> :heart:
+
+aspiringhero_giftsword1=A long time ago you crafted a fine sword for me <name>
+aspiringhero_giftsword2=And I thought it high time I returned the favour
+aspiringhero_giftsword3=This <item> is for you, may it keep you safe :heart:
+aspiringhero_giftswordaccept=I will treasure it always, <settlername>
+
+// QUITE COMPASSIONATE ROMANCE PERSONALITY
+// Quiet Compassionate start dating activity
+quietcompassionate_suggestdating1=Oh. Thank you, I guess? Not really sure what I'm supposed to do with this...
+quietcompassionate_suggestdating2=But I appreciate it none the less <name> :heart:
+
+quietcompassionate_declinedatingbutton=Nevermind then...
+
+quietcompassionate_starteddatingchat=If you come by later <name>, I guess I could show you some of my favourite flowers... :heart:
+quietcompassionate_declineddatingchat=Oh. Yeah okay, not like I wanted it anyway...
+
+// Quiet Compassionate place object activity 1
+quietcompassionate1_placeobject1=Oh, hey <name> :heart:
+quietcompassionate1_placeobject2=Your flower got me thinking about placing some more flowers and plants around our settlement
+quietcompassionate1_placeobject3=I like flowers, they take me back to a different time in my life where I was...
+quietcompassionate1_placeobject4=Hmm, anyway. Care to join me?
+
+quietcompassionate1_acceptplaceobjectbutton=Yeah, let's plant some flowers <settlername>!
+quietcompassionate1_declineplaceobjectbutton=Sorry, I'm busy right now
+
+quietcompassionate1_placeobjectacceptedchat1=Alrighty, let's start by crafting a <object>
+quietcompassionate1_placeobjectacceptedchat2=You can make it at the <workstation>
+quietcompassionate1_placeobjectacceptedchat3=Make sure I'm in your Adventure Party when you place it. I want to see it!
+
+quietcompassionate1_craftandplaceobjecttip1=Did you craft a <object> yet <name>?
+quietcompassionate1_craftandplaceobjecttip2=You can craft it at the <workstation>
+quietcompassionate1_craftandplaceobjecttip3=Then we can place it in our settlement together!
+
+quietcompassionate1_objectcraftedchat=Yeah, I like that <object> <name> :heart:
+
+quietcompassionate1_objectplacedchat=A little extra life to our settlement... :heart:
+quietcompassionate1_objectplacedoutsidesettlementchat=Maybe you could plant that <object> inside our settlement instead <name>?
+
+quietcompassionate1_objectplaced1=I like to think that each and every little flower out there has a life of its own
+quietcompassionate1_objectplaced2=And everytime we plant a flower, we bring a new life into our world
+quietcompassionate1_objectplaced3=This was nice <name>. It's been a while since I've done anything like this...
+quietcompassionate1_objectplaced4=Thank you for doing it with me :heart:
+
+quietcompassionate1_completeobjectplacedbutton=I'd plant a whole garden for you <settlername> :heart:
+
+quietcompassionate1_completeobjectplacedchat1=Heh, you're quite the charmer aren't you?
+quietcompassionate1_completeobjectplacedchat2=Talk soon :heart:
+
+// Quiet Compassionate capture critter activity 2
+quietcompassionate_capturecritter1=I love the quiet evenings in the settlement, don't you <name>?
+quietcompassionate_capturecritter2=The cool breeze, rustling leaves, and if you're lucky, pretty **Fireflies**!
+quietcompassionate_capturecritter3=I used to catch **Fireflies** with a friend of mine... But that was a long time ago
+quietcompassionate_capturecritter4=Perhaps we could catch some together <name>? :heart:
+
+quietcompassionate_acceptcapturecritterbutton=I'd love to <settlername>. I'll bring my <net>!
+quietcompassionate_declinecapturecritterbutton=Sorry, maybe later
+
+quietcompassionate_capturecritteracceptedchat1=Yay! Could we try and catch a <mob> <name>?
+quietcompassionate_capturecritteracceptedchat2=I've never caught a <mob>. I think we can them find at the <location>
+
+quietcompassionate_capturecrittertip1=I recall seeing a <mob> at the <location>
+quietcompassionate_capturecrittertip2=But it was too quick for me to catch
+quietcompassionate_capturecrittertip3=Hopefully you can do better with your <net> <name>?
+
+quietcompassionate_capturedwrongcritterchat=It's a pretty Firefly <name>, but it's not a <mob>. Remember we can find a <mob> at the <location>
+
+quietcompassionate_capturedcorrectcritterchat1=A **Firefly** lights up the night, to make our path ever so bright...
+quietcompassionate_capturedcorrectcritterchat2=It's a delight! To be graced by its enchanting fire-flight!
+
+quietcompassionate_showcritter1=Hehe, just a fun little song my friend and I used to sing when we were out catching fireflies...
+quietcompassionate_showcritter2=Hanging out with you <name>. It brings back a lot of old memories
+quietcompassionate_showcritter3=Memories I thought lost a long time ago
+quietcompassionate_showcritter4=I'm happy you make me remember, <name>... :heart:
+
+quietcompassionate_completeshowcritter=I'm happy, you're happy <settlername> :heart:
+
+quietcompassionate_showcrittercompletedchat1=They light up the night and the endless skies!
+quietcompassionate_showcrittercompletedchat2=Just like your eyes <name>, Catcher of the Fireflies! :heart:
+
+// Quiet Compassionate kill mob activity 3
+quietcompassionate_killmob1=No, not again, it can't be happening again!
+quietcompassionate_killmob2=I won't allow it to happen again!
+quietcompassionate_killmob3=<name>!
+quietcompassionate_killmob4=Pack you gear. We're going hunting!
+
+quietcompassionate_acceptkillmobbutton=Uhm, okay, what are we hunting <settlername>?
+quietcompassionate_declinekillmobbutton=Think I'll pass <settlername>...
+
+quietcompassionate_killmobacceptedchat1=We're hunting the <mob>
+quietcompassionate_killmobacceptedchat2=I've faced him before, the coward is hiding in the <location>!
+
+quietcompassionate_killmobtip1=The <mob> is hiding out in the <location>
+quietcompassionate_killmobtip2=Bring everything you got <name>, we end this today!
+
+quietcompassionate_mobkilledchat=That one was for <friendname>!
+
+quietcompassionate_mobkilled1=It's over...
+quietcompassionate_mobkilled2=Why doesn't it feel like it's over though <name>?
+quietcompassionate_mobkilled3=Why does it feel the exact same as before...
+quietcompassionate_mobkilled4=I just... I need to get out of here
+
+quietcompassionate_completekilledmobbutton=<settlername> you're scaring me, what's going on!?
+
+quietcompassionate_completekilledmobchat1=I just need some time alone <name>
+quietcompassionate_completekilledmobchat2=I'm sorry... :heart:
+
+// Quiet Compassionate visit biome activity 4
+quietcompassionate_visitbiome1=<name>... I'm sorry if I scared you earlier
+quietcompassionate_visitbiome2=The <mob> and me have a complicated past
+quietcompassionate_visitbiome3=I thought defeating him would change things...
+quietcompassionate_visitbiome4=Perhaps we could go somewhere more private and talk?
+
+quietcompassionate_acceptvisitbiomebutton=Of course <settlername>, where to?
+quietcompassionate_declinevisitbiomebutton=Maybe some other time <settlername>
+
+quietcompassionate_visitbiomeacceptedchat1=To the <location> biome <name>
+quietcompassionate_visitbiomeacceptedchat2=Somewhere quiet, **near the water**...
+quietcompassionate_visitbiomeacceptedchat3=And hey, bring something for us to sit on. A **Bench** or something :heart:
+
+quietcompassionate_visitbiometip1=Let's go somewhere quiet in the <location> biome
+quietcompassionate_visitbiometip2=**Near the water**, I'd like that <name> :heart:
+quietcompassionate_visitbiometip3=And it'd be great if you could bring a **Bench** or some **Chairs** for us to sit on
+
+quietcompassionate_visitbiomelocationfound1=<name>, right here is good :heart:
+quietcompassionate_visitbiomelocationfound2=Place down something we can sit on, and I'll tell you everything
+
+quietcompassionate_visitbiomesittingdownchat1=My friend <friendname> used to love it here...
+quietcompassionate_visitbiomesittingdownchat2=The cute snow hares, heh, tossing snowballs...
+quietcompassionate_visitbiomesittingdownchat3=And the fireflies... :heart:
+
+quietcompassionate_visitbiomecompleted1=I'm sorry I never told you about <friendname> <name>
+quietcompassionate_visitbiomecompleted2=When I heard the <mob> was back, I had to do something!
+quietcompassionate_visitbiomecompleted3=<friendname> and I used to be close, until I lost them to the <mob> a long time ago
+quietcompassionate_visitbiomecompleted4=I thought this would change things, but it still hurts...
+
+quietcompassionate_visitbiomecompletedacceptbutton=Grief takes time <settlername> :heart:
+
+quietcompassionate_visitbiomecompletedacceptedchat1=Yeah I guess it does...
+quietcompassionate_visitbiomecompletedacceptedchat2=Thank you for listening <name>... :heart:
+quietcompassionate_visitbiomecompletedacceptedchat3=I don't know what I'd do without you :heart:
+
+// Quiet Compassionate place object activity 5 (final)
+quietcompassionate2_placeobject1=I've been thinking <name>...
+quietcompassionate2_placeobject2=I think I'd like to place a <object> in our settlement
+quietcompassionate2_placeobject3=In memory of <friendname>... Their favourite color was always <color>
+quietcompassionate2_placeobject4=Would you help me <name>? I could really use you by my side for this :heart:
+
+quietcompassionate2_acceptplaceobjectbutton=I'll be at your side always, <settlername> :heart:
+quietcompassionate2_declineplaceobjectbutton=Sorry <settlername>, don't have the time right now
+
+quietcompassionate2_placeobjectacceptedchat1=Thank you <name> :heart:
+quietcompassionate2_placeobjectacceptedchat2=You can make a <object> at the <workstation>
+quietcompassionate2_placeobjectacceptedchat3=When you're ready, place it while I'm in your Adventure Party
+quietcompassionate2_placeobjectacceptedchat4=Then I'll say a few words...
+
+quietcompassionate2_craftandplaceobjecttip1=You can make a <object> at the <workstation> <name>
+quietcompassionate2_craftandplaceobjecttip2=When you're ready, place it anywhere in the settlement while I'm in your Adventure Party
+quietcompassionate2_craftandplaceobjecttip3=Then I'll say a few words...
+
+quietcompassionate2_objectcraftedchat=<friendname> would've loved that <object>, <name> :heart:
+
+quietcompassionate2_objectplacedchat1=Thank you <name>...
+quietcompassionate2_objectplacedchat2=<friendname>... Wherever you are now...
+quietcompassionate2_objectplacedchat3=I'm sure you light up the sky...
+quietcompassionate2_objectplacedchat4=With your enchanting... Fire-flight... :heart:
+
+quietcompassionate2_objectplacedoutsidesettlementchat=I'd like you to place the <object> inside our settlement instead <name>
+
+quietcompassionate2_objectplaced1=<name>... I can't even begin to tell you how much you mean to me...
+quietcompassionate2_objectplaced2=When I asked you to take on the <mob> with me, you didn't flinch
+quietcompassionate2_objectplaced3=When I told you about <friendname>, you listened...
+quietcompassionate2_objectplaced4=<name>... If you want me, I'm yours, forever... Okay? :heart:
+
+quietcompassionate2_completeobjectplacedbutton=Forever <settlername> :heart:
+quietcompassionate2_declineobjectplacedbutton=I'm sorry <settlername>...
+
+quietcompassionate2_completeobjectplacedacceptedchat1=Really <name>? You're not kidding right!? :heart:
+quietcompassionate2_completeobjectplacedacceptedchat2=I'll be there for you always <name> :heart:
+quietcompassionate2_completeobjectplacedacceptedchat3=You and me <name>, forever :heart:
+
+quietcompassionate2_completeobjectplaceddeclinedchat1=Oh... Okay... I'm sorry for bringing it up
+quietcompassionate2_completeobjectplaceddeclinedchat2=But I'll be here <name>... If you change your mind
+
+// Quiet Compassionate breakup
+quietcompassionate_suggestbreakupbutton=<settlername>... I think we should talk
+
+quietcompassionate_suggestbreakup1=Of course my flower :heart:
+quietcompassionate_suggestbreakup2=You look sad. Did something happen? Do you want a hug?
+
+quietcompassionate_declinebreakupbutton=No, no, I'm fine... Actually yeah, I could use a hug :heart:
+
+quietcompassionate_acceptedbreakupchat1=Break up..?
+quietcompassionate_acceptedbreakupchat2=But I thought we had something special <name>.
+quietcompassionate_acceptedbreakupchat3=I should've known. In the end, everyone leaves me...
+
+quietcompassionate_declinedbreakupchat1=A hug from one flower to another, coming up!
+quietcompassionate_declinedbreakupchat2=Surely that'll turn your frown, upside down :heart:
+
+// Quiet Compassionate relationship chats
+quietcompassionate1_relationshipchat1=Oh <name>...
+quietcompassionate1_relationshipchat2=You take my breath away, you know that right? :heart:
+
+quietcompassionate2_relationshipchat1=Today is looking gorgeous <name>!
+quietcompassionate2_relationshipchat2=How about you and I sneak away for a little while? :heart:
+
+quietcompassionate3_relationshipchat1=Fireflies and snow hares!
+quietcompassionate3_relationshipchat2=Try to catch them, if you dare!
+quietcompassionate3_relationshipchat3=But if you do, you got the gift!
+quietcompassionate3_relationshipchat4=Cause both of them are mighty swift! :heart:
+
+quietcompassionate_relationshipnight1=Hmm... Oh hey <name> :heart:
+quietcompassionate_relationshipnight2=I was just having the most wonderful dream...
+quietcompassionate_relationshipnight3=Just you... Me... And a <item> :heart:
+
+// Quiet Compassionate relationship chats stat based
+quietcompassionate_evilsprotector1=I'm glad you defeated with the <mob> <name>
+quietcompassionate_evilsprotector2=That mad bat has been terrorizing so many poor villages!
+quietcompassionate_evilsprotector3=I was afraid to go out at night and look for fireflies!
+quietcompassionate_evilsprotector4=But no more :heart:
+
+quietcompassionate_swampguardian1=You defeated <mob> as well now <name>?
+quietcompassionate_swampguardian2=Don't get me wrong, it's impressive! :heart:
+quietcompassionate_swampguardian3=But sometimes I do wonder...
+quietcompassionate_swampguardian4=Was the <mob> even hurting anyone..?
+
+quietcompassionate_cryoqueen1=She calls herself the <mob>, huh?
+quietcompassionate_cryoqueen2=What'd you think she'd name her kid?
+quietcompassionate_cryoqueen3=The soft ice princess? :heart:
+
+quietcompassionate_fallenwizard1=You fought the <mob> <name>?
+quietcompassionate_fallenwizard2=And you won? You promise?
+quietcompassionate_fallenwizard3=Please <name>, promise he won't return... :heart:
+
+quietcompassionate_crystaldragon1=A <mob>!?
+quietcompassionate_crystaldragon2=Oh yeah, that sounds scary, of course!
+quietcompassionate_crystaldragon3=But <name>...
+quietcompassionate_crystaldragon4=It must've had so many pretty colors! :heart:
+
+quietcompassionate_ascendedwizard1=<name>, you promised me the <mob1> wouldn't return!
+quietcompassionate_ascendedwizard2=But then he came back as the <mob2>!?
+quietcompassionate_ascendedwizard3=But you say you exploded and vaporized him into the dark depths of the void this time?
+quietcompassionate_ascendedwizard4=So now he definitely won't come back... Right <name>? :heart:
+
+// Quiet Compassionate kiss chats
+quietcompassionate_kisschat1=Uhh... <name> :heart:
+quietcompassionate_kisschat2=Thanks <name>, I needed that :heart:
+quietcompassionate_kisschat3=You and I forever <name> :heart:
+
+// Quiet Compassionate relationship gift chats
+quietcompassionate_giftfood1=I've been taking up cooking lately <name> :heart:
+quietcompassionate_giftfood2=Perhaps you'd like to sample this <item> for me?
+quietcompassionate_giftfood3=I hope it's as delicious as you are :heart:
+quietcompassionate_giftfoodaccept=<settlername>... You're the best :heart:
+
+quietcompassionate_giftpotion1=I need you to be careful out there <name>... Okay?
+quietcompassionate_giftpotion2=I've been crafting some extra <item> for you
+quietcompassionate_giftpotion3=Don't know what I'd do if I lost you :heart:
+quietcompassionate_giftpotionaccept=Thank you <settlername>, these will keep me safe :heart:
+
+quietcompassionate_giftflower1=You know I love flowers <name> :heart:
+quietcompassionate_giftflower2=And when I made this <item>, I thought of you...
+quietcompassionate_giftflower3=Perhaps you could place it somewhere nice in our settlement? :heart:
+quietcompassionate_giftfloweraccept=Of course <settlername> :heart:
+
+// WEALTH IS ALL ROMANCE PERSONALITY
+// Wealth Is All start dating activity
+wealthisall_suggestdating1=A <item>? That's all you brought?
+wealthisall_suggestdating2=You think that's all it's going to take for me to fall for you?
+wealthisall_suggestdating3=ME? For you? Hah!
+wealthisall_suggestdating4=It's a start though... :heart:
+
+wealthisall_declinedatingbutton=Forget it
+
+wealthisall_starteddatingchat=Drop by later if you're SERIOUS about dating me <name>
+wealthisall_declineddatingchat=Yeah, that's what I thought. Hmpf!
+
+// Wealth Is All give item activity 1
+wealthisall1_giveitem1=Alright <name>, let's see if you're serious about dating me
+wealthisall1_giveitem2=The last time you gave me 1 measly flower...
+wealthisall1_giveitem3=For this relationship to continue, I demand <item>
+wealthisall1_giveitem4=Look for them on the <location>
+wealthisall1_giveitem5=I'll be waiting... :heart:
+
+wealthisall1_acceptgiveitembutton=Here you go <settlername>! <item> as promised!
+wealthisall1_declinegiveitembutton=<item>... Be right back!
+
+wealthisall1_giveitemtip1=I'm still waiting for my <item> <name>
+wealthisall1_giveitemtip2=Look for them on the <location>
+wealthisall1_giveitemtip3=I'll be waiting...
+
+wealthisall1_itemgivenchat=<number1>... <number2>... <amount>! Very good <name>
+
+wealthisall1_itemgiven1=You pass this round <name>
+wealthisall1_itemgiven2=Keep it up and I might take a liking to you... :heart:
+wealthisall1_itemgiven3=Come back in a few days for your next task
+wealthisall1_itemgiven4=Bye now!
+
+wealthisall1_giveitemcompletedbutton=Bye <settlername>! You're amazing!
+
+wealthisall1_giveitemcompletedchat1=I am already aware of this <name>
+wealthisall1_giveitemcompletedchat2=Still appreciated though :heart:
+
+// Wealth Is All give item activity 2
+wealthisall2_giveitem1=Time for round 2 <name>... :heart:
+wealthisall2_giveitem2=Now flowers are great and all, but I think it's time we move on to something a bit more... Sparkling...
+wealthisall2_giveitem3=I'd like you to bring me <item> this time around <name>
+wealthisall2_giveitem4=You can mine them in the <location>
+wealthisall2_giveitem5=Be a darling and see to it yes? :heart:
+
+wealthisall2_acceptgiveitembutton=<item>! Do you like them <settlername>?
+wealthisall2_declinegiveitembutton=Let me grab my pickaxe!
+
+wealthisall2_giveitemtip1=<item> <name>...
+wealthisall2_giveitemtip2=If you don't have them, then why are you here?
+wealthisall2_giveitemtip3=Go look for them in the <location>
+
+wealthisall2_itemgivenchat=Uhhh! Yes, they're so shiny! :heart:
+
+wealthisall2_itemgiven1=Mhmm <name>... It's hard to put in words how much I needed <item>!
+wealthisall2_itemgiven2=Thank you for these... :heart:
+wealthisall2_itemgiven3=I'm starting to think you might be serious about us
+wealthisall2_itemgiven4=Come back soon!
+
+wealthisall2_giveitemcompletedbutton=I already miss you <settlername>!
+
+wealthisall2_giveitemcompletedchat=Join the club <name> :heart:
+
+// Wealth Is All give item activity 3
+wealthisall3_giveitem1=Back for more? About time
+wealthisall3_giveitem2=I want to freshen up my look to something a bit more fitting of my status
+wealthisall3_giveitem3=Bring me a <item>
+wealthisall3_giveitem4=I believe you can craft it at the <workstation>
+wealthisall3_giveitem5=Don't you think it'd look pretty on me <name>? :heart:
+
+wealthisall3_acceptgiveitembutton=Please accept this <item> <settlername>!
+wealthisall3_declinegiveitembutton=I'll get right on that!
+
+wealthisall3_giveitemtip1=Still waiting on my <item> <name>...
+wealthisall3_giveitemtip2=You can put it together at the <workstation>
+wealthisall3_giveitemtip3=Get to it!
+
+wealthisall3_itemgivenchat=Mhmm! I look amazing with this! :heart:
+
+wealthisall3_itemgiven1=Gotta say, this <item> looks quite dashing on me! :heart:
+wealthisall3_itemgiven2=I thought you'd be discouraged by now <name>...
+wealthisall3_itemgiven3=But you just keep bringing whatever I ask for
+wealthisall3_itemgiven4=Surely there has to be a limit, right <name>?
+
+wealthisall3_giveitemcompletedbutton=I'll get you ANYTHING <settlername>!
+
+wealthisall3_giveitemcompletedchat1=Hmm, you would, wouldn't you?
+wealthisall3_giveitemcompletedchat2=We'll see soon enough... :heart:
+
+// Wealth Is All give item activity 4
+wealthisall4_giveitem1=You just can't get enough of me, huh <name>? :heart:
+wealthisall4_giveitem2=At this point, I'm starting to think you'd bring me anything I ask for
+wealthisall4_giveitem3=So let's test that
+wealthisall4_giveitem4=Bring me <item>
+
+wealthisall4_acceptgiveitembutton=<item>! For you <settlername>!
+wealthisall4_declinegiveitembutton=I might need to save up a bit first...
+
+wealthisall4_giveitemtip1=Still waiting for <item> <name>
+wealthisall4_giveitemtip2=I know it's a lot of money, but that's what I'm asking for...
+
+wealthisall4_itemgivenchat=Wow. You really just gave me <item>!?
+
+wealthisall4_itemgiven1=I can't believe you actually just gave me <item> <name>!
+wealthisall4_itemgiven2=I was just been messing around with you at first, but...
+wealthisall4_itemgiven3=This is getting crazy!
+wealthisall4_itemgiven4=Why <name>? Why are you just giving me all this stuff!
+
+wealthisall4_giveitemcompletedbutton=Because you deserve everything <settlername>... :heart:
+
+wealthisall4_giveitemcompletedchat1=Because I deserve everything...
+wealthisall4_giveitemcompletedchat2=You think I deserve...
+wealthisall4_giveitemcompletedchat3=<name>... :heart:
+
+// Wealth Is All visit biome activity 5 (final)
+wealthisall_visitbiome1=Hey <name>... :heart:
+wealthisall_visitbiome2=I'm not going to ask you to give me anything today
+wealthisall_visitbiome3=I'm done with that
+wealthisall_visitbiome4=I thought that maybe we could go for walk together and talk for a bit...
+wealthisall_visitbiome5=You up for that <name>? :heart:
+
+wealthisall_acceptvisitbiomebutton=Always <settlername> :heart:
+wealthisall_declinevisitbiomebutton=Can't right now <settlername>
+
+wealthisall_visitbiomeacceptedchat1=Let's go to the <location> <name>
+wealthisall_visitbiomeacceptedchat2=Somewhere cozy, **near the water** where we won't be disturbed :heart:
+wealthisall_visitbiomeacceptedchat3=And maybe bring something for us to sit on. A **Bench** or some **Chairs** will do
+
+wealthisall_visitbiometip1=Let's go to the <location> <name>
+wealthisall_visitbiometip2=Somewhere cozy, **near the water** where we won't be disturbed :heart:
+wealthisall_visitbiometip3=And maybe bring something for us to sit on. A **Bench** or some **Chairs** will do
+
+wealthisall_visitbiomelocationfound1=I think it's nice here <name>, don't you?
+wealthisall_visitbiomelocationfound2=Did you bring something for us to sit on? A **Bench** or some **Chairs**?
+
+wealthisall_visitbiomesittingdownchat1=Alright. So here goes...
+wealthisall_visitbiomesittingdownchat2=I think I may have asked a bit too much of you these last few weeks
+wealthisall_visitbiomesittingdownchat3=And I'm so sorry about that
+wealthisall_visitbiomesittingdownchat4=I just never had anyone care so much about me <name>... :heart:
+
+wealthisall_visitbiomecompleted1=I hope you can forgive me <name>...
+wealthisall_visitbiomecompleted2=And I want you to know that I've treasured every single thing you've given me :heart:
+wealthisall_visitbiomecompleted3=But most of all, I've treasured all the love you've given me :heart:
+wealthisall_visitbiomecompleted4=And if you still want me after all this...
+wealthisall_visitbiomecompleted5=Then please <name>, let me give you some of that love back :heart:
+
+wealthisall_visitbiomecompletedacceptbutton=I want your love, <settlername> :heart:
+wealthisall_visitbiomecompleteddeclinebutton=No <settlername>, I don't want your love
+
+wealthisall_visitbiomecompletedacceptedchat1=Really? Even after everything I put you through <name>? :heart:
+wealthisall_visitbiomecompletedacceptedchat2=I promise, you won't regret this <name>! :heart:
+wealthisall_visitbiomecompletedacceptedchat3=You're crazy amazing <name>, you know that right? :heart:
+
+wealthisall_visitbiomecompleteddeclinedchat1=Yeah... That makes sense
+wealthisall_visitbiomecompleteddeclinedchat2=I'm sorry <name>, for everything
+wealthisall_visitbiomecompleteddeclinedchat3=If you ever change your mind about me. Let me know...
+
+// Wealth Is All breakup
+wealthisall_suggestbreakupbutton=<settlername>... I think we should talk
+
+wealthisall_suggestbreakup1=What's up <name>? You don't look to happy
+wealthisall_suggestbreakup2=Did I do anything wrong?
+
+wealthisall_declinebreakupbutton=No, of course not. Just been a long day is all
+
+wealthisall_acceptedbreakupchat1=I knew this day would come...
+wealthisall_acceptedbreakupchat2=But that doesn't change how sad it's making me...
+wealthisall_acceptedbreakupchat3=Goodbye <name>...
+
+wealthisall_declinedbreakupchat1=Okay <name>... :heart:
+wealthisall_declinedbreakupchat2=Let me know the next time you're having a long day, so I can make it feel a bit shorter, okay? :heart:
+
+// Wealth Is All relationship chats
+wealthisall1_relationshipchat1=So uhm, you got more gifts for me <name>?
+wealthisall1_relationshipchat2=Kidding!
+wealthisall1_relationshipchat3=You might have some coming your way though, cutie :heart:
+
+wealthisall2_relationshipchat1=I demand a hug from you <name>! Right now!
+wealthisall2_relationshipchat2=A nice big cozy bear hug... Mhmm! :heart:
+
+wealthisall3_relationshipchat1=This day is turning out alright <name>...
+wealthisall3_relationshipchat2=Now that you're in it :heart:
+
+wealthisall_relationshipnight1=Mhmm... 5 more minutes...
+wealthisall_relationshipnight2=Better yet <name>, 5 more hours...
+wealthisall_relationshipnight3=How about you snuggle up with me, instead of waking me up, huh? :heart:
+
+// Wealth Is All relationship chats stat based
+wealthisall_chieftain1=Yeah okay, so you defeated the <mob>, big whoop...
+wealthisall_chieftain2=But did he drop any juicy loot <name>!
+wealthisall_chieftain3=Something that might look good on me? :heart:
+
+wealthisall_reaper1=The <mob>, huh?
+wealthisall_reaper2=After the beating you gave, I guess he's more like...
+wealthisall_reaper3="**The RIP**!"
+wealthisall_reaper4=You know, cause you sorta killed him... :heart:
+
+wealthisall_sageandgrit1=Oh yeah, I did hear of the legendary <mob>...
+wealthisall_sageandgrit2=Always thought they were just a kids story
+wealthisall_sageandgrit3=But then again, I thought the same about taxes!
+
+wealthisall_fallenwizard1=Just comes to show <name>... :heart:
+wealthisall_fallenwizard2=When you knock them down, they get up again!
+wealthisall_fallenwizard3=At least that seemed to be the case with the <mob>
+
+wealthisall_motherslime1=I'm sorry <name>, are you telling me that...
+wealthisall_motherslime2=You fought a humongous blob of slime named the <mob>?
+wealthisall_motherslime3=Ewww...
+
+wealthisall_ascendedwizard1=So first he was void... Then he was fallen...
+wealthisall_ascendedwizard2=And now you say he was an <mob>?
+wealthisall_ascendedwizard3=This guy is going through a serious personality crisis if you ask me!
+
+// Wealth Is All kiss chats
+wealthisall_kisschat1=You're perfect <name> :heart:
+wealthisall_kisschat2=The best gift, a kiss from you :heart:
+wealthisall_kisschat3=I missed you <name> :heart:
+
+// Wealth Is All relationship gift chats
+wealthisall_giftfood1=I'm no chef <name>, but you gotta try this <item> I cooked up!
+wealthisall_giftfood2=If you you love it as much as I love you...
+wealthisall_giftfood3=Then you're in for quite a meal :heart:
+wealthisall_giftfoodaccept=Can't wait <settlername> :heart:
+
+wealthisall_giftpotion1=You can never have too many potions <name>, my one and all :heart:
+wealthisall_giftpotion2=So please take some of these <item> with you
+wealthisall_giftpotion3=You deserve every single one :heart:
+wealthisall_giftpotionaccept=You're the best <settlername> :heart:
+
+wealthisall_giftcoins1=I know this doesn't even begin to cover all the **Coins** you gave me a while back <name>
+wealthisall_giftcoins2=But here's <item> that I've been saving up, ever since we started dating
+wealthisall_giftcoins3=Don't worry, I'll have more coming your way soon enough my love :heart:
+wealthisall_giftcoinsaccept=<settlername>... You didn't have to... :heart:
+
 [jobs]
 settlerincapable=Settler is incapable of this job
 jobrange=Work range: <range> tiles
-incpriority=Increase priority
-decpriority=Decrease priority
 haulingname=Hauling
 haulingtip=Moving and picking up items
 craftingname=Crafting
@@ -4519,8 +6129,8 @@ huntingtip=Hunting critters for food
 
 [activities]
 unknown=Unknown
+unknownactivity=Unknown activity
 idle=Idle
-onbreak=Taking a break
 onstrike=On strike
 inventoryfull=Has a full inventory
 hunting=Hunting <target>
@@ -4550,6 +6160,13 @@ hiding=Hiding
 onmission=On a mission
 onmissiontype=On <mission>
 goingmission=Going on <mission>
+gazing=Gazing
+enjoyingart=Enjoying art
+listeningtomusic=Listening to music
+chatting=Chatting with <target>
+relaxing=Relaxing at <target>
+jogging=Jogging
+usingcollector=Using <item> for <personality>
 downed=Downed
 
 [ui]
@@ -4587,6 +6204,8 @@ expressionsad=Sad
 expressionsurprised=Surprised
 expressionangry=Angry
 expressionbored=Bored
+expressionhappy=Happy
+expressionblush=Blush
 filteronlycraftable=Only craftable
 changefilters=CHANGE FILTERS
 craftfilters=Crafting filters
@@ -4686,6 +6305,7 @@ settings=Settings
 mods=Mods
 credits=Credits
 exit=Exit
+subscribenewsletter=Subscribe to Newsletter
 join=Join <name>
 joinfriend=Join a friend
 nofriendsingame=No friends in game
@@ -5060,6 +6680,7 @@ buffpotionpolicyincombat=Only in combat
 buffpotionpolicysameasme=Same potions as me
 buffpotionpolicyonhotkey=When I use buff hotkey
 buffpotionpolicynever=Never use
+storyobjectives=Story objectives
 quests=Quests
 noquests=You do not have any active quests
 tracknewquests=Track new quests
@@ -5089,6 +6710,8 @@ elderquestdone=Great job! Complete it to get your reward
 eldernotierquest=I don't have any more quests like that
 eldernotready=I am not ready for that
 elderskipquesttime=Cannot skip quest at this time
+elderobjectiveintro=Here's your reward!
+elderobjectiveclaim=Claim reward
 eldertips=I'm looking for some tips
 eldernexttip=Next
 elderprevtip=Previous
@@ -5133,8 +6756,7 @@ eldersettlementstip=Settlements are player-made villages. To start one, craft a 
 demoniccrafting=Demonic crafting
 tpislandrange=Island range: <range>
 tpdestinations=Destinations
-traderwantbuy=I want to buy something
-traderwantsell=I want to sell something
+traderwantshop=I want to look at your shop
 settlermood=How are you feeling?
 settlerjoinme=Will you join my settlement?
 settlerjoinparty=Join my adventure party
@@ -5142,10 +6764,10 @@ settlerjoinpartynothappy=I don't want to join you because I am unhappy
 settlerleaveparty=Leave my adventure party
 settlerreturntosettlement=Return to the settlement now
 settlergoodbye=Goodbye
-settlerrecruitcost=I will join your settlement for <cost>
+settlerrecruitcostintro=I will join your settlement for these items
 settlerrecruitfree=I would love to join your settlement!
 settlerrevivefree=This settler is knocked down and can be helped back up
-settlerrevivecost=This settler is knocked down and can be helped back up with <cost>
+settlerrevivecostintro=This settler is knocked down and can be helped back up with these items
 settlerrevivebutton=Get back up
 settlerrecruitnotfound=Could not find settler
 settlerrecruitnotpay=Could not pay for recruitment
@@ -5155,7 +6777,7 @@ settlernorecruit=I want to stay here for now
 settlerwhatcanyoudo=What can you do?
 settlericando=I can help around your settlement with <list>
 settlericanadventure=And I can join you on adventure parties
-settlercarryitems=I am carrying these items
+settlerinventory=Inventory
 settlerreceiveitems=Take items
 settlerchangeequipment=Let's look at your equipment
 settlershowmodifiers=Show modifiers
@@ -5163,16 +6785,12 @@ settlercantuseitem=Settler does not know how to use that
 settlerselfmanagequipment=Manage equipment themself by using settlement storage
 settlerfilterequipment=Filter allowed equipment
 settlerpreferarmorsets=Prefer complete armor sets
-settlerchangework=Let's look at how you work
-settlerchangewhat=What do you want to change?
-settlersetworkpriority=I want to change your work priorities
-settlersetdiet=I want to change your diet
 enchainedhelpme=Help me get these chains off!
 magewantenchant=I am looking to enchant an item
 mageenchant=Enchant
 mageconfirm=Enchant!
 mageenchanttip=Put item in slot and press enchant to get a random enchantment or curse!
-mageenchantbiastip=Higher happiness increases the odds of better enchantments
+mageenchantbiastip2=Higher happiness and quality of life increases the odds of better enchantments
 magecost=Cost:
 pirategiveup=Ok, you've defeated me. Now get me out of here!
 stylistwantchange=I am looking for a change in style
@@ -5193,6 +6811,7 @@ brokerconfirmsell=Sell items and lose <value> potential profit?
 tradershippingmissing=There is no point for me to work here right now
 traderwanttrading=I want to send you on a trading mission
 traderstarttrading=Start mission
+traderexpcomplete=These are my profits from the trading mission
 explorerexpeditions=I want to send you on an expedition
 explorerselectexp=Which expedition do you want me to go on?
 explorershowmore=Show me more expeditions
@@ -5276,6 +6895,18 @@ inventorylootall=Loot all from storage
 inventorytransferall=Transfer all to storage
 inventorytransferallinfo=Will transfer all items to storage. Use <key> to lock items from being transferred
 inventorysort=Sort inventory
+commandtypeunknowns=Unknowns
+commandtypesettlers=Settlers
+commandcountselected=<count> <type> selected
+commandcannot=You cannot command this settler
+commandcommands=Commands
+settlerhappinessbar=Happiness
+settlerhungerbar=Hunger
+settlerhungerbartip1=Settlers will eat food from the settlement storage based on their diet and restrict zone settings. If they cannot find food, they will get hungry and eventually leave the settlement.
+settlerhungerbartip2=Providing different kinds of food to your settlers will increase their happiness.
+settlerrecreationbar=Recreation
+settlerrecreationbartip1=Settlers will do recreation tasks to stay happy. If they cannot satisfy their recreation needs, they will get unhappy and strike or go down in quality of life.
+settlerrecreationbartip2=Settlers get bored of doing the same recreation task repeatedly as their quality of life increases. It is therefore important to provide a variety of recreation options.
 settlementcouldnotfind=Could not find settlement
 settlementnone=Could not find settlement flag
 settlementman=Settlement manager
@@ -5302,7 +6933,6 @@ settlementdisband=Disband settlement
 settlementdisbandwarning=Disbanding the settlement will remove all settlers, their equipment and settings permanently
 setllementdisbandconfirm=Are you sure you want to disband?
 settlementsettlers=Settlers
-settlementoutsidesettlers=+<count> not at settlement
 settlementlockbed=Lock bed from settlers
 settlementselect=Select settlement
 settlementselecthelp=No settlements found\nStart your own settlement or join a team with settlements
@@ -5335,7 +6965,6 @@ settlementorselectgroup=Or select all settlers in a group:
 settlementcommandall=Select all settlers
 settlementcommandclearall=Clear all orders
 settlementcommandselect=Select settlers
-settlementcommandselected=<count> settlers selected
 settlementchangegroup=Change assigned group
 settlementgroupremovesettlers=Click to remove settlers from group
 settlementgroupaddsettlers=Click to add settlers to group
@@ -5361,7 +6990,6 @@ settlementareanew=Create new area
 settlementareadefname=Area <number>
 settlementdiets=Diets
 settlementchangediet=Change diet
-settlementnoeatingsettlers=You have no eating settlers
 settlementassignwork=Assign work
 settlementaddstorage=Add inventory to settlement storage
 settlementnotinventory=Must be an inventory
@@ -5395,6 +7023,7 @@ settlementassignhusbandry=Assign husbandry zone
 settlementhusbandrytip=Animal keepers will milk and shear animals in husbandry zones
 settlementhusbandryzone=Husbandry zone
 settlementhusbandryzonedefname=Husbandry zone <number>
+settlementexit=Close settlement menu
 maxanimalsbeforeslaughter=Slaughter when the animal count reaches:
 slaughtergenderratio=Desired gender ratio:
 maleratio=<percent> male
@@ -5404,7 +7033,6 @@ settlementfertilizetip=Farmers will fertilize crops in fertilize zones
 settlementfertilizezone=Fertilize zone
 settlementfertilizezonedefname=Fertilize zone <number>
 settlementworkpriorities=Work priorities
-settlementnoworkingsettlers=You have no working settlers
 prioritytop=Top priority
 priorityhigher=Higher priority
 priorityhigh=High priority
@@ -5471,8 +7099,8 @@ notificationfullinvnote=Settlers will stop working when their inventory is full
 notificationnobed=Settlers have no assigned bed
 notificationnobedassign=Place a bed for your settlers and assign them to it to keep them happy
 notificationbedhelp=You can craft a bed in the [item=carpentersbench] Carpenters Bench. Placed beds will automatically get used by settlers within a minute, but you also can manually assign it in the settlement settlers menu
-notificationunhappy=Settlers are unhappy
-notificationunhappynote=Unhappy settlers will go on strike and work less
+notificationlowqol=Settlers have low quality of life
+notificationlowqolnote=Low quality of life settlers may go on strike and work less
 notificationunhappyhelp=Talk to your settlers and ask them how they are feeling to check what you can improve
 notificationnoflag=Settlement has no flag
 notificationnoflagnote=Settlements without a flag will be automatically disbanded after a period of 2 hours
@@ -5538,6 +7166,7 @@ musicpaused=Paused at <name>
 cartographerselect=Select a player to share your map discoveries with
 cartographerselectnone=No one else is looking at this table
 cartographergotfrom=Received map discoveries from <name>
+cartographergotto=Sent map discoveries to <name>
 homestonenosettlement=Could not find Homestone settlement
 emptywaystones=Empty Waystone slots: <count>
 waystoneempty=Empty slot
@@ -5601,6 +7230,7 @@ salvageplaceitems=Put in any tier 1 upgraded item to salvage
 itemnotsalvageable=Item is not salvageable
 salvageresults=Results:
 salvagebutton=Salvage
+
 
 // Creative
 creativeplaceablestab=Placeables
@@ -5729,6 +7359,30 @@ quickstacktipinfo=Will quick stack inventory items to nearby storage. Use <key> 
 sorttip=Sort inventory
 sorttipinfo=Use <key> to lock items from being sorted
 
+// Misc
+thecoredamagetaken=Looks like this Core is missing its Keeper...
+valheimhuginspeak1=Welcome to the tenth world, warrior
+valheimhuginspeak2=I am Hugin, sent here to guide you in your travels
+valheimhuginspeak3=Wait... I might have been misplaced...
+praisethemoonspeak1=Praise the moon, my child!
+praisethemoonspeak2=And bask in the brilliance of its light!
+praisethemoonspeakfailed=Nothing happens...
+praisethemooninteracttip1=To gaze at the sun
+praisethemooninteracttip2=is but a pale comparison
+praisethemooninteracttip3=to that of the moon.
+praisethemooninteracttip4=For can there be true light
+praisethemooninteracttip5=without the dark?
+freyastatueplaque1="Freya"
+freyastatueplaque2=Quality Assurance Supervisor
+freyastatueplaque3=at Fair Games
+zithastatueplaque1="Zitha"
+zithastatueplaque2=Quality Assurance Director
+zithastatueplaque3=at Fair Games
+freyaandzithastatueplaque1="Zitha" and "Freya"
+freyaandzithastatueplaque2=Quality Assurance Team
+freyaandzithastatueplaque3=at Fair Games
+freyaandzithastatueplaque4=and best friends in real life
+
 [quests]
 complete=Complete
 incomplete=Incomplete
@@ -5741,61 +7395,83 @@ shareresultplural=Shared <quest> with <count> people
 abandon=Abandon
 abandonconfirm=Abandon quest?
 genericquest=Quest
-settlementquest=<settlement> quest
-handinelder=Talk to the Elder at <settlement> to hand in
+claimrewardelder=Talk to a settlement Elder to claim your reward!
 reward=Reward: <reward>
 killmob=Kill <mob>
+defeatmobnew=Defeat <mobicon> <mob>
 completeincursiontier=Complete a Tier <tier> Incursion or higher
 deliveritem=Deliver <item>
-evilsprotectortip=Summoned at night by using a Mysterious Portal
-queenspidertip=Summoned in snow caves by destroying or using a Royal Egg
-voidwizardtip=Fought on the second floor of the void dungeon
-chieftaintip=Fought in the Plains caves by using Bone Offering on the bone pedestal
-swampguardiantip=Summoned in swamp caves by using a Spiked Fossil
-ancientvulturetip=Summoned in desert caves by destroying or using an Ancient Statue
-piratecaptaintip=Found in Pirate Villages
-reapertip=Summoned in forest deep caves by using a Shadow Gate
-cryoqueentip=Summoned in deep snow caves by using an Ice Crown
-thecursedcronetip=Fought in the deep plains caves game arena
-pestwardentip=Summoned in deep swamp caves by using Decaying Leaf
-sageandgrittip=Summoned in deep desert caves by using Dragon Souls on the temple pedestal
-fallenwizardtip=Fought on the second floor of the deep desert temple
-incursionsfallenaltartip=Craft a Fallen Altar and insert a Gateway Tablet to access Incursions
-ascendedwizardtip=Obtain Ascended Shards via the Incursion Perk Tree to craft the Ascended Incursion Tablet at the Fallen Workstation
 
-[tutorials]
-treestorch=Follow instruction arrows to learn how to chop a tree and craft a torch.
-hittree=Walk close and hit tree with axe by pressing <key>
-findtree=Find a tree to chop down
+[objectives]
+gettingstartedtitle=Getting started
+choptree=Chop down a <treeicon> Tree using a <woodaxe>
+hittree=Walk close and hit a <treeicon> Tree with an <axeicon> Axe by pressing <key>
+findtree=Find a <treeicon> Tree to chop down
+invcrafttorch=Open your inventory and craft a <torch>
 openinv=Press <key> to open inventory
-crafttorch=Craft a torch in crafting menu
-craftwork=Find or craft a workstation from inventory crafting (requires 10[item=pinelog]) and place it down with <key1>. Then use it by pressing <key2> on it.
-craftpick=Find and craft a wood pickaxe in the workstation (requires 8[item=pinelog]).
-talkelder=Talk to the elder to learn about the game.
-elderwalk=Walk close and talk to the elder with <key>
-talkelderstop=Walk away or press <key> to stop talking to the elder when you are done.
-findore=Find some ore underground to mine. You can place torches to light up the area.
-gounder=Go underground to find ore
-craftladder=Craft a ladder in inventory crafting, place and use it to go underground.
-craftladderfloat=Craft a ladder from your inventory crafting and place it with <key>
-useladder=Go to and use the ladder to go underground.
-useladderfloat=Walk close and press <key> on ladder to go underground
-mineore=Mine ore by pressing <key> with your pickaxe in hand
-findorefloat=Walk or mine around to find some ore
-ores=Ores are used to craft bars, which are used in many recipes throughout the game.
-journal=You can find all kinds ores, monsters and treasures in caves.\n\nTo find out more about caves and biomes, open the adventure journal to the right of your inventory.
+crafttorch=Craft a <torch> in the crafting menu
+elderclaimreward=Go to the <elder> to claim your reward!
+elderwalk=Walk close and talk to the <elder> with <key>
+equippingtrinkettitle=Equip a trinket
+obtaintrinket=Obtain <trinket> from the <workstation> or the <elder>
+equiptrinket=Equip <trinket> by moving the trinket to your Trinket Ability Slot
+equiptrinkethere=Equip your trinket here
+usetrinket=Use <trinket> to sprint, by holding down <key> and moving
+craftingpicktitle=Crafting a <pickaxe>
+obtainlogs=Obtain <count> Logs
+interactworkstation=Craft a <workstation> from your inventory, place it down with <key1> and interact with it using <key2>
+craftpickaxe=Craft a <pickaxe> in the <workstation> (requires <logs>)
+gominingtitle=Time to go mining
+craftanduseladder=Craft a <caveladder> in your inventory, place it and use it to go underground
+mineoreobj=Find and mine <count> <oreicon> Ore. You can place <torchicon> Torches with <key> to light up the area
+mineoremarker=Mine <oreicon> Ore by pressing <key> with your <pickaxeicon> Pickaxe selected
+minestone=Mine <count> <stone> total for a <forge>
+craftforge=Craft a <forge> in the <workstation>. Place it down and use it to smelt <oreicon> Ores into <baricon> Bars
+waitforge=Smelt your <oreicon> Ores in the <forge> and collect the <baricon> Bars when it's done
+forgenote=Forges require fuel. Place <logicon> Logs into the <forge> as fuel on the left side when interacting with it
+startsettlementttile=Starting a Settlement
+findflag=Find a <settlementflag> in the <storagebox> inside the <eldericon> Elders house and place it down, or craft one in the <workstation>
+opensettlement=Open the settlement menu by interacting with the <settlementflag> or pressing <key> while in a settlement
+takeflag=Take <settlementflag> from the <storagebox>
+useflag=Press <key> to use <settlementflag>
+settlementtip1=The settlement menu is where you can manage your settlers.
+settlementtip2=Settlers help you gather resources and can join you on adventures.
+settlementtip3=When you're done looking around, press <key> to close the settlement menu again.
+exploringtitle=Exploring Necesse
+openjournalobj=Open your Adventure Journal to see what you've discovered so far
 openjournal=Click here to open the adventure journal
-travel=If you travel out in the water to the edge of the map, you will be able to go to other islands. Islands have different biomes and features like dungeons and villages. Press <key> to browse world map.
-settlement=Go to the surface and start your settlement by placing a settlement flag. You can find one in the starter house chest or craft one in a workstation. Interact with the flag, or press <key> to open the settlement menu.
-takeflag=Take settlement flag from the chest
-useflag=Press <key> to use settlement flag
-settlementtip=The settlement menu is where you can manage your settlers.\n\nSettlers help you gather resources and can join you on adventures.
-takeelderquest=It looks like the elder has a quest for you. Go pick it up!
-elderquestinfo=Elder quests are major objectives that you can work toward.\n\nBut feel free to discover the world at your own pace.
-tutorialdone=Thank you for playing and good luck exploring!
-endtutorial=End tutorial
-next=Next
-skip=Skip
+completechallenge=Complete any of the challenges in the journal's Forest Cave entry
+majorobjective=Major Objective
+startcompleted1=Congratulations, you've completed the first tutorial objectives in Necesse!
+startcompleted2=Next up is a major objective, which will often take time to prepare for and complete.
+startcompleted3=Feel free to discover the world of Necesse at your own pace!
+recruitsettlertitle=Recruiting settlers
+recruitsettler=Recruit a <settlericon> Settler visiting your settlement or recruit one from a village
+nearbysettler=Recruit a <settlericon> Settler
+assignbedtosettler=Assign a <bedicon> Bed to your new <settlericon> Settler
+opensettlementmenu=Press <key> to open the settlement menu
+clickonsettlersbutton=Click on the Settlers button
+assigntobed=Press Assign settler to bed
+addchesttosettlementstorage=Add a <chesticons> Chest to settlement storage
+selectachest=Interact with a <chesticons> Chest
+addtosettlementstorage=Add <chesticons> Chest to settlement storage
+putfoodinsettlementstorage=Put <foodicons> Food in a settlement storage Chest
+defeatmob=Defeat <mob>
+evilsprotectortip=Summoned at night by using a <mysteriousportal>
+queenspidertip=Summoned in Snow Caves by destroying or using a <royalegg>
+voidwizardtip=Fought on the second floor of the Void Dungeon. You can find a Dungeon by crafting a <dungeonmap>
+chieftaintip=Fought in the Plains Caves by using <boneoffering> on the <chieftainspedestal>
+swampguardiantip=Summoned in Swamp Caves by using a <spikedfossil>
+ancientvulturetip=Summoned in Desert Caves by destroying or using an <ancientstatue>
+piratecaptaintip=Found in Pirate Villages. You can find a Pirate Village by crafting a <piratemap>
+reapertip=Summoned in Deep Forest Caves by using a <shadowgate>
+cryoqueentip=Summoned in Deep Snow Caves by using an <icecrown>
+thecursedcronetip=Fought in the Deep Plains Caves Game Arena
+pestwardentip=Summoned in Deep Swamp Caves by using <decayingleaf>
+sageandgrittip=Summoned in Deep Desert Caves by using <dragonsouls> on the <templepedestal>
+fallenwizardtip=Fought on the second floor of the Deep Desert Temple
+incursionsfallenaltartip=Craft a <fallenaltar> Fallen Altar and insert a <gatewaytablet> to access Incursions
+ascendedwizardtip=Obtain <ascendedshard> via the Incursion Perk Tree to craft the Ascended Incursion Tablet at the <fallenworkstation>
 
 [settingsui]
 front=Settings
@@ -6109,6 +7785,7 @@ spidercastletabletcandrop=The Empress awaits...
 sunarenatabletcandrop=Dawn arises!
 moonarenatabletcandrop=Darkness falls...
 crystalhollowtabletcandrop=Crystalline beauty...
+scrapyardtabletcandrop=Feed the Machine...
 cavelingscanspawn=Caveling Invasion
 cavelingportalcanspawn=Interdimensional Cavelings!
 cavelingsbetterloot=Juicy Cavelings!
@@ -6121,7 +7798,7 @@ chancetominefullcluster=One good smack!
 alchemyshardsdroppotions=Waiter? There's a potion in my ore!
 fivetimesmorecoinschance=Let's go lucky number 5!
 rescuesettlerreward=A Second Chance
-rescuemoresettlersreward=A New Hope
+rescuedsettlermorepersonalities=Feeling Hopeful
 bossbringsinvaders=Unlikely allies
 doublebosschance=One Becomes TWO!
 modifiersaffectenemiesperk=A taste of your own medicine!
@@ -6138,6 +7815,8 @@ enablebannerofwar=War Never Changes
 cratesdropaltardust=There's room for a little more...
 mobsexplodeupgradeshards=I guess it... Ate the shards?
 essenceveinscanspawn=IT'S IN THE WALLS!
+biggerarena=Are you not entertained?
+allbannerbuffs=All the buffs!
 
 // Incursion Perk Descriptions
 mobsdropaltardustdesc=Enemies killed in Incursions have a chance to drop Altar Dust
@@ -6163,11 +7842,13 @@ spidercastletabletcandropdesc=Spider Castle Tablets can now drop in Tier <tier> 
 sunarenatabletcandropdesc=Sun Arena Tablets can now drop in Tier <tier> Incursions or higher
 moonarenatabletcandropdesc=Moon Arena Tablets can now drop in Tier <tier> Incursions or higher
 crystalhollowtabletcandropdesc=Crystal Hollow Tablets can now drop in Tier <tier> Incursions or higher
+scrapyardtabletcandropdesc=Scrapyard Tablets can now drop in Tier <tier> Incursions or higher
 cavelingscanspawndesc=Incursions now have a chance to spawn Cavelings carrying Altar Dust, Upgrade Shards or Alchemy Shards
 cavelingportalcanspawndesc=Incursions now have a chance to spawn a Caveling Portal from another dimension
 cavelingsbetterlootdesc=Cavelings in your Incursions now also have a chance to drop random Essences
 ascendedshardsdropdesc=Tier 8 or higher Incursion bosses now drop Ascended Shards
-petsrewarddesc=Tablets dropped in your Incursion now have a chance to have Pets as their Tablet Reward
+petsrewarddesc1=Tablets dropped in your Incursion now have a chance to have Pets as their Tablet Reward
+petsrewarddesc2=Including some new and exclusive Incursion pets!
 morecoinsrewarddesc=Tablets dropped in your Incursions are now more likely to have Coins as their Tablet Reward
 enchantsrewarddesc=Tablets dropped in your Incursion now have a chance to have Enchanting Scrolls as their Tablet Reward
 doubletabletchancedropdesc=Tablets dropped in your Incursion now have a chance to drop an additional Tablet
@@ -6175,7 +7856,7 @@ chancetominefullclusterdesc=You now have a chance when mining Alchemy and Upgrad
 alchemyshardsdroppotionsdesc=Mining Alchemy Shards has a chance to drop a random greater potion
 fivetimesmorecoinschancedesc=Tablets with Coins as their Tablet Reward has a low chance to drop 5 times as many coins
 rescuesettlerrewarddesc=Tablets dropped in your Incursions now have a chance to have a Settler as their Tablet Reward
-rescuemoresettlersrewarddesc=Settler rewards now have a chance to spawn up to 3 settlers instead of just one settler
+rescuedsettlermorepersonalitiesdesc=Settlers from Tablet Rewards have more Personalities than regular Settlers
 bossbringsinvadersdesc=Incursion Bosses are now accompanied by random invaders
 doublebosschancedesc=Incursion Bosses now a have a chance to summon another Incursion Boss to aid them when reaching low health
 modifiersaffectenemiesperkdesc=Incursion Modifiers now affect enemies as well
@@ -6191,7 +7872,9 @@ increasedbosslootdesc=Tablet Rewards are dropped twice at the end of your Incurs
 enablebannerofwardesc=Banners of War can now be placed down inside Incursions. If you know... You KNOW...
 cratesdropaltardustdesc=Crates found in Incursion now have a chance to drop Altar Dust
 mobsexplodeupgradeshardsdesc=Enemies killed in Incursions have a chance to EXPLODE on death, dropping a lot of Upgrade Shards!
-essenceveinscanspawndesc=Incursions now also contain Essence veins that can be mined for random Essences
+essenceveinscanspawnnewdesc=Incursions now also contain Essence veins that can be mined and drop Essences from the Incursion you are in
+biggerarenadesc=Increases the size of the initial arena in Incursions and lights it up with torches
+allbannerbuffsdesc=Players in Incursions are now always buffed by Banner of Damage, Speed, Defense and Summon Speed
 
 perkcost=Cost:
 buyperk=Buy this perk
@@ -6268,6 +7951,7 @@ spidercastleincursion=Spider Castle Incursion
 sunarenaincursion=Sun Arena Incursion
 moonarenaincursion=Moon Arena Incursion
 crystalhollowincursion=Crystal Hollow Incursion
+scrapyardincursion=Scrapyard Incursion
 
 claimchallenge=Claim
 challengeclaimed=Claimed
@@ -6385,6 +8069,7 @@ bossawoke=§b<name> has awoken!
 bossdefeat=§b<name> has been defeated!
 bossapproaching=§bA powerful enemy is approaching...
 bossportal=§bA portal has appeared at the entrance
+bossportalnorth=§bA portal has appeared north in the incursion
 bossattempts=Attempts remaining: <number>
 epescape=§bEvil's Protector has escaped because of the light!
 bossmissingitem=§aMissing activate item
@@ -6393,6 +8078,7 @@ cannotsummonhere=§aCannot summon this here
 cannotsummoninincursion=§aCannot summon in incursion
 cannotsummoncomplete=§aIncursion already complete
 cannotsummonnow=§aCannot summon this now
+hastobeinpiratevillage=§aYou can only use this in a Pirate Village
 settlerhungrywarning1=§b<settler> will leave <settlement> if they are hungry for too long
 settlerhungrywarning2=§b<settler> will leave <settlement> soon because they are hungry
 settlerhungryleft=§9<settler> left <settlement> because they were hungry
@@ -6527,3 +8213,19 @@ workinprogress=Work in progress
 workinprogresstip=This will come in a future update
 upgradestationwiptip=Upgraded gear may not be balanced correctly and larger changes to upgrade system will likely happen in future updates
 justupdated=JUST UPDATED!
+coloryellow=Yellow
+colorgreen=Green
+colorblue=Blue
+yourmailhere=Your email address
+subscribebutton=Subscribe
+thankyouforsigningup=Thank you for signing up!
+newsletter1=Hi! I'm Fair. The Creator of Necesse.
+newsletter2=If you sign up to our Newsletter you'll receive news, giveaways, exclusive behind the scenes content and a chance to try out new updates before anyone else!
+newsletter3=Thank you for playing and supporting Necesse :heart:
+newsletterprivacypolicy1=By subscribing you accept Fair Games can send you email marketing that contains updates, giveaways and alike.
+newsletterprivacypolicy2=You accept our Privacy Policy when you subscribe. You can unsubscribe at any time.
+newsletterprivacypolicylink=Open Privacy Policy
+invalidemail=Please put in a valid email address
+newsletterunknownerror=Unknown error signing up
+newslettersignupfail=Could not sign up, please try again!
+newslettercodeerror=Error signing up: <code>
