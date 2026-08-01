@@ -15,7 +15,7 @@
 [lang]
 localname=Français
 engname=French
-credits=Par :\n- Doum\n- turtlebyturtle\n- sad0\n- VizardAlpha\n- mosselini1\n- 1Poireau\n- Olympe\n- Nicoprazz\n- Eleazar\n- Seynox\n- Damlinn\n- Big (@mrnougat)\n- xXLASCAREXx
+credits=Par :\n- Doum\n- turtlebyturtle\n- sad0\n- VizardAlpha\n- mosselini1\n- 1Poireau\n- Olympe\n- Nicoprazz\n- Eleazar\n- Seynox\n- Damlinn\n- Big (@mrnougat)\n- xXLASCAREXx\n- Kermitderogg
 
 // Symboles supplémentaires qui seront chargés dans la police lors de l'utilisation de cette langue
 // Ci-dessous se trouve un exemple de phonèmes, graphèmes, ligatures ou diacritiques liés à la typographie
@@ -2436,12 +2436,12 @@ soldierhelmetset=Obtenez un bonus de frénésie cumulable lorsque vous tuez un e
 soldiercapset=Les projectiles des armes à distance\nricochent sur les ennemis proches\nlorsqu'ils meurent.
 thiefset1=Vous avez une chance de voler\ndes pièces aux ennemis lorsque\nvous les touchez.
 thiefset2=Appuyez sur [input=setability] pour lancer une\npoignée de pièces sur les ennemis.
-makeshiftset=Infliger ou subir des dégâts peut accumuler des charges de "Bricolage rapide"
-makeshiftmeleeset=Appuyez sur [input=setability] pour consommer une charge de "Bricolage rapide" et foncer en avant, infligeant des dégâts aux ennemis sur votre passage.
-makeshiftrangedset=Appuyez sur [input=setability] pour consommer une charge de "Bricolage rapide" et déployer une tourelle temporaire qui tire sur les ennemis à proximité.
-makeshiftmagicset=Appuyez sur [input=setability] pour consommer une charge de "Bricolage rapide" et déployer une tourelle voltaïque temporaire qui électrocute les ennemis à proximité ainsi que les autres tourelles voltaïques.
-makeshiftsummonset1=Appuyez sur [input=setability] pour consommer toutes vos charges de "Bricolage rapide" et invoquer un robo-pal pour une courte durée.
-makeshiftsummonset2=Le robo-pal gagne en puissance pour chaque charge de "Bricolage rapide" consommée (5 max) et consomme instantanément les nouvelles charges.
+makeshiftset=Infliger ou subir des dégâts peut accumuler des charges de "Bricolage express"
+makeshiftmeleeset=Appuyez sur [input=setability] pour consommer une charge de "Bricolage express" et foncer en avant, infligeant des dégâts aux ennemis sur votre passage.
+makeshiftrangedset=Appuyez sur [input=setability] pour consommer une charge de "Bricolage express" et déployer une tourelle temporaire qui tire sur les ennemis à proximité.
+makeshiftmagicset=Appuyez sur [input=setability] pour consommer une charge de "Bricolage express" et déployer une tourelle voltaïque temporaire qui électrocute les ennemis à proximité ainsi que les autres tourelles voltaïques.
+makeshiftsummonset1=Appuyez sur [input=setability] pour consommer toutes vos charges de "Bricolage express" et invoquer un robo-pal pour une courte durée.
+makeshiftsummonset2=Le robo-pal gagne en puissance pour chaque charge de "Bricolage express" consommée (5 max) et consomme instantanément les nouvelles charges.
 supportersetwarning=Ne peut être équipé que par les propriétaires du DLC Necesse - Supporter Pack
 supporterset=Merci de soutenir Necesse <3
 stealthbaskettip=Restez parfaitement immobile pendant 2 secondes pour devenir invisible !
@@ -3493,7 +3493,7 @@ traveldistance=Distance de voyage <mod>
 biomeviewdistance=Distance de vue du biome <mod>
 
 knockbackin=Recul subi <mod>%
-MISSING_TRANSLATION:knockbackimun=Knockback immunity
+knockbackimun=Immunité au recul
 fishingpower=Puissance de pêche <mod>%
 fishinglines=Nombre de lignes de pêche <mod>
 
@@ -3865,8 +3865,8 @@ woodboat=Bateau en bois
 runeboundboat=Bateau runique
 minecart=Wagonnet
 sawblade=Lame de scie
-lifeessencefollower=Adepte de l'essence de vie
-quicktinkerfollower=Adepte du bricolage éclair
+lifeessencefollower=Essence de vie [Compagnon]
+quicktinkerfollower=Bricolage express [Compagnon]
 homeportal=Portail d'entrée
 returnportal=Portail de retour
 bossspawnportal=Portail de boss
@@ -3937,7 +3937,7 @@ eldertalk1=Vous devriez toujours explorer au-delà de ce que vous faites déjà.
 eldertalk2=De vieilles histoires racontent que certaines îles possèdent des donjons avec des trésors.
 eldertalk3=Je vois le potentiel d'un jeune aventurier comme vous.
 eldertalk4=Sous terre, vous trouverez certains des meilleurs minerais du monde.
-eldertalk5=Je n'ai vu qu'une seule fois un démon dans ma vie, heureusement je m'en suis sorti vivant.
+eldertalk5=Je n'ai vu un démon qu'une seule fois dans ma vie, heureusement je m'en suis sorti vivant.
 eldertalk6=Que puis-je faire pour vous ?
 
 elderapriltalk1=Je vous jure que je ne suis pas toujours comme ça !
@@ -4151,21 +4151,21 @@ dietslightly=Mon alimentation est peu variée
 dietsomewhat=Mon alimentation est assez variée
 dietnicely=Mon alimentation est très variée
 dietextremely=Mon alimentation est extrêmement variée
-recreationdeprived=Je suis privé de loisirs 
+recreationdeprived=Je suis privé de loisirs
 recreationsatisfied=Mon besoin de loisirs est satisfait
 recreationfulfilled=Mon besoin de loisirs est pleinement satisfait
 sharingroom=Je partage ma chambre avec d'autres colons
-recentlyrecruited=J'ai été recruté récement
-happinessobject=J'aime beaucoup <object>
+recentlyrecruited=J'ai été recruté récemment
+happinessobject=J'aime beaucoup mon <object>
 lifepartner=Je suis dans une relation amoureuse
-qualitylow=Basse
-qualitymediocre=Médiocre
-qualitydecent=Décente
-qualitygood=Bonne
-qualityimpressive=Impressionnante
-qualitywonderful=Merveilleuse
-qualityunrivaled=Incomparable
-qolcomposition=<adjective> qualité de vie
+qualitylow=basse
+qualitymediocre=médiocre
+qualitydecent=décente
+qualitygood=bonne
+qualityimpressive=impressionnante
+qualitywonderful=merveilleuse
+qualityunrivaled=incomparable
+qolcomposition=qualité de vie <adjective>
 qolmessage=J'ai une <qualityoflife>
 qoldecrease=La qualité de vie de <name> va baisser au fil du temps
 qolstay=La qualité de vie de <name> va rester la même au fil du temps
@@ -4175,7 +4175,7 @@ qoltip2=Chaque niveau de qualité de vie donne :
 qoltip3=Bonus actuel :
 qolchangetip1=Le niveau de qualité de vie baissera si le bonheur est à moins de <value>
 qolchangetip2=Le niveau de qualité de vie augmentera si le bonheur est à plus de <value>
-qolchangetip3=Chaque niveau de qualité de vie fera baisser le total de bonheur de <value>
+qolchangetip3=Chaque niveau de qualité de vie réduit le bonheur total de <value>
 moodveryunhappy=Très mécontent
 moodunhappy=Mécontent
 SAME_TRANSLATION:moodcontent=Content
@@ -4277,7 +4277,7 @@ overchargedmana=Mana surchargé
 arcanichoodactive=Surchargé
 quicksandstacks=Marche sur des sables mouvants
 lifeessence=Essence de vie
-MISSING_TRANSLATION:quicktinker=Quick Tinker
+quicktinker=Bricolage express
 sapphireglyph=Glyphe de saphir
 rubyglyph=Glyphe de rubis
 amethystglyph=Glyphe d'améthyste
@@ -4852,7 +4852,7 @@ connectmap=Chargement de la carte <percent>%
 
 [personalities]
 personalitiesheader=Personnalités :
-perqollevel=Pour chaque niveau de qualité de vie à <quality> ou plus :
+perqollevel=Pour chaque niveau de qualité de vie <quality> ou plus :
 atqolrange=Entre <low> et <high> de qualité de vie :
 MISSING_TRANSLATION:atqolonly=At <quality> quality of life:
 MISSING_TRANSLATION:atqolorbetter=At <quality> or better quality of life:
