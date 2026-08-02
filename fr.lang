@@ -4859,11 +4859,11 @@ atqolorbetter=À partir d'une qualité de vie <quality> ou plus :
 currentbonus=Bonus actuel :
 nobonus=Aucun bonus
 elder=Ancien de la colonie
-elder_desc=<name> ne travaille pas et ne mange pas, mais il est toujours heureux et profite de la vie.
+elder_desc=<name> ne travaille pas et ne mange pas, mais est toujours heureux(se) et profite de la vie.
 pawnbroker=Prêteur
-pawnbroker_desc=<name> t'achètera n'importe quoi ! Même tes vieilles chaussettes ! Si <name> n'a plus d'argent, il en trouve généralement au bout de quelques jours.
+pawnbroker_desc=<name> t'achètera n'importe quoi ! Même tes vieilles chaussettes ! Si <name> n'a plus d'argent, il en trouvera généralement au bout de quelques jours.
 exoticmerchant=Marchand exotique
-exoticmerchant_desc=<name> vend des articles exclusifs ! On ne sait jamais ce qu'il pourrait proposer. Comme le dit le proverbe... <name> a des marchandises, si vous avez des pièces !
+exoticmerchant_desc=<name> vend des articles exclusifs ! On ne sait jamais ce qu'il/elle pourrait proposer. Comme le dit le proverbe... <name> a des marchandises, si vous avez des pièces !
 friendlywitch=Sorcière amicale
 friendlywitch_desc=<name> ne fréquente personne, à part ses zombies bien sûr ! Mais elle fera une exception pour toi. Si elle n'a plus de potions ou si elle n'a pas celles que tu recherches, tu pourras toujours revenir le lendemain pour en acheter d'autres !
 gamedevonnecesse=Développeur du jeu de Necesse
@@ -4905,7 +4905,7 @@ furnitureenthusiast_desc=<name> adore l'odeur du <type> fraîchement travaillé 
 nopreferedfurniture=Je n'ai aucun meuble en <type> dans ma chambre
 somepreferedfurniture=J'ai quelques meubles en <type> dans ma chambre
 wallarchitect=Architecte de <type>
-MISSING_TRANSLATION:wallarchitect_desc=<name> a toujours rêvé de construire une maison entièrement faite de <type>. Il reçoit un bonus de bonheur si sa chambre a quelques murs en <type>, et un bonus encore plus important si elle n'a que des murs en <type>.
+wallarchitect_desc=<name> a toujours rêvé de construire une maison entièrement faite de <type>. Il reçoit un bonus de bonheur si sa chambre a quelques murs en <type>, et un bonus encore plus important si elle n'a que des murs en <type>.
 nopreferedwalls=Ma chambre n'a aucun mur en <type>
 somepreferedwalls=Ma chambre a quelques murs en <type>
 fullpreferedwalls=Ma chambre n'a que des murs en <type>
@@ -4923,117 +4923,118 @@ roomnoroomies=Je partage ma chambre avec personne
 roomhasroomie=Je partage ma chambre avec quelqu'un
 roomcrowdedroomie=Il y a trop de monde dans ma chambre
 favoritedish=Plat préféré
-MISSING_TRANSLATION:favoritedish_desc=<name> enjoys eating <dish> and will never get tired of eating it. They get an extra happiness bonus when they eat it as well
-MISSING_TRANSLATION:eatenfavoritedish=I have recently eaten my favorite dish
-MISSING_TRANSLATION:nothadfavoritedish=I've not had my favorite dish recently
-MISSING_TRANSLATION:artconnoisseur=Art Connoisseur
-MISSING_TRANSLATION:artconnoisseur_desc=<name> doesn't just see the art, they FEEL it. They will get a happiness boost when they have a lot of different paintings in their room
-MISSING_TRANSLATION:noartinroom=I have no paintings in my room
-MISSING_TRANSLATION:someartinroom=I have some paintings in my room
-MISSING_TRANSLATION:fashionista=Fashionista
-MISSING_TRANSLATION:fashionista_desc=<name> just has a bit more style than everyone else. They would like to have a full set of cosmetic armor equipped different from their normal armor set
-MISSING_TRANSLATION:hascosmeticset=I have a full cosmetic set equipped
-MISSING_TRANSLATION:missingcosmeticset=I am missing some pieces in my cosmetic set
-MISSING_TRANSLATION:audiophile=Audiophile
-MISSING_TRANSLATION:audiophile_desc=<name> needs to bust a move every now and then. They would like to have a music player and vinyls in their room
-MISSING_TRANSLATION:hasmusicplayer=I have a music player in my room
-MISSING_TRANSLATION:missingmusicplayer=I am missing a music player in my room
-MISSING_TRANSLATION:novinyls=I have no vinyls in my room
-MISSING_TRANSLATION:somevinyls=I have some vinyls in my room
-MISSING_TRANSLATION:ecologist=Ecologist
-MISSING_TRANSLATION:ecologist_desc=<name> loves the feeling of grass between their toes. They get a happiness bonus when their room is filled with plants and the floor is completely organic
-MISSING_TRANSLATION:ecologistsolidfloor=My room has non-organic floors in it
-MISSING_TRANSLATION:ecologistorganicfloor=My room has a completely organic floor
-MISSING_TRANSLATION:ecologistnoplant=My room has no plants in it
-MISSING_TRANSLATION:ecologistsomeplants=My room has some plants in it
-MISSING_TRANSLATION:clumsy=Clumsy
-MISSING_TRANSLATION:clumsy_desc=<name> is a bit clumsy, but that's okay. They even get a happiness bonus because of it. They will damage furniture in their room over time, eventually ending up getting a negative thought for each broken piece
-MISSING_TRANSLATION:clumsyhappy=I enjoy my clumsy life
-MISSING_TRANSLATION:clumsyunhappy=I have broken furniture in my room
-MISSING_TRANSLATION:indoorsy=Indoorsy
-MISSING_TRANSLATION:indoorsy_desc=<name> once got struck by lightning and lived! But since then they prefer working indoors and will get a happiness boost for doing indoor jobs
-MISSING_TRANSLATION:indoorsyinside=I have been doing indoor jobs
-MISSING_TRANSLATION:indoorsynone=I haven't been doing any indoor jobs lately
-MISSING_TRANSLATION:gardener=Gardener
-MISSING_TRANSLATION:gardener_desc=<name> has been tending the farm their whole life, and they ain't about to stop now! They enjoy doing farming tasks and will get a happiness boost every time they complete one
-MISSING_TRANSLATION:gardenertask=I have been doing farming tasks
-MISSING_TRANSLATION:gardenernotasks=I haven't been doing any farming tasks lately
-MISSING_TRANSLATION:lumberjack=Lumberjack
-MISSING_TRANSLATION:lumberjack_desc=<name> likes to chop trees and chew bubblegum. But they're all out of gum. They enjoy doing forestry tasks and will get a happiness boost every time they complete one
-MISSING_TRANSLATION:lumberjacktask=I have been doing forestry tasks
-MISSING_TRANSLATION:lumberjacknotasks=I haven't been doing any forestry tasks lately
-MISSING_TRANSLATION:orderly=Orderly
+favoritedish_desc=<name> adore manger <dish> et ne s'en lasse jamais. Il bénéficie d'un bonus de bonheur supplémentaire lorsqu'il en mange.
+eatenfavoritedish=Récemment, j'ai  mangé mon plat préféré
+nothadfavoritedish=Ça fait un moment que je n'ai pas mangé mon plat préféré
+artconnoisseur=Amateur d'art
+artconnoisseur_desc=<name> ne se contente pas de regarder des œuvres d'art, il les RESSENT. Il bénéficiera d'un bonus de bonheur s'il a beaucoup de tableaux différents dans sa chambre.
+noartinroom=Je n'ai pas de tableaux dans ma chambre
+someartinroom=J'ai quelques tableaux dans ma chambre
+SAME_TRANSLATION:fashionista=Fashionista
+fashionista_desc=<name> a tout simplement un peu plus de style que les autres. Il aimerait pouvoir équiper un ensemble cosmétique complet, différent de son ensemble habituel.
+hascosmeticset=Je porte un ensemble cosmétique complet
+missingcosmeticset=Il manque quelques pièces à mon ensemble cosmétique
+SAME_TRANSLATION:audiophile=Audiophile
+audiophile_desc=<name> a besoin de se déhancher de temps en temps. Il aimerait avoir un lecteur de musique et des vinyles dans sa chambre.
+hasmusicplayer=J'ai un lecteur de musique dans ma chambre
+missingmusicplayer=Il me manque un lecteur de musique dans ma chambre
+novinyls=Je n'ai pas de vinyle dans ma chambre
+somevinyls=J'ai quelques vinyles dans ma chambre
+ecologist=Écologiste
+ecologist_desc=<name> adore la sensation de l'herbe entre ses orteils. Il obtient un bonus de bonheur lorsque sa chambre est remplie de plantes et que le sol est entièrement organique.
+ecologistsolidfloor=Ma chambre n'a pas un sol organique
+ecologistorganicfloor=Ma chambre a un sol entièrement organique
+ecologistnoplant=Il n'y a pas de plantes dans ma chambre
+ecologistsomeplants=Il y a quelques plantes dans ma chambre
+clumsy=Maladroit
+clumsy_desc=<name> est un peu maladroit, mais ce n'est pas grave. Il obtient même un bonus de bonheur grâce à cela. Il endommagera les meubles de sa chambre au fil du temps, ce qui finira par lui donner des pensées négatives pour chaque meuble cassé.
+clumsyhappy=J'aime ma vie de maladroit
+clumsyunhappy=J'ai des meubles cassés dans ma chambre
+indoorsy=Casanier
+indoorsy_desc=<name> a déjà été frappé par la foudre et a survécu ! Mais depuis, il préfère travailler à l'intérieur et gagne un bonus de bonheur lorsqu'il effectue des tâches d'intérieur.
+indoorsyinside=J'ai travaillé en intérieur
+indoorsynone=Je n'ai pas travaillé en intérieur ces derniers temps
+gardener=Jardinier
+gardener_desc=<name> s'est toujours occupé d'une ferme, et il n'est pas près d'arrêter maintenant ! Il adore effectuer des tâches agricoles et gagne un bonus de bonheur à chaque fois qu'il en termine une.
+gardenertask=J'ai effectué des tâches agricoles
+gardenernotasks=Je n'ai pas fait de tâches agricoles depuis un certain temps
+lumberjack=Bûcheron
+lumberjack_desc=<name> aime abattre des arbres et mâcher du chewing-gum. Mais il n'a plus de chewing-gum. Il aime effectuer des tâches forestières et gagne un bonus de bonheur à chaque fois qu'il en termine une.
+lumberjacktask=J'ai effectué des tâches forestières
+lumberjacknotasks=Je n'ai pas effectué de tâches forestières ces derniers temps
+orderly=Ordonné
 MISSING_TRANSLATION:orderly_desc=<name> likes to keep things neat and organized. They will get a happiness boost when their settlement has all the items in the correct storage chests
 MISSING_TRANSLATION:orderlyhappy=The settlement storage is completely organized
 MISSING_TRANSLATION:orderlyunhappy=The settlement storage has items out of place
-MISSING_TRANSLATION:bloodthirsty=Bloodthirsty
+bloodthirsty=Sanguinaire
 MISSING_TRANSLATION:bloodthirsty_desc=<name> wasn't loved enough as a child. They enjoy hurting others and will get a happiness boost when they do damage
 MISSING_TRANSLATION:bloodthirstysatisfied=I have been hurting enemies lately
 MISSING_TRANSLATION:bloodthirstyneeded=I haven't been hurting any enemies lately
-MISSING_TRANSLATION:adventurer=Adventurer
+adventurer=Aventurier
 MISSING_TRANSLATION:adventurer_desc=<name> used to be an adventurer like you, but then they took an arrow to the knee. Luckily they still get happiness from joining your adventure party, outside the settlement
 MISSING_TRANSLATION:adventurerhappy=I have been adventuring outside the settlement recently
 MISSING_TRANSLATION:adventureridle=I haven't been adventuring outside the settlement recently
-MISSING_TRANSLATION:tourist=Tourist
+tourist=Touriste
 MISSING_TRANSLATION:tourist_desc=<name> likes to brag about travelling all the time. They will get a happiness bonus while they are in your adventure party and you're visiting a different settlement or NPC village
 MISSING_TRANSLATION:touristhappy=I have visited another village recently
 MISSING_TRANSLATION:touristidle=I haven't visited another village recently
 MISSING_TRANSLATION:collectortakethanks=Thank you! You can speak to me again if you don't want me to anymore
 MISSING_TRANSLATION:collectorstoppedtaking=Ok, I'll stop taking from storage in the future
-MISSING_TRANSLATION:gemcollector=Gem Collector
+gemcollector=Collectionneur de gemmes
 MISSING_TRANSLATION:gemcollector_desc=<name> is fascinated by shiny minerals, not rocks, minerals. They will get a happiness boost when given a gem as a gift
 MISSING_TRANSLATION:gemcollectorreceived=I've collected a gem recently
 MISSING_TRANSLATION:gemcollectoridle=I haven't collected a gem recently
 MISSING_TRANSLATION:gemcollectorhave=I have a gem for you!
 MISSING_TRANSLATION:gemcollectorintro=Thank you! I'm collecting gems!
-MISSING_TRANSLATION:gemcollectorgive=Give gem
+gemcollectorgive=Donner une gemme
 MISSING_TRANSLATION:gemcollectorstart=Start collecting gems from storage
 MISSING_TRANSLATION:gemcollectorstop=Stop collecting gems from storage
-MISSING_TRANSLATION:flowercollector=Flower Collector
+flowercollector=Collectionneur de fleurs
 MISSING_TRANSLATION:flowercollector_desc=<name> loves flowers. She even eats them sometimes, hehe. They will get a happiness boost when given a flower as a gift
 MISSING_TRANSLATION:flowercollectorreceived=I've collected a flower recently
 MISSING_TRANSLATION:flowercollectoridle=I haven't collected any flowers recently
 MISSING_TRANSLATION:flowercollectorhave=I have a flower for you!
 MISSING_TRANSLATION:flowercollectorintro=Thank you! I'm collecting flowers!
-MISSING_TRANSLATION:flowercollectorgive=Give flower
+flowercollectorgive=Donner une fleur
 MISSING_TRANSLATION:flowercollectorstart=Start collecting flowers from storage
 MISSING_TRANSLATION:flowercollectorstop=Stop collecting flowers from storage
-MISSING_TRANSLATION:hiredhand=Hired Hand
+hiredhand=Main-d'œuvre
 MISSING_TRANSLATION:hiredhand_desc=<name> thinks you're great and all, but all this unpaid labour seems illegal. They will get a happiness boost when given coins as a gift
 MISSING_TRANSLATION:hiredhandreceived=I've received payment recently
 MISSING_TRANSLATION:hiredhandidle=I haven't received payment recently
 MISSING_TRANSLATION:hiredhandhave=I have coins for you!
 MISSING_TRANSLATION:hiredhandintro=Fair pay for fair work as I see it! Hand it over!
-MISSING_TRANSLATION:hiredhandgive=Give coins
+hiredhandgive=Charitable
 MISSING_TRANSLATION:hiredhandstart=Start paying yourself with coins from storage
 MISSING_TRANSLATION:hiredhandstop=Stop paying yourself with coins from storage
-MISSING_TRANSLATION:vengeful=Vengeful
+vengeful=Rancunier
 MISSING_TRANSLATION:vengeful_desc=<name> secretly thinks it's sorta of cool having an edgy and vengeful backstory. They will get a happiness boost for a while after the settlement is raided
-MISSING_TRANSLATION:vengefulhappy=I can handle a few raiders
-MISSING_TRANSLATION:expeditioner=Expeditioner
-MISSING_TRANSLATION:expeditioner_desc=<name> used to run away from home a lot as a kid. They will get a happiness boost for a while after being sent on an mission
-MISSING_TRANSLATION:expeditioner_happy=I went on a mission recently
-MISSING_TRANSLATION:expeditioner_unhappy=I haven't been on a mission in a while
-MISSING_TRANSLATION:pacifist=Pacifist
-MISSING_TRANSLATION:pacifist_desc=<name> just goes with the flow man, make love, not war. They are happier when they haven't fought in a while, but they become very upset if they have to fight
+vengefulhappy=Je peux gérer quelques pillards
+expeditioner=Expéditionnaire
+expeditioner_desc=<name> s'enfuyait souvent de chez lui lorsqu'il était enfant. Il recevra un bonus de bonheur pendant un certain temps après avoir été envoyé en mission.
+expeditioner_happy=Je suis parti en mission récemment
+expeditioner_unhappy=Ça fait un moment que je n'ai pas participé à une mission
+pacifist=Pacifiste
+MISSING_TRANSLATION:pacifist_desc=<name> se laisse simplement porter par le courant « Faites l'amour, pas la guerre ». They are happier when they haven't fought in a while, but they become very upset if they have to fight
 MISSING_TRANSLATION:pacifisthappy=I enjoy my peaceful way of life
 MISSING_TRANSLATION:pacifistunhappy=I never want to fight again
-MISSING_TRANSLATION:stressedout=Stressed Out
+stressedout=Stressé(e)
 MISSING_TRANSLATION:stressedout_desc=<name> used to be a lazy teenager which has resulted in them getting easily overworked. Every <value> days they will take the day off to relax
 MISSING_TRANSLATION:stressedoutnext=Taking the day off <when>
 MISSING_TRANSLATION:stressedoutnow=today
 MISSING_TRANSLATION:stressedoutsoon=in <value> day(s)
 MISSING_TRANSLATION:stressedouthappy=I'm happy working at my own pace
-MISSING_TRANSLATION:stressedoutidle=Taking the day off
-MISSING_TRANSLATION:persistent=Persistent
-MISSING_TRANSLATION:persistent_desc=<name> gets knocked down, but they get up again! They will fully heal if they would die an amount of times based on their quality of life level. Resets every hour
-MISSING_TRANSLATION:persistent_effect=Can survive <value> killing blow(s)
-MISSING_TRANSLATION:weatherbound=Weather-Bound
-MISSING_TRANSLATION:weatherbound_desc=<name> is one of those people who seem to think that their mood changes with the weather. They will get a happiness boost when the weather is sunny, but will lose it when it is raining or snowing
-MISSING_TRANSLATION:weatherboundclear=I love the weather today! Nice and sunny
-MISSING_TRANSLATION:weatherboundrain=I don't like it when the weather is like this! It makes me feel gloomy
+MISSING_TRANSLATION:stressedoutidle=Prendre un jour de repos
+persistent=Persévérant
+persistent_desc=Lorsque <name> se fait mettre à terre, il se relève toujours ! Il se soignera entièrement s'il meurt un nombre de fois correspondant à son niveau de qualité de vie. Se réinitialise toutes les heures.
+persistent_effect=Peut survivre à <value> coup(s) mortel(s)
+weatherbound=Sensible aux astres
+weatherbound_desc=<name> fait partie de ces personnes qui semblent penser que leur humeur varie en fonction de la météo. Il/elle se sentira plus heureux(se) lorsqu'il fera beau, mais perdra sa bonne humeur dès qu'il pleut ou qu'il neige.
+weatherboundclear=J'adore la météo d'aujourd'hui ! Un temps magnifique et ensoleillé
+weatherboundrain=Je n'aime pas quand il fait ce temps-là ! Ça me rend mélancolique
 
 [romance]
+// Misc
 datingtooltip1=Vous commencez à sortir avec <name>
 datingtooltip2=Vous vous rapprocher de <name>
 datingtooltip3=Vous devenez très proche de <name>
@@ -5064,21 +5065,26 @@ diedwhilegone=Votre relation s'est terminée car votre partenaire est décédé(
 brokenupwhilegone=Votre partenaire a rompu avec vous pendant votre absence :(
 brokenupplayer=Votre partenaire a rompu avec vous :(
 givebouquet=Donner <item>
-playerdeclined=<name> a refusé d'être en couple avec vous.
+playerdeclined=<name> a refusé(e) d'être en couple avec vous.
 playeraccepted=Vous êtes désormais en couple avec <name> ! :heart:
-askedplayer=<name> vous a demandé de devenir son **Partenaire de vie**.
+askedplayer=<name> vous a demandé(e) de devenir son **Partenaire de vie**.
 confirmplayer=Vous êtes sur-le-point de devenir **Partenaire de vie** avec <name>.
 warnplayer1=Vous êtes déjà **Partenaire de vie** avec quelqu'un d'autre.
 warnplayer2=Si vous acceptez, votre autre relation prendra fin.
 askplayeraccept=Voulez-vous accepter ?
 servepapers=Donner le <item>
 youhavebroken=Vous avez rompu avec <name>
+
+// HONEST FARMER ROMANCE PERSONALITY
+// Honest Farmer start dating activity
 honestfarmer_suggestdating1=Dis donc, c'est un <item> pour ta bonne vieille <settlername> ? :heart:
 honestfarmer_suggestdating2=C'est vraiment très gentil de ta part <name>. Ah, mais zut, je ne t'ai rien apporté <name>.
 honestfarmer_suggestdating3=Merci quand même !
 honestfarmer_declinedatingbutton=Désolé, je garde ça !
 honestfarmer_starteddatingchat=Dis <name>, je crois que j'aurai besoin de ton aide plus tard. Passe me voir, tu veux bien ?
 honestfarmer_declineddatingchat=Mais j'aime les fleurs...
+
+// Honest Farmer place object activity 1
 honestfarmer1_placeobject1=Eh ben si c'est pas <name> avec ses jolies fleurs ! :heart:
 honestfarmer1_placeobject2=Dis... Ta dextérité avec ces fleurs m'a fait réfléchir.
 honestfarmer1_placeobject3=Tu crois que tu pourrais m'aider à planter des <object> ?
@@ -5103,6 +5109,8 @@ honestfarmer1_objectplaced4=Il n'y a pas beaucoup de gens dans le coin qui veule
 honestfarmer1_completeobjectplacedbutton=Je suis là pour toi :heart:
 honestfarmer1_completeobjectplacedchat1=Heh, je n'arrive pas à croire que tu l'aies simplement planté dans le sol !
 honestfarmer1_completeobjectplacedchat2=Alors ça va se transformer en pain dans quelques jours, c'est ça ?
+
+// Honest Farmer place object activity 2
 honestfarmer2_placeobject1=Bonne journée à toi, <name> ! :heart:
 honestfarmer1_placeobjectacceptedchat3=Je me demandais si tu pourrais me donner un petit coup de main une fois de plus, mon ami.
 honestfarmer2_placeobject3=Quand je grandissais à la ferme, mon père a toujours voulu un <object> !
@@ -5125,6 +5133,8 @@ MISSING_TRANSLATION:honestfarmer2_objectplaced3=Heh, I reckon I just wanted to s
 MISSING_TRANSLATION:honestfarmer2_completeobjectplacedbutton=My home is your home <settlername> :heart:
 MISSING_TRANSLATION:honestfarmer2_completeobjectplacedchat1=Awh... <name> :heart:
 MISSING_TRANSLATION:honestfarmer2_completeobjectplacedchat2=Now you've gone and made me all teary eyed :heart:
+
+// Honest Farmer capture animal activity 3
 MISSING_TRANSLATION:honestfarmer_captureanimal1=Say <name>... I've been wonderin
 MISSING_TRANSLATION:honestfarmer_captureanimal2=What's the point in having a sun when you already light up my day, huh?
 MISSING_TRANSLATION:honestfarmer_captureanimal3=Eh, just messin with ya, you are pretty great though... :heart:
@@ -5149,6 +5159,8 @@ MISSING_TRANSLATION:honestfarmer_captureanimalcomplete4=Guess that's why he sent
 MISSING_TRANSLATION:honestfarmer_captureanimalcompletebutton=Your dad clearly made a mistake <settlername>, you're amazing! :heart:
 MISSING_TRANSLATION:honestfarmer_captureanimalcompletechat1=There you go being all sweet on me again <name> :heart:
 MISSING_TRANSLATION:honestfarmer_captureanimalcompletechat2=I'm startin to feel real lucky that I met you... :heart:
+
+// Honest Farmer capture critter activity 4
 MISSING_TRANSLATION:honestfarmer_capturecritter1=My favourite person! <name>! :heart:
 MISSING_TRANSLATION:honestfarmer_capturecritter2=You know what I used to do as a kid? Catch butterflies!
 MISSING_TRANSLATION:honestfarmer_capturecritter3=Sadly never caught a rare <mob>
@@ -5171,6 +5183,8 @@ MISSING_TRANSLATION:honestfarmer_completeshowcritter=Awh... <settlername> :heart
 MISSING_TRANSLATION:honestfarmer_showcrittercompletedchat1=It's the truth <name>! :heart:
 MISSING_TRANSLATION:honestfarmer_showcrittercompletedchat2=Hey... You know what <name>? I haven't thought about me pop once today
 MISSING_TRANSLATION:honestfarmer_showcrittercompletedchat3=Ain't that something...
+
+// Honest Farmer visit biome activity 5 (final)
 MISSING_TRANSLATION:honestfarmer_visitbiome1=Let me bend ya ear for a second, yeah <name>?
 MISSING_TRANSLATION:honestfarmer_visitbiome2=It's always been a lifelong dream of mine to visit one of them big **Villages** out in the world
 MISSING_TRANSLATION:honestfarmer_visitbiome3=And lately, you've been makin a lot of my dreams come true <name>... :heart:
@@ -5202,6 +5216,8 @@ MISSING_TRANSLATION:honestfarmer_visitbiomecompletedacceptedchat2=Sorry, just ha
 MISSING_TRANSLATION:honestfarmer_visitbiomecompletedacceptedchat3=I just can't believe I get to live out all my dreams with you... :heart:
 MISSING_TRANSLATION:honestfarmer_visitbiomecompleteddeclinedchat1=You... You don't..?
 MISSING_TRANSLATION:honestfarmer_visitbiomecompleteddeclinedchat2=Well... I hope you change you mind someday <name>...
+
+// Honest Farmer breakup
 MISSING_TRANSLATION:honestfarmer_suggestbreakupbutton=<settlername>... We need to talk
 MISSING_TRANSLATION:honestfarmer_suggestbreakup1=<name> :heart:
 MISSING_TRANSLATION:honestfarmer_suggestbreakup2=What's on ya mind me love?
@@ -5211,6 +5227,8 @@ MISSING_TRANSLATION:honestfarmer_acceptedbreakupchat2=Wait a second... Are ya br
 MISSING_TRANSLATION:honestfarmer_acceptedbreakupchat3=<name> this is gonna tear me apart!
 MISSING_TRANSLATION:honestfarmer_declinedbreakupchat1=Ya ain't silly me love... :heart:
 MISSING_TRANSLATION:honestfarmer_declinedbreakupchat2=I forget things all the time too!
+
+// Honest Farmer relationship chats
 MISSING_TRANSLATION:honestfarmer1_relationshipchat1=Ey good lookin! :heart:
 MISSING_TRANSLATION:honestfarmer1_relationshipchat2=What'd ya say you and I run away for a little while today huh? :heart:
 MISSING_TRANSLATION:honestfarmer2_relationshipchat1=<name>! You should've seen the Butterfly I caught today!
@@ -5222,6 +5240,8 @@ MISSING_TRANSLATION:honestfarmer3_relationshipchat4=They ain't got nothin on you
 MISSING_TRANSLATION:honestfarmer_relationshipnight1=Woah, looks like the sun is still out huh
 MISSING_TRANSLATION:honestfarmer_relationshipnight2=Is that why you woke me up <name>? To light up my night with your smile? :heart:
 MISSING_TRANSLATION:honestfarmer_relationshipnight3=Come to bed and let's cuddle, will ya <name>? :heart:
+
+// Honest Farmer relationship chats stat based
 MISSING_TRANSLATION:honestfarmer_evilsprotector1=Did I hear that you gave the <mob> a beating <name>?
 MISSING_TRANSLATION:honestfarmer_evilsprotector2=I reckon that'd make you the Protector of Good
 MISSING_TRANSLATION:honestfarmer_evilsprotector3=Goodness Protector? I dunno, but I'm mighty proud of you! :heart:
@@ -5243,9 +5263,13 @@ MISSING_TRANSLATION:honestfarmer_ascendedwizard1=Wait, wait, wait... He came bac
 MISSING_TRANSLATION:honestfarmer_ascendedwizard2=But this time he was an <mob>?
 MISSING_TRANSLATION:honestfarmer_ascendedwizard3=Who turned into the dark endless void?
 MISSING_TRANSLATION:honestfarmer_ascendedwizard4=And you still beat him? Man this guy can't catch a break
+
+// Honest Farmer kiss chats
 MISSING_TRANSLATION:honestfarmer_kisschat1=A dream come true, ya are <name> :heart:
 MISSING_TRANSLATION:honestfarmer_kisschat2=Mhmm! That's a good kiss! :heart:
 MISSING_TRANSLATION:honestfarmer_kisschat3=Love ya <name> :heart:
+
+// Honest Farmer relationship gift chats
 MISSING_TRANSLATION:honestfarmer_giftfood1=Would ya believe it if I told you I've been spendin some time in the kitchen <name>?
 MISSING_TRANSLATION:honestfarmer_giftfood2=Just call me Chef <settlername> will ya love?
 MISSING_TRANSLATION:honestfarmer_giftfood3=Today's special is <item>, enjoy! :heart:
@@ -5258,6 +5282,9 @@ MISSING_TRANSLATION:honestfarmer_giftdecoration1=The other day I went and visite
 MISSING_TRANSLATION:honestfarmer_giftdecoration2=And well, this talkative fella sold me a <item>
 MISSING_TRANSLATION:honestfarmer_giftdecoration3=I thought ya could place it somewhere nice? For all to see? :heart:
 MISSING_TRANSLATION:honestfarmer_giftdecorationaccept=Heh, thanks honey :heart:
+
+// ASPIRING HERO ROMANCE PERSONALITY
+// Aspiring Hero start dating activity
 MISSING_TRANSLATION:aspiringhero_suggestdating1=A <item> for your favorite hero?
 MISSING_TRANSLATION:aspiringhero_suggestdating2=Why <name>, some might think you fancy me...
 MISSING_TRANSLATION:aspiringhero_suggestdating3=Although I wouldn't be too surprised :heart:
@@ -5265,6 +5292,8 @@ MISSING_TRANSLATION:aspiringhero_declinedatingbutton=Yeah, no...
 MISSING_TRANSLATION:aspiringhero_starteddatingchat1=I will treasure your gift always <name>!
 MISSING_TRANSLATION:aspiringhero_starteddatingchat2=Come find me on the morrow, your services will be required
 MISSING_TRANSLATION:aspiringhero_declineddatingchat=Your loss!
+
+// Aspiring Hero give item activity 1
 MISSING_TRANSLATION:aspiringhero_giveitem1=If I may <name>... :heart:
 MISSING_TRANSLATION:aspiringhero_giveitem2=In all of my life, I have been naught but a handsome <settlerclass>. But in my heart, I have always dreamt of being so much more!
 MISSING_TRANSLATION:aspiringhero_giveitem3=But before I can carve my legacy, I need you to craft me an exquisite sword to carve with
@@ -5282,6 +5311,8 @@ MISSING_TRANSLATION:aspiringhero_itemgiven5=Squire <name> :heart:
 MISSING_TRANSLATION:aspiringhero_giveitemcompletedbutton=Uhm... Sure, I guess?
 MISSING_TRANSLATION:aspiringhero_giveitemcompletedchat1=Delightful Squire <name>! Adventure awaits us!
 MISSING_TRANSLATION:aspiringhero_giveitemcompletedchat2=Come back in a few days, I got big plans for us!
+
+// Aspiring Hero kill mob activity 2
 MISSING_TRANSLATION:aspiringhero1_killmob1=Attention my squire!
 MISSING_TRANSLATION:aspiringhero1_killmob2=I have heard rumours of a horrendous <mob> residing in the depths of the <location>
 MISSING_TRANSLATION:aspiringhero1_killmob3=So naturally I thought it a job for Wrath Knight <settlername> and Squire <name>!
@@ -5300,6 +5331,8 @@ MISSING_TRANSLATION:aspiringhero1_mobkilled3=We make a pretty good team you know
 MISSING_TRANSLATION:aspiringhero1_completekilledmobbutton=It was an honor to fight by your side <settlername>
 MISSING_TRANSLATION:aspiringhero1_completekilledmobchat1=Likewise my honorable squire :heart:
 MISSING_TRANSLATION:aspiringhero1_completekilledmobchat2=Drop by later <name>, then I'll give you a rundown on all the hero gossip about us!
+
+// Aspiring Hero place object activity 3
 MISSING_TRANSLATION:aspiringhero_placeobject1=Squire <name>. I am outraged
 MISSING_TRANSLATION:aspiringhero_placeobject2=Not a single soul in our settlement has mentioned Scourge Knight <settlername>, Slayer of the <mob>!
 MISSING_TRANSLATION:aspiringhero_placeobject3=These people simply do not care for epic conquests
@@ -5331,6 +5364,8 @@ MISSING_TRANSLATION:aspiringhero_completeobjectplacedbutton=Don't lose hope, the
 MISSING_TRANSLATION:aspiringhero_completeobjectplacedchat1=You still have faith in me <name>?
 MISSING_TRANSLATION:aspiringhero_completeobjectplacedchat2=My ever stalwart squire... :heart:
 MISSING_TRANSLATION:aspiringhero_completeobjectplacedchat3=Come back in a few days. I might have one more plan we could try
+
+// Aspiring Hero kill mob activity 4
 MISSING_TRANSLATION:aspiringhero2_killmob1=<name>, have you heard of the <mob>?
 MISSING_TRANSLATION:aspiringhero2_killmob2=Few have been known to come back alive from an encounter with them
 MISSING_TRANSLATION:aspiringhero2_killmob3=So what do you say my squire?
@@ -5352,6 +5387,8 @@ MISSING_TRANSLATION:aspiringhero2_completekilledmobbutton=And I knew you always 
 MISSING_TRANSLATION:aspiringhero2_completekilledmobchat1=I think you and I have deserved some well earned rest <name>
 MISSING_TRANSLATION:aspiringhero2_completekilledmobchat2=How about you come by and pick me up for a nice picnic tomorrow?
 MISSING_TRANSLATION:aspiringhero2_completekilledmobchat3=You know, just the two of us... :heart:
+
+// Aspiring Hero visit biome activity 5 (final)
 MISSING_TRANSLATION:aspiringhero_visitbiome1=<name>! You're just the face I wanted to see :heart:
 MISSING_TRANSLATION:aspiringhero_visitbiome2=Heroes like us should also get to relax every now and then, so how about we go for a nice picnic today?
 MISSING_TRANSLATION:aspiringhero_visitbiome3=Let's go visit the <location>, and find a nice spot **near the water**
@@ -5379,6 +5416,8 @@ MISSING_TRANSLATION:aspiringhero_visitbiomecompletedacceptedchat2=You can't even
 MISSING_TRANSLATION:aspiringhero_visitbiomecompletedacceptedchat3=I got you <name>, always... :heart:
 MISSING_TRANSLATION:aspiringhero_visitbiomecompleteddeclinedchat1=Oh... Well that's okay...
 MISSING_TRANSLATION:aspiringhero_visitbiomecompleteddeclinedchat2=I think I have to go now...
+
+// Aspiring Hero breakup
 MISSING_TRANSLATION:aspiringhero_suggestbreakupbutton=<settlername>... We need to talk.
 MISSING_TRANSLATION:aspiringhero_suggestbreakup1=My chivalrous <name>, my one and only :heart:
 MISSING_TRANSLATION:aspiringhero_suggestbreakup2=What's with the frown? You look like someone poured raspberry juice all over your favorite pair of boots!
@@ -5388,6 +5427,8 @@ MISSING_TRANSLATION:aspiringhero_acceptedbreakupchat2=YOU? Breaking up. With ME?
 MISSING_TRANSLATION:aspiringhero_acceptedbreakupchat3=I'm Knight <settlername>! How could anyone break up with a hero like me!?
 MISSING_TRANSLATION:aspiringhero_declinedbreakupchat1=Well you should go for a nap then my dear :heart:
 MISSING_TRANSLATION:aspiringhero_declinedbreakupchat2=Even a hero as grand as you, need their bed rest!
+
+// Aspiring Hero relationship chats
 MISSING_TRANSLATION:aspiringhero1_relationshipchat1=Well if it ain't my trusty squire, <name>!
 MISSING_TRANSLATION:aspiringhero1_relationshipchat2=You look absolutely stunning today :heart:
 MISSING_TRANSLATION:aspiringhero2_relationshipchat1=<name>! This knight is craving some adventures!
@@ -5399,6 +5440,8 @@ MISSING_TRANSLATION:aspiringhero3_relationshipchat4=Get it <name>? NIGHT KNIGHT?
 MISSING_TRANSLATION:aspiringhero_relationshipnight1=Argh! I'm awake! What is it <name>? DRAGONS!?
 MISSING_TRANSLATION:aspiringhero_relationshipnight2=Oh it's nothing? You just missed your favorite knight?
 MISSING_TRANSLATION:aspiringhero_relationshipnight3=Well, how about you cozy up in bed with me then <name>? :heart:
+
+// Aspiring Hero relationship chats stat based
 MISSING_TRANSLATION:aspiringhero_voidwizard1=To plunge into the depths of the **Dungeon**!
 MISSING_TRANSLATION:aspiringhero_voidwizard2=And rid the world of the wicked <mob>!
 MISSING_TRANSLATION:aspiringhero_voidwizard3=There may be a knight in you after all <name> :heart:
@@ -5423,9 +5466,13 @@ MISSING_TRANSLATION:aspiringhero_ascendedwizard1=<name>! You are truly the stuff
 MISSING_TRANSLATION:aspiringhero_ascendedwizard2=The <mob> falls once and for all...
 MISSING_TRANSLATION:aspiringhero_ascendedwizard3=And this time, I can feel it in my heart, that he won't ever return
 MISSING_TRANSLATION:aspiringhero_ascendedwizard4=And for that <name>, I am grateful. Thank you, my hero :heart:
+
+// Aspiring Hero kiss chats
 MISSING_TRANSLATION:aspiringhero_kisschat1=Always got a kiss for you <name>! :heart:
 MISSING_TRANSLATION:aspiringhero_kisschat2=Smoochin..! :heart:
 MISSING_TRANSLATION:aspiringhero_kisschat3=Love you <name> :heart: Be safe out there!
+
+// Aspiring Hero relationship gift chats
 MISSING_TRANSLATION:aspiringhero_giftfood1=I've noticed that <item> is one of your favorites <name>
 MISSING_TRANSLATION:aspiringhero_giftfood2=So I took the liberty of cooking some up for you!
 MISSING_TRANSLATION:aspiringhero_giftfood3=After all, a proper knight should feed their squire, right? :heart:
@@ -5438,11 +5485,16 @@ MISSING_TRANSLATION:aspiringhero_giftsword1=A long time ago you crafted a fine s
 MISSING_TRANSLATION:aspiringhero_giftsword2=And I thought it high time I returned the favour
 MISSING_TRANSLATION:aspiringhero_giftsword3=This <item> is for you, may it keep you safe :heart:
 MISSING_TRANSLATION:aspiringhero_giftswordaccept=I will treasure it always, <settlername>
+
+// QUITE COMPASSIONATE ROMANCE PERSONALITY
+// Quiet Compassionate start dating activity
 MISSING_TRANSLATION:quietcompassionate_suggestdating1=Oh. Thank you, I guess? Not really sure what I'm supposed to do with this...
 MISSING_TRANSLATION:quietcompassionate_suggestdating2=But I appreciate it none the less <name> :heart:
 MISSING_TRANSLATION:quietcompassionate_declinedatingbutton=Nevermind then...
 MISSING_TRANSLATION:quietcompassionate_starteddatingchat=If you come by later <name>, I guess I could show you some of my favourite flowers... :heart:
 MISSING_TRANSLATION:quietcompassionate_declineddatingchat=Oh. Yeah okay, not like I wanted it anyway...
+
+// Quiet Compassionate place object activity 1
 MISSING_TRANSLATION:quietcompassionate1_placeobject1=Oh, hey <name> :heart:
 MISSING_TRANSLATION:quietcompassionate1_placeobject2=Your flower got me thinking about placing some more flowers and plants around our settlement
 MISSING_TRANSLATION:quietcompassionate1_placeobject3=I like flowers, they take me back to a different time in my life where I was...
@@ -5465,6 +5517,8 @@ MISSING_TRANSLATION:quietcompassionate1_objectplaced4=Thank you for doing it wit
 MISSING_TRANSLATION:quietcompassionate1_completeobjectplacedbutton=I'd plant a whole garden for you <settlername> :heart:
 MISSING_TRANSLATION:quietcompassionate1_completeobjectplacedchat1=Heh, you're quite the charmer aren't you?
 MISSING_TRANSLATION:quietcompassionate1_completeobjectplacedchat2=Talk soon :heart:
+
+// Quiet Compassionate capture critter activity 2
 MISSING_TRANSLATION:quietcompassionate_capturecritter1=I love the quiet evenings in the settlement, don't you <name>?
 MISSING_TRANSLATION:quietcompassionate_capturecritter2=The cool breeze, rustling leaves, and if you're lucky, pretty **Fireflies**!
 MISSING_TRANSLATION:quietcompassionate_capturecritter3=I used to catch **Fireflies** with a friend of mine... But that was a long time ago
@@ -5486,6 +5540,8 @@ MISSING_TRANSLATION:quietcompassionate_showcritter4=I'm happy you make me rememb
 MISSING_TRANSLATION:quietcompassionate_completeshowcritter=I'm happy, you're happy <settlername> :heart:
 MISSING_TRANSLATION:quietcompassionate_showcrittercompletedchat1=They light up the night and the endless skies!
 MISSING_TRANSLATION:quietcompassionate_showcrittercompletedchat2=Just like your eyes <name>, Catcher of the Fireflies! :heart:
+
+// Quiet Compassionate kill mob activity 3
 MISSING_TRANSLATION:quietcompassionate_killmob1=No, not again, it can't be happening again!
 MISSING_TRANSLATION:quietcompassionate_killmob2=I won't allow it to happen again!
 MISSING_TRANSLATION:quietcompassionate_killmob3=<name>!
@@ -5504,6 +5560,8 @@ MISSING_TRANSLATION:quietcompassionate_mobkilled4=I just... I need to get out of
 MISSING_TRANSLATION:quietcompassionate_completekilledmobbutton=<settlername> you're scaring me, what's going on!?
 MISSING_TRANSLATION:quietcompassionate_completekilledmobchat1=I just need some time alone <name>
 MISSING_TRANSLATION:quietcompassionate_completekilledmobchat2=I'm sorry... :heart:
+
+// Quiet Compassionate visit biome activity 4
 MISSING_TRANSLATION:quietcompassionate_visitbiome1=<name>... I'm sorry if I scared you earlier
 MISSING_TRANSLATION:quietcompassionate_visitbiome2=The <mob> and me have a complicated past
 MISSING_TRANSLATION:quietcompassionate_visitbiome3=I thought defeating him would change things...
@@ -5529,6 +5587,8 @@ MISSING_TRANSLATION:quietcompassionate_visitbiomecompletedacceptbutton=Grief tak
 MISSING_TRANSLATION:quietcompassionate_visitbiomecompletedacceptedchat1=Yeah I guess it does...
 MISSING_TRANSLATION:quietcompassionate_visitbiomecompletedacceptedchat2=Thank you for listening <name>... :heart:
 MISSING_TRANSLATION:quietcompassionate_visitbiomecompletedacceptedchat3=I don't know what I'd do without you :heart:
+
+// Quiet Compassionate place object activity 5 (final)
 MISSING_TRANSLATION:quietcompassionate2_placeobject1=I've been thinking <name>...
 MISSING_TRANSLATION:quietcompassionate2_placeobject2=I think I'd like to place a <object> in our settlement
 MISSING_TRANSLATION:quietcompassionate2_placeobject3=In memory of <friendname>... Their favourite color was always <color>
@@ -5559,6 +5619,8 @@ MISSING_TRANSLATION:quietcompassionate2_completeobjectplacedacceptedchat2=I'll b
 MISSING_TRANSLATION:quietcompassionate2_completeobjectplacedacceptedchat3=You and me <name>, forever :heart:
 MISSING_TRANSLATION:quietcompassionate2_completeobjectplaceddeclinedchat1=Oh... Okay... I'm sorry for bringing it up
 MISSING_TRANSLATION:quietcompassionate2_completeobjectplaceddeclinedchat2=But I'll be here <name>... If you change your mind
+
+// Quiet Compassionate breakup
 MISSING_TRANSLATION:quietcompassionate_suggestbreakupbutton=<settlername>... I think we should talk
 MISSING_TRANSLATION:quietcompassionate_suggestbreakup1=Of course my flower :heart:
 MISSING_TRANSLATION:quietcompassionate_suggestbreakup2=You look sad. Did something happen? Do you want a hug?
@@ -5568,6 +5630,8 @@ MISSING_TRANSLATION:quietcompassionate_acceptedbreakupchat2=But I thought we had
 MISSING_TRANSLATION:quietcompassionate_acceptedbreakupchat3=I should've known. In the end, everyone leaves me...
 MISSING_TRANSLATION:quietcompassionate_declinedbreakupchat1=A hug from one flower to another, coming up!
 MISSING_TRANSLATION:quietcompassionate_declinedbreakupchat2=Surely that'll turn your frown, upside down :heart:
+
+// Quiet Compassionate relationship chats
 MISSING_TRANSLATION:quietcompassionate1_relationshipchat1=Oh <name>...
 MISSING_TRANSLATION:quietcompassionate1_relationshipchat2=You take my breath away, you know that right? :heart:
 MISSING_TRANSLATION:quietcompassionate2_relationshipchat1=Today is looking gorgeous <name>!
@@ -5579,6 +5643,8 @@ quietcompassionate3_relationshipchat4=Parce qu'ils sont tous les deux sacrément
 quietcompassionate_relationshipnight1=Hmm... Oh salut <name> :heart:
 quietcompassionate_relationshipnight2=Je faisais justement le plus merveilleux des rêves...
 quietcompassionate_relationshipnight3=Juste toi... Moi... Et un <item> :heart:
+
+// Quiet Compassionate relationship chats stat based
 quietcompassionate_evilsprotector1=Je suis content que t'aies vaincu le <mob> <name>
 quietcompassionate_evilsprotector2=Cette chauve-souris folle terrorisait tant de pauvres villages !
 quietcompassionate_evilsprotector3=J'avais peur de sortir la nuit pour chercher des lucioles !
@@ -5601,9 +5667,13 @@ quietcompassionate_ascendedwizard1=<name>, tu m'avais promis que le <mob1> ne re
 quietcompassionate_ascendedwizard2=Mais il est revenu en tant que <mob2> !?
 quietcompassionate_ascendedwizard3=Mais tu dis que tu l'as fait exploser et vaporisé dans les profondeurs sombres du vide cette fois ?
 quietcompassionate_ascendedwizard4=Alors maintenant, c'est sûr qu'il ne reviendra pas... Pas vrai <name> ? :heart:
+
+// Quiet Compassionate kiss chats
 quietcompassionate_kisschat1=Euh... <name> :heart:
 quietcompassionate_kisschat2=Merci <name>, j'en avais besoin :heart:
 quietcompassionate_kisschat3=Toi et moi pour toujours <name> :heart:
+
+// Quiet Compassionate relationship gift chats
 quietcompassionate_giftfood1=Je me suis mis(e) à cuisiner ces derniers temps <name> :heart:
 quietcompassionate_giftfood2=Tu voudrais peut-être goûter ce/cette <item> pour moi ?
 quietcompassionate_giftfood3=J'espère que c'est aussi délicieux que toi :heart:
@@ -5616,6 +5686,9 @@ quietcompassionate_giftflower1=Tu sais que j'adore les fleurs <name> :heart:
 quietcompassionate_giftflower2=Et quand j'ai fait ce <item>, j'ai pensé à toi...
 quietcompassionate_giftflower3=Peut-être que tu pourrais la placer quelque part dans notre colonie ? :heart:
 quietcompassionate_giftfloweraccept=Bien sûr <settlername> :heart:
+
+// WEALTH IS ALL ROMANCE PERSONALITY
+// Wealth Is All start dating activity
 wealthisall_suggestdating1=Un <item> ? C'est tout ce que t'as apporté ?
 wealthisall_suggestdating2=Tu crois que ça va suffire pour que je tombe amoureux(se) de toi ?
 wealthisall_suggestdating3=MOI ? Pour toi ? Ah !
@@ -5623,6 +5696,8 @@ wealthisall_suggestdating4=C'est un début quand même... :heart:
 wealthisall_declinedatingbutton=Laisse tomber
 wealthisall_starteddatingchat=Passe me voir plus tard si tu es VRAIMENT intéressé(e) pour qu'on sorte ensemble <name>.
 wealthisall_declineddatingchat=Ouais, c'est bien ce que je pensais. Hmpf !
+
+// Wealth Is All give item activity 1
 wealthisall1_giveitem1=Bon <name>, voyons voir si t'es sérieux(se) quand tu dis vouloir sortir avec moi.
 wealthisall1_giveitem2=La dernière fois tu m'as donné 1 malheureuse fleur...
 wealthisall1_giveitem3=Pour que cette relation continue, j'exige <item>.
@@ -5641,6 +5716,8 @@ wealthisall1_itemgiven4=À plus tard !
 wealthisall1_giveitemcompletedbutton=Au revoir <settlername> ! T'es incroyable !
 wealthisall1_giveitemcompletedchat1=J'en suis déjà bien conscient(e) <name>.
 wealthisall1_giveitemcompletedchat2=Mais ça fait quand même plaisir :heart:
+
+// Wealth Is All give item activity 2
 wealthisall2_giveitem1=L'heure de la manche 2 <name>... :heart:
 wealthisall2_giveitem2=Bon les fleurs c'est bien joli, mais je pense qu'il est temps de passer à quelque chose d'un peu plus... Étincelant...
 wealthisall2_giveitem3=Cette fois-ci, j'aimerais que tu m'apportes <item>, <name>.
@@ -5658,6 +5735,8 @@ wealthisall2_itemgiven3=Je commence à me dire que tu prends peut-être notre re
 wealthisall2_itemgiven4=Reviens vite !
 wealthisall2_giveitemcompletedbutton=Tu me manques déjà <settlername> !
 wealthisall2_giveitemcompletedchat=Bienvenue au club <name> :heart:
+
+// Wealth Is All give item activity 3
 wealthisall3_giveitem1=Tu en veux encore ? Il était temps !
 wealthisall3_giveitem2=J'aimerais rafraîchir mon look avec quelque chose de plus adapté à mon statut.
 wealthisall3_giveitem3=Apporte-moi <item>
@@ -5676,6 +5755,8 @@ wealthisall3_itemgiven4=Il doit bien y avoir une limite, non <name> ?
 wealthisall3_giveitemcompletedbutton=Je t'apporterai N'IMPORTE QUOI <settlername> !
 wealthisall3_giveitemcompletedchat1=Hmm, ouais, tu le ferais, hein ?
 wealthisall3_giveitemcompletedchat2=On verra bien assez tôt... :heart:
+
+// Wealth Is All give item activity 4
 wealthisall4_giveitem1=T'en as jamais assez de moi, hein <name> ? :heart:
 wealthisall4_giveitem2=À ce stade, je commence à me dire que tu m'apporteras tout ce que je te demanderais.
 wealthisall4_giveitem3=Alors testons ça.
@@ -5693,6 +5774,8 @@ wealthisall4_giveitemcompletedbutton=Parce que tu mérites tout <settlername>...
 wealthisall4_giveitemcompletedchat1=Parce que je mérite tout...
 wealthisall4_giveitemcompletedchat2=Tu penses que je le mérite...
 wealthisall4_giveitemcompletedchat3=<name>... :heart:
+
+// Wealth Is All visit biome activity 5 (final)
 wealthisall_visitbiome1=Hé <name>... :heart:
 wealthisall_visitbiome2=Je vais pas te demander de me donner quoi que ce soit aujourd'hui
 wealthisall_visitbiome3=J'en ai fini avec ça.
@@ -5725,6 +5808,8 @@ wealthisall_visitbiomecompletedacceptedchat3=T'es incroyable <name>, tu le sais 
 wealthisall_visitbiomecompleteddeclinedchat1=Ouais... Ça me semble logique.
 wealthisall_visitbiomecompleteddeclinedchat2=Je suis désolée pour tout <name>.
 wealthisall_visitbiomecompleteddeclinedchat3=Si jamais tu changes d'avis à mon sujet, fais-le-moi savoir...
+
+// Wealth Is All breakup
 wealthisall_suggestbreakupbutton=<settlername>... Je pense qu'on devrait parler.
 wealthisall_suggestbreakup1=Qu'est-ce qui se passe <name> ? Tu n'as pas l'air très content(e).
 wealthisall_suggestbreakup2=J'ai fait quelque chose de mal ?
@@ -5734,6 +5819,8 @@ wealthisall_acceptedbreakupchat2=Mais ça change rien à la tristesse que ça me
 wealthisall_acceptedbreakupchat3=Au revoir <name>...
 wealthisall_declinedbreakupchat1=D'accord <name>... :heart:
 wealthisall_declinedbreakupchat2=Préviens-moi la prochaine fois que tu auras une longue journée, comme ça je pourrai t'aider à la faire passer un peu plus vite, d'accord ? :heart:
+
+// Wealth Is All relationship chats
 wealthisall1_relationshipchat1=Alors euh, t'as d'autres cadeaux pour moi <name> ?
 wealthisall1_relationshipchat2=Je plaisante !
 wealthisall1_relationshipchat3=Mais il y en a peut-être qui t'attendent, mon(ma) mignon(ne) :heart:
@@ -5744,6 +5831,8 @@ wealthisall3_relationshipchat2=Maintenant que t'en fais partie :heart:
 wealthisall_relationshipnight1=Mmh... 5 minutes de plus...
 wealthisall_relationshipnight2=Ou mieux <name>, 5 heures de plus...
 wealthisall_relationshipnight3=Et si tu venais plutôt te blottir contre moi, au lieu de me réveiller, hein ? :heart:
+
+// Wealth Is All relationship chats stat based
 wealthisall_chieftain1=Ouais ok, donc t'as vaincu le <mob>, la belle affaire...
 wealthisall_chieftain2=Mais il a lâché du bon butin <name> !
 wealthisall_chieftain3=Quelque chose qui m'irait bien ? :heart:
@@ -5763,9 +5852,13 @@ wealthisall_motherslime3=Beurk...
 wealthisall_ascendedwizard1=Donc d'abord il était le vide... Puis il a fini déchu...
 wealthisall_ascendedwizard2=Et maintenant tu dis que c'était un(e) <mob> ?
 wealthisall_ascendedwizard3=Ce type a un sacré trouble de la personnalité si tu veux mon avis !
+
+// Wealth Is All kiss chats
 wealthisall_kisschat1=T'es parfait(e) <name> :heart:
 wealthisall_kisschat2=Le meilleur cadeau, un bisou de ta part :heart:
 wealthisall_kisschat3=Tu m'as manqué <name> :heart:
+
+// Wealth Is All relationship gift chats
 wealthisall_giftfood1=Je suis pas chef <name>, mais il faut que tu goûtes ce <item> que j'ai cuisiné !
 wealthisall_giftfood2=Si tu l'aimes autant que je t'aime...
 wealthisall_giftfood3=Alors tu vas te régaler :heart:
