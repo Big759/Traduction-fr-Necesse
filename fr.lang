@@ -5285,52 +5285,51 @@ honestfarmer_giftdecorationaccept=Hé hé, merci mon/ma chéri(e). :heart:
 
 // ASPIRING HERO ROMANCE PERSONALITY
 // Aspiring Hero start dating activity
-MISSING_TRANSLATION:aspiringhero_suggestdating1=A <item> for your favorite hero?
-MISSING_TRANSLATION:aspiringhero_suggestdating2=Why <name>, some might think you fancy me...
-MISSING_TRANSLATION:aspiringhero_suggestdating3=Although I wouldn't be too surprised :heart:
-MISSING_TRANSLATION:aspiringhero_declinedatingbutton=Yeah, no...
-MISSING_TRANSLATION:aspiringhero_starteddatingchat1=I will treasure your gift always <name>!
-MISSING_TRANSLATION:aspiringhero_starteddatingchat2=Come find me on the morrow, your services will be required
-MISSING_TRANSLATION:aspiringhero_declineddatingchat=Your loss!
+aspiringhero_suggestdating1=Un(e) <item> pour ton héros préféré?
+aspiringhero_suggestdating2=Pourquoi <name>, certains pensent que je te plais...
+aspiringhero_suggestdating3=Cependant je ne serais pas si surpris :heart:
+aspiringhero_declinedatingbutton=Oui... mais non
+aspiringhero_starteddatingchat1=Je chérirai ton cadeau pour toujours, <name>!
+aspiringhero_starteddatingchat2=Retrouve-moi à l'aube, tes services seront requis
+aspiringhero_declineddatingchat=Tant pis pour toi!
 
 // Aspiring Hero give item activity 1
-MISSING_TRANSLATION:aspiringhero_giveitem1=If I may <name>... :heart:
-MISSING_TRANSLATION:aspiringhero_giveitem2=In all of my life, I have been naught but a handsome <settlerclass>. But in my heart, I have always dreamt of being so much more!
-MISSING_TRANSLATION:aspiringhero_giveitem3=But before I can carve my legacy, I need you to craft me an exquisite sword to carve with
-MISSING_TRANSLATION:aspiringhero_giveitem4=A <item> should suffice. Wouldn't you agree?
-MISSING_TRANSLATION:aspiringhero_acceptgiveitembutton=Behold! The <item>!
-MISSING_TRANSLATION:aspiringhero_declinegiveitembutton=I'll get right on that!
-MISSING_TRANSLATION:aspiringhero_itemgivenchat=Now this is some fine craftsmanship <name>!
-MISSING_TRANSLATION:aspiringhero_giveitemtip1=Still don't have my sword <name>?
-MISSING_TRANSLATION:aspiringhero_giveitemtip2=You can craft a <item> at the <workstation>. Chop chop!
-MISSING_TRANSLATION:aspiringhero_itemgiven1=This <item> is bound for greatness!
-MISSING_TRANSLATION:aspiringhero_itemgiven2=I can feel it!
-MISSING_TRANSLATION:aspiringhero_itemgiven3=Say... <name>? I had just had the grandest of ideas!
-MISSING_TRANSLATION:aspiringhero_itemgiven4=I'm going to need a squire for my adventures! And who better than you?
-MISSING_TRANSLATION:aspiringhero_itemgiven5=Squire <name> :heart:
-MISSING_TRANSLATION:aspiringhero_giveitemcompletedbutton=Uhm... Sure, I guess?
-MISSING_TRANSLATION:aspiringhero_giveitemcompletedchat1=Delightful Squire <name>! Adventure awaits us!
-MISSING_TRANSLATION:aspiringhero_giveitemcompletedchat2=Come back in a few days, I got big plans for us!
+aspiringhero_giveitem1=Si je puis me permettre <name>... :heart:
+aspiringhero_giveitem2=De toute ma vie, je n'ai jamais été rien de plus qu'un superbe <settlerclass>. Mais au fond de mon cœur, j'ai toujours rêvé d'être tellement plus !
+aspiringhero_giveitem3=Mais avant de pouvoir tailler ma légende, j'ai besoin que tu me forges une exquise épée pour tailler avec
+aspiringhero_giveitem4=Un(e) <item> devrait suffire. Tu n'es pas du même avis?
+aspiringhero_acceptgiveitembutton=Admire ! Voici: <item>!
+aspiringhero_declinegiveitembutton=Je m'y mets de ce pas!
+aspiringhero_itemgivenchat=En voilà un beau savoir-faire <name>!
+aspiringhero_giveitemtip1=Tu n'as toujours pas mon épée <name>?
+aspiringhero_giveitemtip2=Tu peux fabriquer un(e) <item> à la <workstation>. Et que ça saute!
+aspiringhero_itemgiven1=Cet(te) <item> est promis(e) à un destin glorieux!
+aspiringhero_itemgiven2=Je le sens!
+aspiringhero_itemgiven4=Je vais avoir besoin d'un écuyer pour mes aventures! Et qui de mieux placé que toi?
+aspiringhero_itemgiven5=Écuyer <name> :heart:
+aspiringhero_giveitemcompletedbutton=Euh... bien sûr, enfin il me semble?
+aspiringhero_giveitemcompletedchat1=Ravissant Écuyer <name>! L'aventure nous appelle!
+aspiringhero_giveitemcompletedchat2=Reviens dans quelques lunes, j'ai de grands projets pour nous!
 
 // Aspiring Hero kill mob activity 2
-MISSING_TRANSLATION:aspiringhero1_killmob1=Attention my squire!
-MISSING_TRANSLATION:aspiringhero1_killmob2=I have heard rumours of a horrendous <mob> residing in the depths of the <location>
-MISSING_TRANSLATION:aspiringhero1_killmob3=So naturally I thought it a job for Wrath Knight <settlername> and Squire <name>!
-MISSING_TRANSLATION:aspiringhero1_killmob4=Hmm.. Does Wrath Knight sound good?
-MISSING_TRANSLATION:aspiringhero1_acceptkillmobbutton=That <mob> ain't no match for Wrath Knight <settlername>!
-MISSING_TRANSLATION:aspiringhero1_declinekillmobbutton=Sorry, I'm busy right now
-MISSING_TRANSLATION:aspiringhero1_killmobacceptedchat1=Haha, yes! We're coming for you <mob>!
-MISSING_TRANSLATION:aspiringhero1_killmobacceptedchat2=To the <location>, where glory awaits!
-MISSING_TRANSLATION:aspiringhero1_killmobtip1=Have you found it? Have you found the <mob>!?
-MISSING_TRANSLATION:aspiringhero1_killmobtip2=Remember <name>, it's hiding in the <location>
-MISSING_TRANSLATION:aspiringhero1_killmobtip3=So be ready!
-MISSING_TRANSLATION:aspiringhero1_mobkilledchat=No one can best Scourge Knight <settlername>!
-MISSING_TRANSLATION:aspiringhero1_mobkilled1=Hmm. Wrath Knight sounds dangerous... But Scourge Knight is more scary...
-MISSING_TRANSLATION:aspiringhero1_mobkilled2=Anyway. Well done Squire <name>! Our names are sure to go down in history after having defeated such a fierce foe!
-MISSING_TRANSLATION:aspiringhero1_mobkilled3=We make a pretty good team you know... :heart:
-MISSING_TRANSLATION:aspiringhero1_completekilledmobbutton=It was an honor to fight by your side <settlername>
-MISSING_TRANSLATION:aspiringhero1_completekilledmobchat1=Likewise my honorable squire :heart:
-MISSING_TRANSLATION:aspiringhero1_completekilledmobchat2=Drop by later <name>, then I'll give you a rundown on all the hero gossip about us!
+aspiringhero1_killmob1=Prends garde mon Écuyer!
+aspiringhero1_killmob2=J'ai entendu des rumeurs à propos d'un(e) horrible <mob> résidant au fin fond de <location>
+aspiringhero1_killmob3=Donc tout naturellement j'ai pensé à un boulot pour notre Chevalier de la Colère <settlername> et l'Écuyer <name>!
+aspiringhero1_killmob4=Hmm.. Est-ce que Chevalier de la Colère sonne bien?
+aspiringhero1_acceptkillmobbutton=Ce(tte) <mob> ne fait pas le poids face au Chevalier de la Colère <settlername> !
+aspiringhero1_declinekillmobbutton=Pardon, mais je suis occupé actuellement
+aspiringhero1_killmobacceptedchat1=Haha, oui! On arrive <mob>!
+aspiringhero1_killmobacceptedchat2=Allons à <location>, la gloire nous y attend!
+aspiringhero1_killmobtip1=L'as-tu trouvé? As-tu trouvé le(la) <mob>!?
+aspiringhero1_killmobtip2=Rappelle-toi <name>, c'est caché à <location>
+aspiringhero1_killmobtip3=Tiens toi prêt!
+aspiringhero1_mobkilledchat=Nul ne rivalise avec le Chevalier Fléau <settlername>!
+aspiringhero1_mobkilled1=Hmm. Chevalier de la Colère sonne dangereux... Mais Chevalier Fléau est encore plus terrifiant...
+aspiringhero1_mobkilled2=Bref. Bien joué Écuyer <name>! Nos noms resteront dans l'histoire après avoir vaincu un ennemi si féroce!
+aspiringhero1_mobkilled3=On forme une plutôt bonne équipe tu sais... :heart:
+aspiringhero1_completekilledmobbutton=Ce fut un honneur de combattre à tes côtés <settlername>
+aspiringhero1_completekilledmobchat1=Tout comme mon honorable écuyer :heart:
+aspiringhero1_completekilledmobchat2=Passe me voir plus tard <name>, et je te ferai un résumé de tous les ragots des chevaliers nous concernant!
 
 // Aspiring Hero place object activity 3
 MISSING_TRANSLATION:aspiringhero_placeobject1=Squire <name>. I am outraged
