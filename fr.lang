@@ -298,7 +298,7 @@ stonefence=Clôture en pierre
 stonefencegate=Portail de clôture en pierre
 ironfence=Clôture en fer
 ironfencegate=Portail de clôture en fer
-cryptfence=Clotûre de crypte
+cryptfence=Clôture de crypte
 cryptfencegate=Portail de clôture de crypte
 foresthedge=Haie forestière
 foresthedgegate=Porte de haie forestière
@@ -981,7 +981,7 @@ tungstenore=de tungstène
 lifequartzore=de quartz de vie
 glacialore=glaciales
 amberore=d'ambre
-myceliumore=de mycelium
+myceliumore=de mycélium
 ancientfossilore=de fossile ancien
 alchemyshardore=d'éclat d'alchimie
 upgradeshardore=d'éclat d'amélioration
@@ -1210,13 +1210,13 @@ tungstenbar=Lingot de tungstène
 glacialore=Minerai glacial
 glacialbar=Lingot glacial
 amber=Ambre
-myceliumore=Minerai de mycelium
-myceliumbar=Lingot de mycelium
+myceliumore=Minerai de mycélium
+myceliumbar=Lingot de mycélium
 ancientfossilore=Minerai de fossile ancien
 ancientfossilbar=Lingot de fossile ancien
 obsidian=Obsidienne
 SAME_TRANSLATION:slimeum=Slimeum
-nightsteelore=Minerai d'acier nocture
+nightsteelore=Minerai d'acier nocturne
 nightsteelbar=Lingot d'acier nocturne
 spideriteore=Minerai d'arachnite
 spideritebar=Lingot d'arachnite
@@ -1292,7 +1292,7 @@ tungstenpickaxe=Pioche en tungstène
 glacialpickaxe=Pioche glaciale
 dryadpickaxe=Pioche de dryade
 icepickaxe=Pioche de glace
-myceliumpickaxe=Pioche en mycelium
+myceliumpickaxe=Pioche en mycélium
 ancientfossilpickaxe=Pioche en fossile ancien
 
 // Haches
@@ -1309,7 +1309,7 @@ quartzaxe=Hache en quartz
 tungstenaxe=Hache en tungstène
 glacialaxe=Hache glaciale
 dryadaxe=Hache de dryade
-myceliumaxe=Hache en mycelium
+myceliumaxe=Hache en mycélium
 ancientfossilaxe=Hache en fossile ancien
 
 // Pelles
@@ -1326,7 +1326,7 @@ demonicshovel=Pelle démoniaque
 tungstenshovel=Pelle en tungstène
 glacialshovel=Pelle glaciale
 dryadshovel=Pelle de dryade
-myceliumshovel=Pelle en mycelium
+myceliumshovel=Pelle en mycélium
 ancientfossilshovel=Pelle en fossile ancien
 
 // Cannes à pêche
@@ -1823,10 +1823,10 @@ dryadhat=Chapeau de dryade
 dryadcrown=Couronne de dryade
 dryadchestplate=Plastron de dryade
 dryadboots=Bottes de dryade
-myceliumhood=Capuche en mycelium
-myceliumscarf=Coiffe en mycelium
-myceliumchestplate=Plastron en mycelium
-myceliumboots=Bottes en mycelium
+myceliumhood=Capuche en mycélium
+myceliumscarf=Coiffe en mycélium
+myceliumchestplate=Plastron en mycélium
+myceliumboots=Bottes en mycélium
 agedchampionhelmet=Casque du Champion chevronné
 agedchampionchestplate=Plastron du Champion chevronné
 agedchampiongreaves=Jambières du Champion chevronné
@@ -2364,7 +2364,7 @@ cosmeticfeetslot=Cosmétique pieds
 cosmetic=Objet cosmétique
 cosmeticslot=Aucune stat dans l'emplacement cosmétique
 armorvalue=Armure +<value>
-setbonus=Bonus d'ensemble d'armure :
+setbonus=Bonus d'ensemble :
 ninjaset1=Vous êtes un sacré ninja !
 ninjaset2=Supprime la réduction de vitesse\nde déplacement lorsque vous attaquez.
 runicset1=Appuyez sur [input=setability] pour augmenter rapidement\nles dégâts pendant que le mana s'épuise.
@@ -2429,7 +2429,7 @@ cryowitchrobesset=Appuyez sur [input=setability] pour vous figer dans la glace t
 supportersetbonus=Étincellant !
 sharkarmorsetbonustip1=Les attaques réussies infligent <value> de saignement à la cible sur <duration> secondes.
 sharkarmorsetbonustip2=Vous gagnez temporairement en vitesse de déplacement et en dégâts pour chaque ennemi ayant récemment subi un saignement.
-arachnidset=Génère une araignée supplémentaire\npour chaque troisième emplacement\nd'invocation utilisée.
+arachnidset=Génère une araignée supplémentaire\ntous les 3 emplacements d'invocation\nutilisés.
 soulseedset=Appuyez sur [input=setability] pour faire exploser toutes\nvos invocations actives et infliger des dégâts considérables.
 demonicset=Appuyez sur [input=setability] pour sacrifier 10% de votre santé afin d'augmenter temporairement les dégâts, les coups critiques et la vitesse de déplacement.
 soldierhelmetset=Obtenez un bonus de frénésie cumulable lorsque vous tuez un ennemi.\nLa frénésie augmente la vitesse d'attaque\net de déplacement.
@@ -2538,7 +2538,7 @@ claygauntlettip=Augmente la résilience max de 10\nRalentit la dégradation de l
 vambracetip=Augmente le gain de résilience de 50%
 chainshirttip=Augmente la résilience max de 50
 manicatip=Augmente la résilience de 50\nAugmente le gain de résilience de 50%
-agedchampionscabbardtip=Rénégération passive de la résilience\nÊtre touché draine toute la résilience
+agedchampionscabbardtip=Régénération passive de la résilience\nÊtre touché draine toute la résilience
 clockworkhearttip=Transforme la moitié de votre santé en résilience\nRégénération de la résilience quand la santé est pleine\nLes soins excédentaires provenant des potions restaurent la résilience
 challengerspauldrontip=Gain de résilience +100% lorsqu'un boss est à proximité
 foolsgambittip=Armure +10\nDégâts +10%\nChance de coup critique +10%\nInvocation max +1\nNe peut être équipé que dans l'emplacement "Capacité d'accessoire"
@@ -2617,24 +2617,24 @@ deathrippertip2=Chargez pour tirer plus vite
 seedguntip=Requiert des graines de culture pour tirer\nLes projectiles changent en fonction de la\ngraine utilisée
 throwtip=Peut être lancé
 katanasecondarytip=Maintenez [input=mouse2] enfoncé pour charger une ruée afin de trancher vos ennemis. Toucher un ennemi réinitialise le temps de recharge et accélère la ruée suivante jusqu'à <stacks> ruées consécutives.
-katanaprimarytip=[input=mouse1] Les touches réduisent les charges de ruée accumulées.
+katanaprimarytip=[input=mouse1] Les coups réduisent les charges de ruée accumulées.
 heavyhammertip=Lance de petites pierres
 lightninghammertip1=Vitesse très rapide
 lightninghammertip2=Tire de courtes rafales d'éclairs
-survivorwhiptip=Idéal quand les ennemis arrivent de tous les côtés
+survivorwhiptip=Idéal quand les ennemis arrivent de tous les côtés.
 survivorwhipquote="Un fouet de survivant qui fera trembler de peur le cœur maudit de n'importe quel vampire"
 galvanichammertip=Envoie une vague déferlante d'éclairs
 reaperscythetip=Tire une faux de faucheur
-venomslasherprojtip=Tire également une vague de venin\ninfligeant 50% des dégâts de l'épée
+venomslasherprojtip=Tire également une vague de venin\ninfligeant 50% des dégâts de l'épée.
 speartip=Touchera uniquement à la pointe
 sparklertip1=Tire un jet de métal en fusion
 sparklertip2=Brûle les cibles touchées
 sprinklertip1=Tire un jet d'eau glacée
 sprinklertip2=Ralentit les cibles touchées
 bloodbolttip=Tire un projectile à tête chercheuse
-necroticflasktip=Lance une potion qui inflige des dégâts d'impact et empoisonne tous les ennemis, infligeant <value1> points de dégâts sur <value2> secondes
-unlabeledpotiontip1=Lance une potion éclaboussante aléatoire infligeant des dégâts au fil du temps
-unlabeledpotiontip2=AVERTISSEMENT : les résultats peuvent varier
+necroticflasktip=Lance une potion qui inflige des dégâts d'impact et empoisonne tous les ennemis, infligeant <value1> points de dégâts sur <value2> secondes.
+unlabeledpotiontip1=Lance une potion éclaboussante aléatoire infligeant des dégâts au fil du temps.
+unlabeledpotiontip2=AVERTISSEMENT : les résultats peuvent varier.
 bloodvolleytip=Tire 3 projectiles à tête chercheuse
 froststafftip=Tire 2 projectiles accélérés
 sapphirestafftip1=[input=mouse1] Les projectiles ricochent sur les ennemis proches et génèrent de l'essence de vie lorsqu'ils touchent leur cible.
@@ -2652,7 +2652,7 @@ emeraldstafftip3=Les joueurs et les colons bénéficient d'une amélioration des
 topazstafftip1=[input=mouse1] Les projectiles rebondissent sur les murs et ont une chance de générer de l'essence de vie lorsqu'ils touchent leur cible.
 topazstafftip2=[input=mouse2] Dépensez <value> essence de vie pour lancer un glyphe de topaze au sol.
 topazstafftip3=Les joueurs et les colons bénéficieront d'un bonus de résilience s'ils se trouvent à l'intérieur du glyphe de topaze lors de son activation.
-sentientswordtip=Invoque une épée flottante dotée d'un esprit propre\nChaque invocation occupe 2 emplacements d'invocation
+sentientswordtip=Invoque une épée flottante dotée d'un esprit propre.\nChaque invocation occupe 2 emplacements d'invocation.
 voidstafftip=Tire instantanément un laser du Néant
 voidmissiletip=Tire un missile contrôlable
 swamptometip=Tire un projectile qui se déplace lentement et rebondit
@@ -2680,7 +2680,7 @@ phantompoppertip=Tire une balle qui se transforme en missile\nà tête chercheus
 reaperscalltip1=Invoque des esprits protecteurs
 reaperscalltip2=Maximum 5 à la fois
 iciclestafftip=Tire des stalactites à toute vitesse
-boxingglovetip=Ne fait pas très mal, mais a un\ngrand effet de repoussement
+boxingglovetip=Ne fait pas très mal, mais a un\ngrand effet de repoussement.
 sprinttip=Équipez et maintenez [input=trinketability] pour courir
 zephyrcharmtip=Augmente l'endurance de 50%
 zephyrbootstip=Courez plus rapidement et plus loin
@@ -2716,10 +2716,10 @@ razorbladeboomerangtip=Maximum 5 dans les airs
 ancientdredgingstafftip=Invoque une onde de choc composée de piques
 carapacedaggertip1=Peut être lancé plusieurs fois
 carapacedaggertip2=Se dirige vers les ennemis
-sandknifetip=Les attaques empoisonnent la cible et\nlui infligent 500 de dégâts sur 5 secondes
+sandknifetip=Les attaques empoisonnent la cible et\nlui infligent 500 de dégâts sur 5 secondes.
 brainonasticktip=Chaque autre invocation est un archer
 swampsgrasptip=Invoque 2 slimes bondissants
-grizzboltquote="Es-tu Zoe ?"
+grizzboltquote="Es-tu Zoé ?"
 grizzboltspheretip1=Utilise tous vos emplacements d'invocation
 grizzboltspheretip2=Dégâts augmentés pour chaque emplacement d'invocation utilisé
 skeletonstafftip=Invoque deux squelettes
@@ -2731,19 +2731,19 @@ bashybushtip=Plus ça frappe, plus ça va vite !
 necroticbowtip=Les coups ralentissent la cible et invoquent un bébé zombie rampant en train de charger.
 reanimationbowtip1=Les coups ralentissent la cible et invoquent un bébé zombie rampant en train de charger.
 reanimationbowtip2=Si la cible meurt, vous invoquez à la place un guerrier squelette.
-necroticgreatswordtip=Déclenche une vague de magie noire\nlorsque l'attaque est entièrement chargée
-hexedbladegreatswordtip=qui applique des affaiblissements aléatoires\nlors d'un coup
-slimegreatswordchargetip1=Chargez à moitié pour lancer une vague de slime
-slimegreatswordchargetip2=Chargez complètement pour invoquer un slime allié
-causticexecutionertip=Projette un venin dangereux depuis\nla lame lors des attaques
+necroticgreatswordtip=Déclenche une vague de magie noire\nlorsque l'attaque est entièrement chargée.
+hexedbladegreatswordtip=Applique des affaiblissements aléatoires\nlors d'un coup.
+slimegreatswordchargetip1=Chargez à moitié pour lancer une vague de slime.
+slimegreatswordchargetip2=Chargez complètement pour invoquer un slime allié.
+causticexecutionertip=Projette un venin dangereux depuis\nla lame lors des attaques.
 arachnidwebbowtip=Tire une rafale de 3 flèches à la fois
-webweavertip=Invoque une toile magique qui brûle les cibles alentour
+webweavertip=Invoque une toile magique qui brûle\nles cibles alentour
 empresscommandtip=Invoque alternativement un guerrier ou un archer arachnéen
 secondarysummon=N'utilise pas d'emplacement d'invocation
 nettipnew=Utilisé pour attraper des abeilles et autres petits insectes volants
 slimegreatbowtip=Tire du slime depuis le ciel, ralentissant fortement les ennemis
 orbofslimestip=Invoque un slime qui tourne autour de vous, frappant les ennemis lors des collisions.
-ravenwinggreatswordtip=Se charge plus rapidement sans pénalité de déplacement lors des attaques
+ravenwinggreatswordtip=Se charge plus rapidement sans pénalité de déplacement lors des attaques.
 theravensnesttip=Tire 3 corbeaux à la fois
 ravenbeakspeartip=[input=mouse1] Vous attaquez aux côtés de 3 plumes agressives.
 ravenbeakspearsecondarytip=[input=mouse2] Invoque une rafale de plumes agressives attaquant plusieurs fois au même endroit.
@@ -2752,7 +2752,7 @@ gemstonelongswordtip=Délivre des attaques dévastatrices\nde grande portée ave
 sapphirerevolvertip=Charge un projectile perforant qui\ntouche n'importe quoi en un instant
 shardcannontip=Tire rapidement des éclats de cristaux\nqui se collent aux cibles !\nCristallise les ennemis en fonction des\nchances de coup critique et des\nmodificateurs de dégâts.
 emeraldwandtip=Tire une rafale de mines magiques
-refractortip=Tire un faisceau de lumière concentrée à longue portée
+refractortip=Tire un faisceau de lumière concentrée\nà longue portée
 rubyshieldstip=Invoque des pierres précieuses bloquant les projectiles sans les transpercer.\nElles se brisent au contact des projectiles et des créatures hostiles.
 crystallizedskulltip=Invoque de puissants dragons de rubis !\nChaque invocation occupe 2 emplacements d'invocation.
 revswordtip=Augmente progressivement la vitesse d'attaque.\nAbat également les arbres.
@@ -2763,14 +2763,14 @@ ignitionkeytip3=Les dégâts augmentent avec chaque emplacement d'invocation uti
 patchworkgrenadiertip=Lance une grenade qui survole le terrain et explose à l'impact.
 runeboundscepternewtip1=[input=mouse1] Tire une traînée d'os qui se termine par une grande pointe osseuse.
 runeboundscepternewtip2=[input=mouse2] Fait exploser toutes les grandes pointes osseuses à proximité.
-runeboundscepternewtip3=Vous pouvez avoir un maximum de <amount> grandes pointes osseuses actives
+runeboundscepternewtip3=Vous pouvez avoir un maximum de <amount> grandes pointes osseuses actives.
 brutesbattleaxetip=Chargez l'attaque pour effectuer\nune charge en avant
 captorsshortbowtip1=[input=mouse1] Tire <amount> flèches à courte distance.
 captorsshortbowtip2=[input=mouse2] Lance un filet qui capture les plus\npetits ennemis au touché.
 dryadhauntweapontip=Applique <value> Dryade hantée aux cibles touchées. Une fois 10 charges atteintes, invoque un esprit de dryade qui immobilise les ennemis pendant un court instant.
-dryadgreathammertip=Inflige le plus de dégâts au deuxième niveau de charge
-dryadbowtip=De petites feuilles recherchent les cibles proches avec Dryade hantée lorsque vous attaquez
-dryadbarragetip=Prépare un barrage dont le nombre de projectiles augmente avec le temps de charge
+dryadgreathammertip=Inflige le plus de dégâts au deuxième niveau de charge.
+dryadbowtip=De petites feuilles recherchent les cibles proches avec Dryade hantée lorsque vous attaquez.
+dryadbarragetip=Prépare un barrage dont le nombre de projectiles augmente avec le temps de charge.
 dryadbranchtip1=Canalisez pour invoquer 1 bébé dryade par seconde jusqu'à un maximum de 5.
 dryadbranchtip2=Tous les bébés dryades disparaissent lorsque vous arrêtez de canaliser.
 barkbladetip1=Maintenez [input=mouse1] pour déclencher des attaques principales rapides avec projectiles après une attaque secondaire chargée.
@@ -2780,11 +2780,11 @@ thesoulstormtip=[input=mouse1] Conjure un rayon spirituel qui génère 1 âme lo
 thesoulstormsecondarytip=[input=mouse2] Consomme toutes vos âmes pour créer une tempête d'âmes.
 perfectstormtip=[input=mouse2] Restaure instantanément 40% du mana manquant et imprègne la Tempête parfaite\nde foudre.
 abyssalwarhorntip=Invoque un fantôme maladroit vêtu d'une armure
-agedchampionswordtip=Devient plus puissante lorsque la\nsanté de l'utilisateur est pleine
-ascendedstafftip=Canalise pour contrôler un rayon vertical\nde puissance pure
+agedchampionswordtip=Devient plus puissante lorsque la\nsanté de l'utilisateur est pleine.
+ascendedstafftip=Canalisez pour contrôler un rayon vertical\nde puissance pure.
 eyeofthevoidtip=Invoque un gros œuf robotique renfermant une surprise amusante
-ascendedbowtip1=Tire plusieurs projectiles à la fois sans utiliser de flèches.
-ascendedbowtip2=[input=mouse2] pour basculer entre la formation en flèche et la formation en vague.
+ascendedbowtip1=Tire plusieurs projectiles à la fois sans utiliser de flèches
+ascendedbowtip2=[input=mouse2] Bascule entre la formation en flèche et la formation en vague.
 voidphasingstafftip=Équipez-le et appuyez sur [input=trinketability] pour\nvous téléporter sur la position du curseur
 voidclawprimarytip=Utilise le pouvoir du Néant pour vous soigner à chaque fois que les griffes touchent un ennemi.
 voidclawsecondarytip=Maintenez [input=mouse2] enfoncé pour charger rapidement une attaque qui draine la santé et transperce les ennemis.
@@ -2902,13 +2902,13 @@ campfireaddontip=Peut être placé sur un feu de camp
 trainingdummytip=Attaquez-le pour vérifier les dégâts
 dressertip=Stocke les armures complètes
 displaytip=Expose les objets stockés
-bannerstandtip=Applique des effets de bannière autour de soi
-bannerofpeacetip=Empêche l'apparition d'ennemis pour les joueurs dans une zone autour de lui
-bannerofwartip1=Fait apparaître rapidement des ennemis autour de lui
-bannerofwartip2=Les ennemis tenteront de détruire la bannière en brisant les obstacles qui se dressent sur leur chemin
-challengersbannertip1=Placez-la dans votre colonie pour augmenter la fréquence des raids
-challengersbannertip2=En plaçant davantage de bannières, ils augmenteront encore plus
-challengersbannertip3=Peut uniquement être placé dans les colonies pour lesquelles vous disposez des autorisations
+bannerstandtip=Applique les effets d'une bannière autour de lui
+bannerofpeacetip=Empêche l'apparition d'ennemis dans sa zone d'effet.
+bannerofwartip1=Fait rapidement apparaître des ennemis autour d'elle.
+bannerofwartip2=Les ennemis tenteront de détruire la bannière en brisant les obstacles qui se dressent sur leur chemin.
+challengersbannertip1=Placez-la dans votre colonie pour augmenter la fréquence des raids.
+challengersbannertip2=Placer davantage de bannières augmentera encore plus cet effet.
+challengersbannertip3=Peut uniquement être placé dans les colonies pour lesquelles vous disposez des autorisations.
 campfiretip=Régénère la santé lorsqu'il est allumé
 eggnesttip1=Nid pour l'éclosion des œufs
 eggnesttip2=Les œufs fécondés sont de préférence pondus dans des nids
@@ -2930,9 +2930,9 @@ happinessobjecttip2=Un seul colon à la fois peut en bénéficier
 fireworkrandom=Aléatoire
 fireworkshape=Forme : <shape>
 fireworksphere=Sphère
-fireworksplash=Eclaboussure
+fireworksplash=Éclaboussure
 fireworkdisc=Disque
-fireworkstar=Etoile
+fireworkstar=Étoile
 fireworkheart=Cœur
 fireworkcolor=Couleur : <color>
 fireworkconfetti=Confettis
@@ -3017,7 +3017,7 @@ charactermissingupgrades=<count> améliorations manquantes sur <name>
 trinketinctip=Augmente définitivement les accessoires max à <number>.
 itemsetsinctip=Augmente définitivement les ensembles d'objets max à <number>.
 vinyltip=Insérer dans un lecteur de musique pour écouter
-performedbyhermes=Interpreté par Ensemble Hermes
+performedbyhermes=Interprété par Ensemble Hermes
 fromnecesseost=Extrait de l'OST Necesse de RRBE
 fromlegacymusic=Extrait de la bande-son originale
 recalltip=Téléportation vers votre point de réapparition
@@ -3113,7 +3113,7 @@ ringofascensiontip=Élevez-vous et volez comme le vent !
 jumpingballtip=Fun et convient à toutes les tailles !
 thrumbohornquote="Mignon, mais quand même dangereux !"
 hoverboardtip=La vitesse augmente lentement
-hoverboardtip2=Appuyez sur [input=trinketability] pour vous projetter vers l'avant
+hoverboardtip2=Appuyez sur [input=trinketability] pour vous projeter vers l'avant
 witchbroomtip1=Uniquement à la surface:
 witchbroomtip2=Maintenez enfoncé [input=trinketability] pour voler plus haut, vous permettant
 witchbroomtip3=de survoler des objets, mais vous empêchant d'attaquer
@@ -3294,7 +3294,7 @@ bosses=Boss
 format=<item> <enchantment>
 empoweredenchant=Enchantement renforcé
 // Accessoires 3
-keen=[Tranchant]
+keen=[Aiguisé]
 blunt=[Émoussé]
 nimble=[Agile]
 sluggish=[Lent]
@@ -3307,17 +3307,17 @@ sloppy=[Négligé]
 bulky=[Costaud]
 puny=[Frêle]
 magical=[Magique]
-draining=[Vol de vie]
+draining=[Drainant]
 tenacious=[Tenace]
-flimsy=[Fragile]
+flimsy=[Délicat]
 tough=[Robuste]
-fragile=[Fragilisé]
+fragile=[Fragile]
 
 // Épées/Enchantements des armes de mêlée
 berserk=[Berserk]
 adamant=[Inflexible]
 agile=[Agile]
-harmful=[Nocif]
+harmful=[Néfaste]
 grand=[Grandiose]
 docile=[Docile]
 shoddy=[Médiocre]
@@ -3331,7 +3331,7 @@ tightened=[Renforcé]
 modern=[Moderne]
 trained=[Expérimenté]
 loose=[Instable]
-eroding=[Rouillé]
+eroding=[Érodé]
 primitive=[Primitif]
 faulty=[Défectueux]
 
@@ -3341,9 +3341,9 @@ wrathful=[Courroucé]
 wise=[Sage]
 adept=[Adepte]
 apprentice=[Apprenti]
-decaying=[En déclin]
+decaying=[Dépérissant]
 novice=[Novice]
-daft=[Insensé]
+daft=[Inepte]
 corrupt=[Corrompu]
 
 // Enchantements des armes d'invocation
@@ -3358,7 +3358,7 @@ spiteful=[Malveillant]
 naive=[Naïf]
 
 // Enchantements des outils
-master=[Maîtrise]
+master=[Maître]
 shining=[Resplendissant]
 sharp=[Tranchant]
 absurd=[Ridicule]
@@ -4155,7 +4155,7 @@ recreationdeprived=Je suis privé de loisirs
 recreationsatisfied=Mon besoin de loisirs est satisfait
 recreationfulfilled=Mon besoin de loisirs est pleinement satisfait
 sharingroom=Je partage ma chambre avec d'autres colons
-recentlyrecruited=J'ai été recruté récemment
+recentlyrecruited=J'ai été recruté(e) récemment
 happinessobject=J'aime beaucoup mon <object>
 lifepartner=Je suis dans une relation amoureuse
 qualitylow=Basse
@@ -4231,7 +4231,7 @@ starbarrier=Barrière étoilée
 crushingdarkness=Ténèbres écrasantes
 katanadashcooldown=Temps de recharge de la ruée au katana
 katanadashstacks=Charges de ruée au katana
-ninjasetbonus=Bonus d'ensemble d'armure de Ninja
+ninjasetbonus=Bonus d'ensemble de Ninja
 summonedpet=Animal invoqué
 summonedmount=Monture invoquée
 summonedmob=Monstre invoqué
@@ -4249,7 +4249,7 @@ gunslingersetcooldown=Temps de recharge du pistolet
 ancientfossilsetcooldown=Temps de recharge de l'ensemble d'armure de Fossiles antiques
 ancientfossilactive=Ensemble d'armure de Fossiles antiques actif
 ancestorsetcooldown=Temps de recharge des Ancêtres
-myceliumscarfactive=Bonus d'ensemble d'armure de Mycelium
+myceliumscarfactive=Bonus d'ensemble de Mycélium
 slimedomeactive=Dôme slime actif
 nightsteelactive=Ensemble d'armure d'Acier nocturne
 bloodplatecowlactive=La régénération de santé est doublée
@@ -4513,7 +4513,7 @@ portalmin3=<attacker> a fait mourir de peur <victim>
 SAME_TRANSLATION:tntname=TNT
 SAME_TRANSLATION:explosionname=Explosion
 explosion1=<victim> a été mis(e) en pièces par <attacker>
-explosion2=<attacker> a complétement explosé <victim>
+explosion2=<attacker> a complètement explosé <victim>
 explosion3=<attacker> a réduit <victim> en pièces
 firename=Feu
 lavaname=Lave
@@ -4972,8 +4972,8 @@ bloodthirstysatisfied=J'ai frappé des ennemis il n'y a pas si longtemps
 bloodthirstyneeded=Ça fait un moment que je n'ai blessé personne
 adventurer=Aventurier
 adventurer_desc=Comme vous, <name> était autrefois un(e) aventurier(ière), mais il/elle a reçu une flèche dans le genou. Heureusement, il/elle éprouve toujours du bonheur à rejoindre votre groupe d'aventuriers, pour aller en dehors de la colonie.
-adventurerhappy=Je suis récemment parti à l'aventure en dehors de la colonie
-adventureridle=Ça fait un moment que je ne suis pas parti à l'aventure
+adventurerhappy=Je suis récemment parti(e) à l'aventure en dehors de la colonie
+adventureridle=Ça fait un moment que je ne suis pas parti(e) à l'aventure
 tourist=Touriste
 tourist_desc=<name> aime se vanter de ses voyages. Il/Elle bénéficiera d'un bonus de bonheur tant qu'il/elle fera partie de votre groupe d'aventuriers et que vous visiterez une nouvelle colonie ou un village de PNJ.
 touristhappy=J'ai récemment visité un autre village
@@ -5102,7 +5102,7 @@ honestfarmer1_craftandplaceobjecttip4=Quand tu seras prêt à planter, assure-to
 honestfarmer1_objectplacedchat1=Quoi... ! Tu le plantes juste comme ça dans le sol ?!
 honestfarmer1_objectplacedchat2=C'est tout ? Eh bien, je suis vraiment impressionné, <name> !
 honestfarmer1_objectplacedoutsidesettlementchat=<name> et si on plantait plutôt <object> dans notre colonie ?
-honestfarmer1_objectplaced1=Qui a la main verte et est complétement émerveillé ?
+honestfarmer1_objectplaced1=Qui a la main verte et est complètement émerveillé(e) ?
 honestfarmer1_objectplaced2=Hé, <name> ! Tu as réussi ! :heart:
 honestfarmer1_objectplaced3=Eh bien, je dois te tirer mon chapeau, tu as vraiment fait un travail formidable.
 honestfarmer1_objectplaced4=Il n'y a pas beaucoup de gens dans le coin qui veulent bien m'apprendre les bases, alors merci beaucoup <name>. :heart:
@@ -5785,12 +5785,12 @@ wealthisall_acceptvisitbiomebutton=Toujours <settlername>. :heart:
 wealthisall_declinevisitbiomebutton=Je ne peux pas maintenant <settlername>.
 wealthisall_visitbiomeacceptedchat1=Allons à <location> <name>.
 wealthisall_visitbiomeacceptedchat2=Quelque part de douillet, **près de l'eau** où on ne sera pas dérangés. :heart:
-wealthisall_visitbiomeacceptedchat3=Et apporte peut-être quelque chose pour qu'on s'asseoie. Un(e) **banc** ou des **chaises** feront l'affaire.
+wealthisall_visitbiomeacceptedchat3=Et apporte peut-être quelque chose pour qu'on s'assoie. Un(e) **banc** ou des **chaises** feront l'affaire.
 wealthisall_visitbiometip1=Allons à <location> <name>.
 wealthisall_visitbiometip2=Quelque part de douillet, **près de l'eau** où on sera pas dérangés. :heart:
-wealthisall_visitbiometip3=Et apporte peut-être quelque chose pour qu'on s'asseoie. Un **banc** ou des **chaises** feront l'affaire.
+wealthisall_visitbiometip3=Et apporte peut-être quelque chose pour qu'on s'assoie. Un **banc** ou des **chaises** feront l'affaire.
 wealthisall_visitbiomelocationfound1=Je trouve que c'est joli ici <name>, pas toi ?
-wealthisall_visitbiomelocationfound2=T'as apporté quelque chose pour qu'on s'asseoie ? Un **banc** ou des **chaises** ?
+wealthisall_visitbiomelocationfound2=T'as apporté quelque chose pour qu'on s'assoie ? Un **banc** ou des **chaises** ?
 wealthisall_visitbiomesittingdownchat1=Bon. Alors voilà...
 wealthisall_visitbiomesittingdownchat2=Je pense que je t'en ai peut-être un peu trop demandé ces dernières semaines.
 wealthisall_visitbiomesittingdownchat3=Et j'en suis vraiment désolé(e).
@@ -6333,7 +6333,7 @@ givefeedbacktip=Tous les avis sont les bienvenus !
 sendfeedback=Envoyer un avis
 sendingfeedback=Envoi en cours...
 sendfeedbackerr=Erreur inconnue lors de l'envoi
-sendfeedbackfail=Echec de l'envoi, veuillez réessayer !
+sendfeedbackfail=Échec de l'envoi, veuillez réessayer !
 sendfeedbackwaittime=Attendre <time>
 crashsorry=Désolé ! On dirait que le jeu a planté :(\nVeuillez aider les développeurs en envoyant le rapport du crash !
 recentcrashsorry=Désolé ! Il semblerait que votre jeu ait récemment planté :(\nAidez-nous à améliorer le développement en envoyant le rapport d'erreur !
@@ -6646,8 +6646,8 @@ slotactions=Actions objet
 slottransfer=Transférer objet
 slotsplit=Diviser pile
 slotuse=Utiliser objet
-slotlock=Vérouiller objet
-slotunlock=Dévérouiller objet
+slotlock=Verrouiller objet
+slotunlock=Déverrouiller objet
 slottrash=Supprimer objet
 slottakefull=Prendre objet
 slottakeone=Prendre 1 objet
@@ -6867,7 +6867,7 @@ notificationlowqol=Les colons ont une qualité de vie médiocre
 notificationlowqolnote=Les colons dont la qualité de vie est médiocre pourraient se mettre en grève et moins travailler
 notificationunhappyhelp=Parlez à vos colons et demandez-leur comment ils se sentent pour vérifier ce que vous pouvez améliorer.
 notificationnoflag=La colonie n'a pas de bannière
-notificationnoflagnote=Les colonies sans bannière seront automatiquement dissoutent après un délai de 2 heures.
+notificationnoflagnote=Les colonies sans bannière seront automatiquement dissoutes après un délai de 2 heures.
 notificationnoflaghelp=Placez une bannière de colonie dans les limites du territoire pour éviter sa dissolution.
 settlementflagremoved=§9La bannière de <settlement> a été retirée. La colonie sera automatiquement dissoute si une nouvelle bannière n'est pas placée dans les 2 heures.
 settlermoodhungry=Je suis affamé.\nAssurez-vous que vous disposez d'un espace de stockage assigné à la colonie contenant de la nourriture.
@@ -6939,7 +6939,7 @@ waystonehelp=Obtenez un emplacement de pierre de téléportation pour chaque niv
 placegatewaytablet=Placer une tablette de portail pour l'activer
 selectincursion=Sélectionner l'incursion
 incursionrefreshesin=S'actualise dans <time>
-noincursionselected=Aucune incursion selectionnée
+noincursionselected=Aucune incursion sélectionnée
 incursionused=Déjà utilisé
 incursioncost=Coût pour ouvrir :
 incursionnocost=Aucun coût
@@ -7468,7 +7468,7 @@ addroptip=Ajouter corde
 removeropetip=Retirer corde
 feedtip=Nourrir
 sheartip=Tondre
-milktip=Traîre
+milktip=Traire
 pettip=Animal
 equiptip=Équiper
 torchplacetip=Utilisez [input=placetorch] pour placer rapidement
@@ -7505,7 +7505,7 @@ menuitemactionsmenu=Menu actions objets
 menuquicktransfer=Menu transfert rapide
 menuquicktrash=Menu poubelle rapide
 menudropitem=Menu déposer un objet
-menulockitem=Menu vérouiller un objet
+menulockitem=Menu verrouiller un objet
 menumoveoneitem=Menu déplacer un objet
 menugetoneitem=Menu obtenir un objet
 
@@ -7719,7 +7719,7 @@ challengecompleted=Vous avez terminé <challenge> dans le [[Journal d'aventure]]
 challengerewardavail=Une récompense est disponible dans le [[Journal d'aventure]] - <journal>
 killzombies=[mob=zombie] Tuer 25 zombies (forêt)
 capturecow=[item=rope] Capturer une vache avec une corde (forêt)
-defeatstabby=[mob=stabbybush] Vaincre le buissant lacérant
+defeatstabby=[mob=stabbybush] Vaincre le buisson lacérant
 usemysteriousportal=[item=mysteriousportal] Utiliser le portail mystérieux
 beatabear=[mob=grizzlybear] Vaincre un ours
 mineorewithexplosive=[item=ironbomb] Miner avec des explosifs (cavernes de la forêt)
@@ -7925,17 +7925,17 @@ subscribeyoutubefull=Abonnez-vous à @necesse sur Youtube
 joinreddit=Rejoindre Reddit
 joinredditfull=Rejoignez r/Necesse sur Reddit
 patchnotes=Notes de mise à jour
-animaltame=Apprivoisé
-animaltameness=Apprivoisé à <percent>%
+animaltame=Apprivoisé(e)
+animaltameness=Apprivoisé(e) à <percent>%
 animalwild=Sauvage
-animalhungry=Affamé
+animalhungry=Affamé(e)
 openurl=Ouvrir l'url <url>
 SAME_TRANSLATION:converteaworld1=IMPORTANT :
-converteaworld2=Le monde que vous tentez de charger provient de la version anticitpé du Necesse.
+converteaworld2=Le monde que vous tentez de charger provient de la version anticipée du Necesse.
 converteaworld3=Le monde nécessite une migration vers le nouveau système de génération procédural en continu.
 converteaworld4=Pour profiter des nouvelles fonctionnalités et de la génération de terrain, nous vous recommandons de créer un nouveau monde.
 converteaworld5=La migration intègrera les îles de votre ancien monde dans le nouveau, afin que vous puissiez vous déplacer entre elles. Le terrain nouvellement généré présentera des zones de démarcations très visibles avec les anciennes îles.
-converteaworld6=La durée de l'opération dépent du nombre d'îles explorées et des performances de votre ordinateur.
+converteaworld6=La durée de l'opération dépend du nombre d'îles explorées et des performances de votre ordinateur.
 converteaworld7=Voulez-vous procéder à la migration de ce monde ? Une sauvegarde sera créée automatiquement.
 converteaworldreadmore=En savoir plus
 converteaworldaccept=Migration du monde
