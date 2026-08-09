@@ -2513,7 +2513,7 @@ ammobox=Reduces bullet usage by 75%
 frozenhearttip=Increases max health by 50
 frozenwavetip=Increases crit damage by 25%
 spidercharm=Being hit poisons the attacker\nfor 40 damage over 5 seconds
-companionlockettip=Increases summon damage and speed greatly for each unused summon\nThe increases diminish slightly beyond first unused summon
+companionlockettipnew=Increases summon damage and speed for each unused summon
 guardianshelltip=Equip and press [input=trinketability] to get a\npowerful shield for a short time
 necroticsoulskulltip1=Increases summon damage by 10%
 necroticsoulskulltip2=Equip and press [input=trinketability] to apply necrotic\npoison that deals 20 damage over 2 seconds\nand pushes all enemies around you away
